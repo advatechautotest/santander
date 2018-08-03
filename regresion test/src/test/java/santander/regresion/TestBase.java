@@ -105,4 +105,22 @@ public class TestBase {
     protected void initCloseCall() {
         driver.findElement(By.xpath("//li[contains(text(), 'Zamknij')]")).click();
     }
+
+    protected void initEdit() {
+        driver.findElement(By.xpath("//li[contains(text(), 'Edytuj')]")).click();
+    }
+
+    protected void initTakeOver() {
+        driver.findElement(By.xpath("//li[contains(text(), 'Przejmij')]")).click();
+    }
+
+    protected void logInFL() {
+        driver.findElement(By.id("Ecom_User_ID")).click();
+        driver.findElement(By.id("Ecom_User_ID")).sendKeys("kbednarz@pl.aigcfg.net");
+        driver.findElement(By.id("logonButton")).click();
+    }
+
+    protected void logOut() {
+        driver.findElement(By.xpath("//div[contains(@title, 'Wyloguj')]")).click();
+    }
 }
