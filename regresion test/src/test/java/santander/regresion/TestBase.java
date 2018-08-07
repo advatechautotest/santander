@@ -29,9 +29,14 @@ public class TestBase {
     @BeforeMethod
 
     public void setUp() throws Exception {
-        driver = new FirefoxDriver(new FirefoxOptions().setLegacy(true).setBinary("C:/Users/Marek/AppData/Local/Mozilla Firefox/firefox.exe"));
-        System.setProperty("webdriver.gecko.driver","/Users/Marek/AppData/Local/Mozilla Firefox/geckodriver.exe");
+
+        //
+        //File FirefoxDriver = new File("drivers/geckodriver.exe");
+        //System.setProperty("webdriver.gecko.driver", FirefoxDriver.getAbsolutePath());
+        driver = new FirefoxDriver(new FirefoxOptions().setLegacy(true));
+        System.setProperty("webdriver.gecko.driver","drivers/geckodriver.exe");
         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
         driver.get("http://10.0.19.28/upgrade18.WebAccess/wd/Logon/Logon.rails");
         //LOGOWANIE
         //logIn("masmiertka@pl.aigcfg.net");
@@ -50,13 +55,13 @@ public class TestBase {
     }
 
     protected void addAttachment() {
-        File file = new File("C:/tmp.txt");
+        File file = new File("regresion test/attach/santander.txt");
         if(!file.exists())throw new RuntimeException("file doesn't exist");
         else { driver.findElement(By.id("mainForm-AttachmentDocument")).sendKeys(file.getAbsolutePath()); }
     }
 
     protected void addAttachmentName() {
-        driver.findElement(By.id("mainForm-Title")).sendKeys("Testowa notatka");
+        driver.findElement(By.id("mainForm-Title")).sendKeys("Tytuł załącznika");
     }
 
     protected void initAddAttachment() {
@@ -122,5 +127,29 @@ public class TestBase {
 
     protected void logOut() {
         driver.findElement(By.xpath("//div[contains(@title, 'Wyloguj')]")).click();
+    }
+
+    protected void initTransIntoSecurityIncident() {
+        driver.findElement(By.xpath("//li[contains(text(), 'Przekształć w incydent bezpieczeństwa')]")).click();
+    }
+
+    protected void initTransIntoPermissionsApplication() {
+        driver.findElement(By.xpath("//li[contains(text(), 'Przekształć we wniosek o uprawnienia')]")).click();
+    }
+
+    protected void initTransIntoApplication() {
+        driver.findElement(By.xpath("//li[contains(text(), 'Przekształć we wniosek')]")).click();
+    }
+
+    protected void initTransIntoIncident() {
+        driver.findElement(By.xpath("//li[contains(text(), 'Przekształć w incydent')]")).click();
+    }
+
+    protected void collSelect1stRecord() {
+        driver.findElement(By.xpath(".//*[@class='listBody']/tr/td[1]")).click();
+    }
+
+    protected void collIncydent() {
+        driver.findElement(By.id("_btn_1")).click();
     }
 }
