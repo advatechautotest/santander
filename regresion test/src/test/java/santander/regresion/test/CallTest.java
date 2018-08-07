@@ -10,28 +10,28 @@ public class CallTest extends TestBase {
     @Test
     public void testNewCall() throws Exception{
 
-        app.logInED();
-        app.initNewCall();
+        app.logInEndUser();
+        app.procesNoweZgłoszenie();
         app.screenShot();
-        app.addCallThema();
+        app.zgłoszenieTytuł();
         app.screenShot();
         app.saveButton();
         app.screenShot();
-        app.initAddNote();
+        app.akcjaDodajNotatkę();
         app.screenShot();
-        app.addContentNote();
-        app.screenShot();
-        app.saveandcloseButton();
-        app.screenShot();
-        app.initAddAttachment();
-        app.screenShot();
-        app.addAttachmentName();
-        app.screenShot();
-        app.addAttachment();
+        app.zgłoszenieNotatkaTytuł();
         app.screenShot();
         app.saveandcloseButton();
         app.screenShot();
-        app.createNewCall();
+        app.akcjaDodajZałącznik();
+        app.screenShot();
+        app.zgłoszenieZałącznikTytuł();
+        app.screenShot();
+        app.zgłoszenieZałącznikPlik();
+        app.screenShot();
+        app.saveandcloseButton();
+        app.screenShot();
+        app.akcjaZałóżZgłoszenie();
         app.screenShot();
 
 

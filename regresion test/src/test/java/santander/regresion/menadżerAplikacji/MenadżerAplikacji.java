@@ -32,21 +32,21 @@ public class MenadżerAplikacji  {
         driver.get("http://10.0.19.28/upgrade18.WebAccess/wd/Logon/Logon.rails");
     }
 
-    public void createNewCall() {
+    public void akcjaZałóżZgłoszenie() {
         driver.findElement(By.xpath("//li[contains(text(), 'Załóż zgłoszenie')]")).click();
     }
 
-    public void addAttachment() {
+    public void zgłoszenieZałącznikPlik() {
         File file = new File("regresion test/attach/santander.txt");
         if(!file.exists())throw new RuntimeException("file doesn't exist");
         else { driver.findElement(By.id("mainForm-AttachmentDocument")).sendKeys(file.getAbsolutePath()); }
     }
 
-    public void addAttachmentName() {
+    public void zgłoszenieZałącznikTytuł() {
         driver.findElement(By.id("mainForm-Title")).sendKeys("Tytuł załącznika");
     }
 
-    public void initAddAttachment() {
+    public void akcjaDodajZałącznik() {
         driver.findElement(By.xpath("//li[contains(text(), 'Dodaj załącznik')]")).click();
     }
 
@@ -54,11 +54,11 @@ public class MenadżerAplikacji  {
         driver.findElement(By.id("mainForm-SaveButton")).click();
     }
 
-    public void addContentNote() {
+    public void zgłoszenieNotatkaTytuł() {
         driver.findElement(By.id("mainForm-Text4_editor")).sendKeys("Testowa notatka");
     }
 
-    public void initAddNote() {
+    public void akcjaDodajNotatkę() {
         driver.findElement(By.xpath("//li[contains(text(), 'Dodaj notatkę')]")).click();
     }
 
@@ -66,11 +66,11 @@ public class MenadżerAplikacji  {
         driver.findElement(By.id("mainForm-ApplyButton")).click();
     }
 
-    public void addCallThema() {
+    public void zgłoszenieTytuł() {
         driver.findElement(By.id("mainForm-_Tytuledytowalny")).sendKeys("Testowy temat");
     }
 
-    public void initNewCall() {
+    public void procesNoweZgłoszenie() {
         driver.findElement(By.id("shortcutItem_a7dbbd84-ffac-4d13-8c99-6f99d281d6f4")).click();
     }
 
@@ -78,29 +78,29 @@ public class MenadżerAplikacji  {
         driver.quit();
     }
 
-    public void logInED() {
+    public void logInEndUser() {
         driver.findElement(By.id("Ecom_User_ID")).click();
         driver.findElement(By.id("Ecom_User_ID")).sendKeys("masmiertka@pl.aigcfg.net");
         driver.findElement(By.id("logonButton")).click();
     }
 
-    public void addCloseCallThema() {
+    public void zgłoszenieZamknijTytuł() {
         driver.findElement(By.id("mainForm-Title2")).sendKeys("Testowy tytuł");
     }
 
-    public void initCloseCall() {
+    public void akcjaZamknij() {
         driver.findElement(By.xpath("//li[contains(text(), 'Zamknij')]")).click();
     }
 
-    public void initEdit() {
+    public void akcjaEdytuj() {
         driver.findElement(By.xpath("//li[contains(text(), 'Edytuj')]")).click();
     }
 
-    public void initTakeOver() {
+    public void akcjaPrzejmij() {
         driver.findElement(By.xpath("//li[contains(text(), 'Przejmij')]")).click();
     }
 
-    public void logInFL() {
+    public void logIn1wszaLinia() {
         driver.findElement(By.id("Ecom_User_ID")).click();
         driver.findElement(By.id("Ecom_User_ID")).sendKeys("kbednarz@pl.aigcfg.net");
         driver.findElement(By.id("logonButton")).click();
@@ -110,27 +110,27 @@ public class MenadżerAplikacji  {
         driver.findElement(By.xpath("//div[contains(@title, 'Wyloguj')]")).click();
     }
 
-    public void initTransIntoSecurityIncident() {
+    public void akcjaPrzekształćwIncydentBezpieczeństwa() {
         driver.findElement(By.xpath("//li[contains(text(), 'Przekształć w incydent bezpieczeństwa')]")).click();
     }
 
-    public void initTransIntoPermissionsApplication() {
+    public void akcjaPrzekształćWeWniosekoUprawnienia() {
         driver.findElement(By.xpath("//li[contains(text(), 'Przekształć we wniosek o uprawnienia')]")).click();
     }
 
-    public void initTransIntoApplication() {
+    public void akcjaPrzekształćWeWniosek() {
         driver.findElement(By.xpath("//li[contains(text(), 'Przekształć we wniosek')]")).click();
     }
 
-    public void initTransIntoIncident() {
+    public void akcjaPrzekształćwIncydent() {
         driver.findElement(By.xpath("//li[contains(text(), 'Przekształć w incydent')]")).click();
     }
 
-    public void collSelect1stRecord() {
+    public void kolekcjaPierwszyElementKolekcji() {
         driver.findElement(By.xpath(".//*[@class='listBody']/tr/td[1]")).click();
     }
 
-    public void collIncydent() {
+    public void kolekcjaIncydent() {
         driver.findElement(By.id("_btn_1")).click();
     }
 
@@ -148,7 +148,7 @@ public class MenadżerAplikacji  {
         driver.findElement(By.id("mainForm-Title2")).sendKeys("Tytuł załącznika");
     }
 
-    public void incydentNotatkaTresc() {
+    public void incydentNotatkaTytuł() {
         driver.findElement(By.id("mainForm-Text2_editor")).sendKeys("Testowa notatka");
     }
 

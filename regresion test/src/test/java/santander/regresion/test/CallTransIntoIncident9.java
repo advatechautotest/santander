@@ -8,46 +8,46 @@ public class CallTransIntoIncident9 extends TestBase {
     @Test
     public void testCallTransIntoIncident9() throws Exception{
 
-        app.logInED();
-        app.initNewCall();
+        app.logInEndUser();
+        app.procesNoweZgłoszenie();
         app.screenShot();
-        app.addCallThema();
+        app.zgłoszenieTytuł();
         app.screenShot();
         app.saveButton();
         app.screenShot();
-        app.initAddNote();
+        app.akcjaDodajNotatkę();
         app.screenShot();
-        app.addContentNote();
-        app.screenShot();
-        app.saveandcloseButton();
-        app.screenShot();
-        app.initAddAttachment();
-        app.screenShot();
-        app.addAttachmentName();
-        app.screenShot();
-        app.addAttachment();
+        app.zgłoszenieNotatkaTytuł();
         app.screenShot();
         app.saveandcloseButton();
         app.screenShot();
-        app.createNewCall();
+        app.akcjaDodajZałącznik();
+        app.screenShot();
+        app.zgłoszenieZałącznikTytuł();
+        app.screenShot();
+        app.zgłoszenieZałącznikPlik();
+        app.screenShot();
+        app.saveandcloseButton();
+        app.screenShot();
+        app.akcjaZałóżZgłoszenie();
         app.screenShot();
         String url = app.zmianaSSnaWD();
         app.screenShot();
         app.logOut();
         app.screenShot();
-        app.logInFL();
+        app.logIn1wszaLinia();
         app.screenShot();
         app.wprowadzPobranyUrl(url);
         app.screenShot();
-        app.initTakeOver();
+        app.akcjaPrzejmij();
         app.screenShot();
-        app.initEdit();
+        app.akcjaEdytuj();
         app.screenShot();
         app.zgłoszenieOpisEdycja();
         app.screenShot();
         app.saveandcloseButton();
         app.screenShot();
-        app.initTransIntoIncident();
+        app.akcjaPrzekształćwIncydent();
         app.screenShot();
 
     }
