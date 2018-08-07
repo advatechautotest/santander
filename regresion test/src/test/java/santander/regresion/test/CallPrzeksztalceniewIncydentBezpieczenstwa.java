@@ -1,6 +1,5 @@
 package santander.regresion.test;
 
-import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 import santander.regresion.TestBase;
 
@@ -12,25 +11,25 @@ public class CallPrzeksztalceniewIncydentBezpieczenstwa extends TestBase {
         app.logInEndUser();
         app.procesNoweZgłoszenie();
         app.screenShot();
-        app.zgłoszenieTytuł();
+        app.getZgłoszenie().zgłoszenieTytuł();
         app.screenShot();
         app.saveButton();
         app.screenShot();
-        app.akcjaDodajNotatkę();
+        app.getAkcja().akcjaDodajNotatkę();
         app.screenShot();
-        app.zgłoszenieNotatkaTytuł();
-        app.screenShot();
-        app.saveandcloseButton();
-        app.screenShot();
-        app.akcjaDodajZałącznik();
-        app.screenShot();
-        app.zgłoszenieZałącznikTytuł();
-        app.screenShot();
-        app.zgłoszenieZałącznikPlik();
+        app.getZgłoszenie().zgłoszenieNotatkaTytuł();
         app.screenShot();
         app.saveandcloseButton();
         app.screenShot();
-        app.akcjaZałóżZgłoszenie();
+        app.getAkcja().akcjaDodajZałącznik();
+        app.screenShot();
+        app.getZgłoszenie().zgłoszenieZałącznikTytuł();
+        app.screenShot();
+        app.getZgłoszenie().zgłoszenieZałącznikPlik();
+        app.screenShot();
+        app.saveandcloseButton();
+        app.screenShot();
+        app.getAkcja().akcjaZałóżZgłoszenie();
         app.screenShot();
         String url = app.zmianaSSnaWD();
         app.screenShot();
@@ -40,15 +39,15 @@ public class CallPrzeksztalceniewIncydentBezpieczenstwa extends TestBase {
         app.screenShot();
         app.wprowadzPobranyUrl(url);
         app.screenShot();
-        app.akcjaPrzejmij();
+        app.getAkcja().akcjaPrzejmij();
         app.screenShot();
-        app.akcjaEdytuj();
+        app.getAkcja().akcjaEdytuj();
         app.screenShot();
-        app.zgłoszenieOpisEdycja();
+        app.getZgłoszenie().zgłoszenieOpisEdycja();
         app.screenShot();
         app.saveandcloseButton();
         app.screenShot();
-        app.akcjaPrzekształćwIncydentBezpieczeństwa();
+        app.getAkcja().akcjaPrzekształćwIncydentBezpieczeństwa();
         app.screenShot();
     }
 
