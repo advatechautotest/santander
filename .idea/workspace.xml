@@ -85,8 +85,8 @@
       <file leaf-file-name="IncidentProcessDuplication10.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/IncidentProcessDuplication10.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="92" column="52" lean-forward="false" selection-start-line="92" selection-start-column="52" selection-end-line="92" selection-end-column="52" />
+            <state relative-caret-position="177">
+              <caret line="91" column="25" lean-forward="false" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,8 +109,8 @@
       <file leaf-file-name="Incydent.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadżerAplikacji/Incydent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="57" column="8" lean-forward="true" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
+            <state relative-caret-position="756">
+              <caret line="53" column="8" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#288#289#0" expanded="true" />
@@ -122,10 +122,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Zgłoszenie.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadżerAplikacji/Zgłoszenie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9">
+            <state relative-caret-position="252">
               <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -137,8 +147,8 @@
       <file leaf-file-name="MenadżerAplikacji.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadżerAplikacji/MenadżerAplikacji.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="67" column="60" lean-forward="true" selection-start-line="67" selection-start-column="60" selection-end-line="67" selection-end-column="82" />
+            <state relative-caret-position="-243">
+              <caret line="34" column="52" lean-forward="false" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -744,8 +754,8 @@
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/TakeOverCall.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadżerAplikacji/Zgłoszenie.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadżerAplikacji/Akcje.java" />
-        <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadżerAplikacji/MenadżerAplikacji.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadżerAplikacji/Akcja.java" />
+        <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadżerAplikacji/MenadżerAplikacji.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/IncidentProcessDuplication10.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadżerAplikacji/Incydent.java" />
       </list>
@@ -1085,34 +1095,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IncidentProcessDuplication10 - 2018.08.08 at 09h 19m 43s.xml">
+    <history-entry file="IncidentProcessDuplication10 - 2018.08.08 at 13h 04m 46s.xml">
       <configuration name="IncidentProcessDuplication10" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="IncidentProcessDuplication10 - 2018.08.08 at 09h 20m 57s.xml">
+    <history-entry file="IncidentProcessDuplication10 - 2018.08.08 at 13h 07m 04s.xml">
       <configuration name="IncidentProcessDuplication10" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="IncidentProcessDuplication10 - 2018.08.08 at 09h 22m 27s.xml">
+    <history-entry file="IncidentProcessDuplication10 - 2018.08.08 at 13h 07m 25s.xml">
       <configuration name="IncidentProcessDuplication10" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="IncidentProcessDuplication10 - 2018.08.08 at 10h 02m 20s.xml">
+    <history-entry file="IncidentProcessDuplication10 - 2018.08.08 at 13h 13m 14s.xml">
       <configuration name="IncidentProcessDuplication10" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="IncidentProcessDuplication10 - 2018.08.08 at 10h 07m 16s.xml">
+    <history-entry file="IncidentProcessDuplication10 - 2018.08.08 at 13h 17m 26s.xml">
       <configuration name="IncidentProcessDuplication10" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="IncidentProcessDuplication10 - 2018.08.08 at 10h 14m 35s.xml">
+    <history-entry file="IncidentProcessDuplication10 - 2018.08.08 at 13h 21m 19s.xml">
       <configuration name="IncidentProcessDuplication10" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="IncidentProcessDuplication10 - 2018.08.08 at 10h 21m 26s.xml">
+    <history-entry file="IncidentProcessDuplication10 - 2018.08.08 at 13h 28m 37s.xml">
       <configuration name="IncidentProcessDuplication10" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="IncidentProcessDuplication10 - 2018.08.08 at 11h 41m 07s.xml">
+    <history-entry file="IncidentProcessDuplication10 - 2018.08.08 at 13h 30m 57s.xml">
       <configuration name="IncidentProcessDuplication10" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="IncidentProcessDuplication10 - 2018.08.08 at 11h 42m 58s.xml">
+    <history-entry file="IncidentProcessDuplication10 - 2018.08.08 at 13h 37m 34s.xml">
       <configuration name="IncidentProcessDuplication10" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="IncidentProcessDuplication10 - 2018.08.08 at 11h 46m 11s.xml">
+    <history-entry file="IncidentProcessDuplication10 - 2018.08.08 at 13h 44m 23s.xml">
       <configuration name="IncidentProcessDuplication10" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -1272,16 +1282,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/CallTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
@@ -1328,16 +1328,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadżerAplikacji/Zgłoszenie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadżerAplikacji/Akcja.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="471">
@@ -1348,20 +1338,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadżerAplikacji/MenadżerAplikacji.java">
+    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadżerAplikacji/Zgłoszenie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="67" column="60" lean-forward="true" selection-start-line="67" selection-start-column="60" selection-end-line="67" selection-end-column="82" />
+        <state relative-caret-position="252">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/IncidentProcessDuplication10.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="92" column="52" lean-forward="false" selection-start-line="92" selection-start-column="52" selection-end-line="92" selection-end-column="52" />
+        <state relative-caret-position="177">
+          <caret line="91" column="25" lean-forward="false" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadżerAplikacji/MenadżerAplikacji.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243">
+          <caret line="34" column="52" lean-forward="false" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1370,8 +1378,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadżerAplikacji/Incydent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="57" column="8" lean-forward="true" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
+        <state relative-caret-position="756">
+          <caret line="53" column="8" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#288#289#0" expanded="true" />

@@ -32,7 +32,7 @@ public class MenadżerAplikacji {
     public void initTest() {
         driver = new FirefoxDriver(new FirefoxOptions().setLegacy(true));
         System.setProperty("webdriver.gecko.driver","drivers/geckodriver.exe");
-        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         driver.get("http://10.0.19.28/upgrade18.WebAccess/wd/Logon/Logon.rails");
         incydent = new Incydent(driver);

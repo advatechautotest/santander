@@ -52,10 +52,13 @@ public class Incydent {
     }
     public void incydentSkopiujProcesPrzyczyna() {
         driver.findElement(By.id("mainForm-_PrzyczynaskopiowaniaDisplay")).click();
+        //driver.findElement(By.id("control-wrapper-mainForm-_Przyczynaskopiowania")).click();
     }
     public void incydentSkopiujProcesPrzyczynaInne() {
-        //driver.findElement(By.xpath("//div[contains(text(), 'Inne')]")).click();
-        driver.findElement(By.xpath("//div[contains(@class, 'treeItem', @value, 'ecca5084-8e0b-485c-9762-53307be1f85f')]")).click();
+        driver.findElement(By.xpath("//span[contains(text(), 'Inne')]")).click();
+        //driver.findElement(By.xpath("//div[contains(@value, 'ecca5084-8e0b-485c-9762-53307be1f85f')]/..")).click();
+       //driver.findElement(By.cssSelector("div[params*='Inne']")).click();
+        //driver.findElement(By.xpath("//div[contains(text(), 'Inne')]/..")).click();
     }
     public void incydentSkopiujProcesUzasadnienie() {
         driver.findElement(By.id("mainForm-_Uzasadnienie2_editor")).sendKeys("Uzasadnienie skopiowania procesu");
