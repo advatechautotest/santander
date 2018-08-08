@@ -1,5 +1,7 @@
 apply plugin: 'java'
 
+apply plugin: 'application'
+
 
 repositories {
     mavenCentral()
@@ -9,4 +11,19 @@ repositories {
 dependencies {
     compile 'com.slickqa:testng:7.0.0-7'
     compile 'org.seleniumhq.selenium:selenium-java:3.9.1'
+	
 }
+
+task testIncydent( type: Test) {
+    useTestNG {
+
+        suites 'src/test/resources/testngIncydent.xml'
+    }
+}
+
+    task testZgloszenie(type: Test) {
+        useTestNG {
+
+            suites 'src/test/resources/testngZgloszenie.xml'
+        }
+    }
