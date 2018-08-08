@@ -53,4 +53,7 @@ public class Akcja {
     public void akcjaZgłośIncydent() {
         driver.findElement(By.xpath("//li[contains(text(), 'Zgłoś incydent')]")).click();
     }
+    public void akcjaSkopiujProces() {
+        driver.findElement(By.xpath("//li[contains(text(), 'Skopiuj proces')]")).click();
+    }
 }

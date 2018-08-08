@@ -1,6 +1,7 @@
 package santander.regresion.menadżerAplikacji;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.io.File;
@@ -35,5 +36,36 @@ public class Incydent {
     public void incydentNotatkaRodzaj() {
         driver.findElement(By.id("mainForm-_RodzajnotatkiDisplay")).click();
     }
+    public void incydentOpisEdycja() {
+        driver.findElement(By.id("mainForm-Description_editor")).sendKeys(Keys.chord(Keys.LEFT_CONTROL, "a"));
+        driver.findElement(By.id("mainForm-Description_editor")).sendKeys(Keys.DELETE);
+        driver.findElement(By.id("mainForm-Description_editor")).sendKeys("Edycja opisu w incydencie");
+    }
+    public void incydentSkopiujProcesListaProcesów() {
+        driver.findElement(By.id("mainForm-_ListaprocesowDisplay")).click();
+    }
+    public void incydentSkopiujProcesListaProcesówIncydent() {
+        driver.findElement(By.xpath("//div[contains(@value, 'a3adf87f-77ce-486b-a106-a9a80f2b9b8e')]")).click();
+    }
+    public void incydentSkopiujProcesListaProcesówIncydentBezpieczństwa() {
+        driver.findElement(By.xpath("//div[contains(@value, 'f7398586-642e-4838-ab1d-a8f3be21b5e7')]")).click();
+    }
+    public void incydentSkopiujProcesPrzyczyna() {
+        driver.findElement(By.id("mainForm-_PrzyczynaskopiowaniaDisplay")).click();
+    }
+    public void incydentSkopiujProcesPrzyczynaInne() {
+        //driver.findElement(By.xpath("//div[contains(text(), 'Inne')]")).click();
+        driver.findElement(By.xpath("//div[contains(@class, 'treeItem', @value, 'ecca5084-8e0b-485c-9762-53307be1f85f')]")).click();
+    }
+    public void incydentSkopiujProcesUzasadnienie() {
+        driver.findElement(By.id("mainForm-_Uzasadnienie2_editor")).sendKeys("Uzasadnienie skopiowania procesu");
+    }
+    public void incydentSkopiujProcesZamknąćAutomatycznie() {
+        driver.findElement(By.id("mainForm-_ZamknacautomatycznieDisplay")).click();
+    }
+    public void incydentSkopiujProcesZamknąćAutomatycznieFałsz() {
+        driver.findElement(By.xpath("//div[contains(@value, 'False')]")).click();
+    }
+
 }
 

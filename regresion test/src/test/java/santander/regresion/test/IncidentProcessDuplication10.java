@@ -74,7 +74,32 @@ public class IncidentProcessDuplication10 extends TestBase {
         app.saveandcloseButton();
         app.screenShot();
         app.getAkcja().akcjaZgłośIncydent();
-
+        app.screenShot();
+        app.getAkcja().akcjaPrzejmij();
+        app.screenShot();
+        app.getAkcja().akcjaEdytuj();
+        app.screenShot();
+        app.getIncydent().incydentOpisEdycja();
+        app.screenShot();
+        app.saveandcloseButton();
+        app.getAkcja().akcjaSkopiujProces();
+        app.screenShot();
+        app.getIncydent().incydentSkopiujProcesListaProcesów();
+        app.screenShot();
+        app.getIncydent().incydentSkopiujProcesListaProcesówIncydentBezpieczństwa();
+        app.screenShot();
+        app.getIncydent().incydentSkopiujProcesPrzyczyna();
+        app.screenShot();
+        app.getIncydent().incydentSkopiujProcesPrzyczynaInne();
+        app.screenShot();
+        app.getIncydent().incydentSkopiujProcesUzasadnienie();
+        app.screenShot();
+        app.getIncydent().incydentSkopiujProcesZamknąćAutomatycznie();
+        app.screenShot();
+        app.getIncydent().incydentSkopiujProcesZamknąćAutomatycznieFałsz();
+        app.screenShot();
+        app.saveandcloseButton();
+        app.screenShot();
 
         Thread.sleep(10000);
 
