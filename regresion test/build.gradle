@@ -1,6 +1,5 @@
 apply plugin: 'java'
 
-apply plugin: 'application'
 
 
 repositories {
@@ -21,9 +20,4 @@ task testIncydent( type: Test) {
     }
 }
 
-    task testZgloszenie(type: Test) {
-        useTestNG {
 
-            suites 'src/test/resources/testngZgloszenie.xml'
-        }
-    }
