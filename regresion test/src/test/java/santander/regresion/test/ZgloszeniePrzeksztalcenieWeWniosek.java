@@ -6,7 +6,7 @@ import santander.regresion.TestBase;
 public class ZgloszeniePrzeksztalcenieWeWniosek extends TestBase {
     @Test
 
-    public void testCallToApplication8() throws Exception{
+    public void testZgloszeniePrzeksztalcenieWeWniosek() throws Exception{
 
         app.logInEndUser();
         app.procesNoweZgloszenie();

@@ -8,7 +8,7 @@ import santander.regresion.TestBase;
 public class Zgloszenie extends TestBase {
 
     @Test
-    public void testNewCall() throws Exception{
+    public void testZgloszenie() throws Exception{
 
         app.logInEndUser();
         app.procesNoweZgloszenie();

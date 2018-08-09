@@ -6,7 +6,7 @@ import santander.regresion.TestBase;
 public class IncydentKopiowanieProcesu extends TestBase {
     @Test
 
-    public void testIncidentProcessDuplication10() throws Exception{
+    public void testIncydentKopiowanieProcesu() throws Exception{
 
         app.logInEndUser();
         app.procesNoweZgloszenie();

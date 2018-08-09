@@ -7,7 +7,7 @@ public class ZamkniecieZgloszenia extends TestBase {
 
 @Test
 
-    public void testNewCallClose() throws Exception{
+    public void testZamkniecieZgloszenia() throws Exception{
 
     app.logInEndUser();
     app.procesNoweZgloszenie();

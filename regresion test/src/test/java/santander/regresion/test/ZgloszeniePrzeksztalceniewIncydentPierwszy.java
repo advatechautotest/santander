@@ -5,7 +5,7 @@ import santander.regresion.TestBase;
 
 public class ZgloszeniePrzeksztalceniewIncydentPierwszy extends TestBase {
     @Test
-    public void testCallTransIntoIncident9() throws Exception{
+    public void testZgloszeniePrzeksztalceniewIncydentPierwszy() throws Exception{
 
         app.logInEndUser();
         app.procesNoweZgloszenie();
