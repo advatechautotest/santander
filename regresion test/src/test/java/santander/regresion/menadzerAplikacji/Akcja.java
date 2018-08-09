@@ -1,4 +1,4 @@
-package santander.regresion.menadżerAplikacji;
+package santander.regresion.menadzerAplikacji;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -11,49 +11,49 @@ public class Akcja {
         this.driver = driver;
     }
 
-    public void akcjaZałóżZgłoszenie() {
+    public void ZalozZgloszenie() {
         driver.findElement(By.xpath("//li[contains(text(), 'Załóż zgłoszenie')]")).click();
     }
 
-    public void akcjaDodajZałącznik() {
+    public void DodajZalacznik() {
         driver.findElement(By.xpath("//li[contains(text(), 'Dodaj załącznik')]")).click();
     }
 
-    public void akcjaDodajNotatkę() {
+    public void DodajNotatke() {
         driver.findElement(By.xpath("//li[contains(text(), 'Dodaj notatkę')]")).click();
     }
 
-    public void akcjaZamknij() {
+    public void Zamknij() {
         driver.findElement(By.xpath("//li[contains(text(), 'Zamknij')]")).click();
     }
 
-    public void akcjaEdytuj() {
+    public void Edytuj() {
         driver.findElement(By.xpath("//li[contains(text(), 'Edytuj')]")).click();
     }
 
-    public void akcjaPrzejmij() {
+    public void Przejmij() {
         driver.findElement(By.xpath("//li[contains(text(), 'Przejmij')]")).click();
     }
 
-    public void akcjaPrzekształćwIncydentBezpieczeństwa() {
+    public void PrzeksztalcwIncydentBezpieczenstwa() {
         driver.findElement(By.xpath("//li[contains(text(), 'Przekształć w incydent bezpieczeństwa')]")).click();
     }
 
-    public void akcjaPrzekształćWeWniosekoUprawnienia() {
+    public void PrzeksztalcWeWniosekoUprawnienia() {
         driver.findElement(By.xpath("//li[contains(text(), 'Przekształć we wniosek o uprawnienia')]")).click();
     }
 
-    public void akcjaPrzekształćWeWniosek() {
+    public void PrzeksztalcWeWniosek() {
         driver.findElement(By.xpath("//li[contains(text(), 'Przekształć we wniosek')]")).click();
     }
 
-    public void akcjaPrzekształćwIncydent() {
+    public void PrzeksztalcwIncydent() {
         driver.findElement(By.xpath("//li[contains(text(), 'Przekształć w incydent')]")).click();
     }
-    public void akcjaZgłośIncydent() {
+    public void ZglosIncydent() {
         driver.findElement(By.xpath("//li[contains(text(), 'Zgłoś incydent')]")).click();
     }
-    public void akcjaSkopiujProces() {
+    public void SkopiujProces() {
         driver.findElement(By.xpath("//li[contains(text(), 'Skopiuj proces')]")).click();
     }
 }

@@ -13,25 +13,25 @@ public class CallTest extends TestBase {
         app.logInEndUser();
         app.procesNoweZgłoszenie();
         app.screenShot();
-        app.getZgłoszenie().zgłoszenieTytuł();
+        app.getZgłoszenie().Tytul();
         app.screenShot();
         app.saveButton();
         app.screenShot();
-        app.getAkcja().akcjaDodajNotatkę();
+        app.getAkcja().DodajNotatke();
         app.screenShot();
-        app.getZgłoszenie().zgłoszenieNotatkaTytuł();
-        app.screenShot();
-        app.saveandcloseButton();
-        app.screenShot();
-        app.getAkcja().akcjaDodajZałącznik();
-        app.screenShot();
-        app.getZgłoszenie().zgłoszenieZałącznikTytuł();
-        app.screenShot();
-        app.getZgłoszenie().zgłoszenieZałącznikPlik();
+        app.getZgłoszenie().NotatkaTytul();
         app.screenShot();
         app.saveandcloseButton();
         app.screenShot();
-        app.getAkcja().akcjaZałóżZgłoszenie();
+        app.getAkcja().DodajZalacznik();
+        app.screenShot();
+        app.getZgłoszenie().ZalacznikTytul();
+        app.screenShot();
+        app.getZgłoszenie().ZalacznikPlik();
+        app.screenShot();
+        app.saveandcloseButton();
+        app.screenShot();
+        app.getAkcja().ZalozZgloszenie();
         app.screenShot();
 
 

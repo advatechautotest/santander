@@ -1,4 +1,4 @@
-package santander.regresion.menadżerAplikacji;
+package santander.regresion.menadzerAplikacji;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
@@ -13,12 +13,12 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
-public class MenadżerAplikacji {
+public class MenadzerAplikacji {
     private FirefoxDriver driver;
 
     private Akcja akcja;
     private Incydent incydent;
-    private Zgłoszenie zgłoszenie;
+    private Zgloszenie zgloszenie;
 
 
     public void screenShot()throws IOException, InterruptedException{
@@ -36,7 +36,7 @@ public class MenadżerAplikacji {
         driver.manage().window().maximize();
         driver.get("http://10.0.19.28/upgrade18.WebAccess/wd/Logon/Logon.rails");
         incydent = new Incydent(driver);
-        zgłoszenie = new Zgłoszenie(driver);
+        zgloszenie = new Zgloszenie(driver);
         akcja = new Akcja(driver);
 
     }
@@ -91,8 +91,8 @@ public class MenadżerAplikacji {
         driver.get(url);
     }
 
-    public Zgłoszenie getZgłoszenie() {
-        return zgłoszenie;
+    public Zgloszenie getZgłoszenie() {
+        return zgloszenie;
     }
     public Incydent getIncydent() {
         return incydent;
