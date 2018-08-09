@@ -3,10 +3,10 @@ package santander.regresion.test;
 import org.testng.annotations.Test;
 import santander.regresion.TestBase;
 
-public class CallPrzeksztalcenieWeWniosekoUprawnienia extends TestBase {
+public class ZgloszeniePrzeksztalceniewIncydentBezpieczenstwa extends TestBase {
     @Test
 
-    public void testCallPrzeksztalcenieWeWniosekoUprawnienia() throws Exception{
+    public void testCallPrzeksztalceniewIncydentBezpieczenstwa() throws Exception{
 
         app.logInEndUser();
         app.procesNoweZgloszenie();
@@ -47,11 +47,8 @@ public class CallPrzeksztalcenieWeWniosekoUprawnienia extends TestBase {
         app.screenShot();
         app.saveandcloseButton();
         app.screenShot();
-        app.getAkcja().PrzeksztalcWeWniosekoUprawnienia();
+        app.getAkcja().PrzeksztalcwIncydentBezpieczenstwa();
         app.screenShot();
     }
-
-
-
 
 }

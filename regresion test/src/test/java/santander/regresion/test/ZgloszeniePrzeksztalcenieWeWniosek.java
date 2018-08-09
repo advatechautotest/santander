@@ -3,11 +3,10 @@ package santander.regresion.test;
 import org.testng.annotations.Test;
 import santander.regresion.TestBase;
 
-
-public class TakeOverCall extends TestBase {
-
+public class ZgloszeniePrzeksztalcenieWeWniosek extends TestBase {
     @Test
-    public void testTakeOverCall() throws Exception{
+
+    public void testCallToApplication8() throws Exception{
 
         app.logInEndUser();
         app.procesNoweZgloszenie();
@@ -48,6 +47,7 @@ public class TakeOverCall extends TestBase {
         app.screenShot();
         app.saveandcloseButton();
         app.screenShot();
+        app.getAkcja().PrzeksztalcWeWniosek();
     }
 
 }

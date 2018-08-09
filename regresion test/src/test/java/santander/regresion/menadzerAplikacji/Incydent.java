@@ -50,6 +50,12 @@ public class Incydent {
     public void SkopiujProcesListaProcesowIncydentBezpieczenstwa() {
         driver.findElement(By.xpath("//div[contains(@value, 'f7398586-642e-4838-ab1d-a8f3be21b5e7')]")).click();
     }
+    public void SkopiujProcesListaProcesowWniosek() {
+        driver.findElement(By.xpath("//div[contains(@value, '30cde2dc-03d3-4882-9cd8-8dbf4042324f')]")).click();
+    }
+    public void SkopiujProcesListaProcesowWniosekoUprawnienia() {
+        driver.findElement(By.xpath("//div[contains(@value, '91135d83-54e1-4e5b-b02d-529e62a5ce75')]")).click();
+    }
     public void SkopiujProcesPrzyczyna() {
         driver.findElement(By.id("mainForm-_PrzyczynaskopiowaniaDisplay")).click();
         //driver.findElement(By.id("control-wrapper-mainForm-_Przyczynaskopiowania")).click();
@@ -68,6 +74,9 @@ public class Incydent {
     }
     public void SkopiujProcesZamknacAutomatycznieFalsz() {
         driver.findElement(By.xpath("//div[contains(@value, 'False')]")).click();
+    }
+    public void SkopiujProcesZamknacAutomatyczniePrawda() {
+        driver.findElement(By.xpath("//div[contains(@value, 'True')]")).click();
     }
 
 }

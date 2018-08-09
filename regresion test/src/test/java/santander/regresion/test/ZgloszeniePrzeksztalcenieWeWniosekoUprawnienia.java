@@ -3,9 +3,10 @@ package santander.regresion.test;
 import org.testng.annotations.Test;
 import santander.regresion.TestBase;
 
-public class CallTransIntoIncident9 extends TestBase {
+public class ZgloszeniePrzeksztalcenieWeWniosekoUprawnienia extends TestBase {
     @Test
-    public void testCallTransIntoIncident9() throws Exception{
+
+    public void testCallPrzeksztalcenieWeWniosekoUprawnienia() throws Exception{
 
         app.logInEndUser();
         app.procesNoweZgloszenie();
@@ -46,9 +47,11 @@ public class CallTransIntoIncident9 extends TestBase {
         app.screenShot();
         app.saveandcloseButton();
         app.screenShot();
-        app.getAkcja().PrzeksztalcwIncydent();
+        app.getAkcja().PrzeksztalcWeWniosekoUprawnienia();
         app.screenShot();
-
     }
+
+
+
 
 }

@@ -4,13 +4,13 @@
 
     <test name="Zgloszenie">
         <classes>
-            <class name="santander.regresion.test.CallPrzeksztalceniewIncydentBezpieczenstwa"/>
-            <class name="santander.regresion.test.CallPrzeksztalcenieWeWniosekoUprawnienia"/>
-            <class name="santander.regresion.test.CallTest"/>
-            <class name="santander.regresion.test.CallToApplication8"/>
-            <class name="santander.regresion.test.CallTransIntoIncident9"/>
-            <class name="santander.regresion.test.CloseCallTest"/>
-            <class name="santander.regresion.test.TakeOverCall"/>
+            <class name="santander.regresion.test.ZgloszeniePrzeksztalceniewIncydentBezpieczenstwa"/>
+            <class name="santander.regresion.test.ZgloszeniePrzeksztalcenieWeWniosekoUprawnienia"/>
+            <class name="santander.regresion.test.Zgloszenie"/>
+            <class name="santander.regresion.test.ZgloszeniePrzeksztalcenieWeWniosek"/>
+            <class name="santander.regresion.test.ZgloszeniePrzeksztalceniewIncydentPierwszy"/>
+            <class name="santander.regresion.test.ZamkniecieZgloszenia"/>
+            <class name="santander.regresion.test.PrzejecieZgloszenia"/>
         </classes>
     </test>
 </suite>

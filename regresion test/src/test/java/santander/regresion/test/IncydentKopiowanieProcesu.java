@@ -3,7 +3,7 @@ package santander.regresion.test;
 import org.testng.annotations.Test;
 import santander.regresion.TestBase;
 
-public class IncidentProcessDuplication10 extends TestBase {
+public class IncydentKopiowanieProcesu extends TestBase {
     @Test
 
     public void testIncidentProcessDuplication10() throws Exception{
@@ -86,6 +86,24 @@ public class IncidentProcessDuplication10 extends TestBase {
         app.screenShot();
         app.getIncydent().SkopiujProcesListaProcesow();
         app.screenShot();
+        app.getIncydent().SkopiujProcesListaProcesowWniosekoUprawnienia();
+        app.screenShot();
+        app.getIncydent().SkopiujProcesPrzyczyna();
+        app.screenShot();
+        app.getIncydent().SkopiujProcesPrzyczynaInne();
+        app.screenShot();
+        app.getIncydent().SkopiujProcesUzasadnienie();
+        app.screenShot();
+        app.getIncydent().SkopiujProcesZamknacAutomatycznie();
+        app.screenShot();
+        app.getIncydent().SkopiujProcesZamknacAutomatycznieFalsz();
+        app.screenShot();
+        app.saveandcloseButton();
+        app.screenShot();
+        app.getAkcja().SkopiujProces();
+        app.screenShot();
+        app.getIncydent().SkopiujProcesListaProcesow();
+        app.screenShot();
         app.getIncydent().SkopiujProcesListaProcesowIncydentBezpieczenstwa();
         app.screenShot();
         app.getIncydent().SkopiujProcesPrzyczyna();
@@ -97,6 +115,42 @@ public class IncidentProcessDuplication10 extends TestBase {
         app.getIncydent().SkopiujProcesZamknacAutomatycznie();
         app.screenShot();
         app.getIncydent().SkopiujProcesZamknacAutomatycznieFalsz();
+        app.screenShot();
+        app.saveandcloseButton();
+        app.screenShot();
+        app.getAkcja().SkopiujProces();
+        app.screenShot();
+        app.getIncydent().SkopiujProcesListaProcesow();
+        app.screenShot();
+        app.getIncydent().SkopiujProcesListaProcesowWniosek();
+        app.screenShot();
+        app.getIncydent().SkopiujProcesPrzyczyna();
+        app.screenShot();
+        app.getIncydent().SkopiujProcesPrzyczynaInne();
+        app.screenShot();
+        app.getIncydent().SkopiujProcesUzasadnienie();
+        app.screenShot();
+        app.getIncydent().SkopiujProcesZamknacAutomatycznie();
+        app.screenShot();
+        app.getIncydent().SkopiujProcesZamknacAutomatycznieFalsz();
+        app.screenShot();
+        app.saveandcloseButton();
+        app.screenShot();
+        app.getAkcja().SkopiujProces();
+        app.screenShot();
+        app.getIncydent().SkopiujProcesListaProcesow();
+        app.screenShot();
+        app.getIncydent().SkopiujProcesListaProcesowIncydent();
+        app.screenShot();
+        app.getIncydent().SkopiujProcesPrzyczyna();
+        app.screenShot();
+        app.getIncydent().SkopiujProcesPrzyczynaInne();
+        app.screenShot();
+        app.getIncydent().SkopiujProcesUzasadnienie();
+        app.screenShot();
+        app.getIncydent().SkopiujProcesZamknacAutomatycznie();
+        app.screenShot();
+        app.getIncydent().SkopiujProcesZamknacAutomatyczniePrawda();
         app.screenShot();
         app.saveandcloseButton();
         app.screenShot();

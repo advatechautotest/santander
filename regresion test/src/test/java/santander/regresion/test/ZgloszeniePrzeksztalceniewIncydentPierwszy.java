@@ -1,14 +1,11 @@
 package santander.regresion.test;
 
-
 import org.testng.annotations.Test;
 import santander.regresion.TestBase;
 
-
-public class CallTest extends TestBase {
-
+public class ZgloszeniePrzeksztalceniewIncydentPierwszy extends TestBase {
     @Test
-    public void testNewCall() throws Exception{
+    public void testCallTransIntoIncident9() throws Exception{
 
         app.logInEndUser();
         app.procesNoweZgloszenie();
@@ -33,13 +30,25 @@ public class CallTest extends TestBase {
         app.screenShot();
         app.getAkcja().ZalozZgloszenie();
         app.screenShot();
+        String url = app.zmianaSSnaWD();
+        app.screenShot();
+        app.logOut();
+        app.screenShot();
+        app.logIn1wszaLinia();
+        app.screenShot();
+        app.wprowadzPobranyUrl(url);
+        app.screenShot();
+        app.getAkcja().Przejmij();
+        app.screenShot();
+        app.getAkcja().Edytuj();
+        app.screenShot();
+        app.getZgloszenie().Opis();
+        app.screenShot();
+        app.saveandcloseButton();
+        app.screenShot();
+        app.getAkcja().PrzeksztalcwIncydent();
+        app.screenShot();
 
-
-
-
+    }
 
 }
-
-}
-
-
