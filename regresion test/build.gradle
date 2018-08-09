@@ -8,10 +8,14 @@ repositories {
 
 
 dependencies {
-    compile 'com.slickqa:testng:7.0.0-7'
+    /*compile 'com.slickqa:testng:7.0.0-7'
     compile 'org.seleniumhq.selenium:selenium-java:3.9.1'
     annotationProcessor("org.projectlombok:lombok:1.16.20")
-    compileOnly("org.projectlombok:lombok:1.16.20")
+    compileOnly("org.projectlombok:lombok:1.16.20")*/
+    annotationProcessor("org.projectlombok:$lombokVersion")
+    compileOnly("org.projectlombok:lombok:$lombokVersion")
+    testAnnotationProcessor("org.projectlombok:lombok:$lombokVersion")
+    testCompileOnly("org.projectlombok:lombok:$lombokVersion")
 	
 }
 
