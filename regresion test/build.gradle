@@ -12,7 +12,6 @@ dependencies {
     compile 'org.seleniumhq.selenium:selenium-java:3.9.1'
     annotationProcessor("org.projectlombok:lombok:1.16.20")
     compileOnly("org.projectlombok:lombok:1.16.20")
-    compile 'org.springframework.boot:spring-boot-starter-test'
 	
 }
 
