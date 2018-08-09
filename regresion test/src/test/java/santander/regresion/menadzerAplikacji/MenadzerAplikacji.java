@@ -49,7 +49,7 @@ public class MenadzerAplikacji {
         driver.findElement(By.id("mainForm-ApplyButton")).click();
     }
 
-    public void procesNoweZgłoszenie() {
+    public void procesNoweZgloszenie() {
         driver.findElement(By.id("shortcutItem_a7dbbd84-ffac-4d13-8c99-6f99d281d6f4")).click();
     }
 
@@ -91,7 +91,7 @@ public class MenadzerAplikacji {
         driver.get(url);
     }
 
-    public Zgloszenie getZgłoszenie() {
+    public Zgloszenie getZgloszenie() {
         return zgloszenie;
     }
     public Incydent getIncydent() {

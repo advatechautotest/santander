@@ -9,23 +9,23 @@ public class CallToApplication8 extends TestBase {
     public void testCallToApplication8() throws Exception{
 
         app.logInEndUser();
-        app.procesNoweZgłoszenie();
+        app.procesNoweZgloszenie();
         app.screenShot();
-        app.getZgłoszenie().Tytul();
+        app.getZgloszenie().Tytul();
         app.screenShot();
         app.saveButton();
         app.screenShot();
         app.getAkcja().DodajNotatke();
         app.screenShot();
-        app.getZgłoszenie().NotatkaTytul();
+        app.getZgloszenie().NotatkaTytul();
         app.screenShot();
         app.saveandcloseButton();
         app.screenShot();
         app.getAkcja().DodajZalacznik();
         app.screenShot();
-        app.getZgłoszenie().ZalacznikTytul();
+        app.getZgloszenie().ZalacznikTytul();
         app.screenShot();
-        app.getZgłoszenie().ZalacznikPlik();
+        app.getZgloszenie().ZalacznikPlik();
         app.screenShot();
         app.saveandcloseButton();
         app.screenShot();
@@ -43,7 +43,7 @@ public class CallToApplication8 extends TestBase {
         app.screenShot();
         app.getAkcja().Edytuj();
         app.screenShot();
-        app.getZgłoszenie().Opis();
+        app.getZgloszenie().Opis();
         app.screenShot();
         app.saveandcloseButton();
         app.screenShot();

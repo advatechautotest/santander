@@ -10,29 +10,29 @@ public class CloseCallTest extends TestBase {
     public void testNewCallClose() throws Exception{
 
     app.logInEndUser();
-    app.procesNoweZgłoszenie();
+    app.procesNoweZgloszenie();
     app.screenShot();
-    app.getZgłoszenie().Tytul();
+    app.getZgloszenie().Tytul();
     app.screenShot();
     app.saveButton();
     app.screenShot();
     app.getAkcja().DodajNotatke();
     app.screenShot();
-    app.getZgłoszenie().NotatkaTytul();
+    app.getZgloszenie().NotatkaTytul();
     app.screenShot();
     app.saveandcloseButton();
     app.screenShot();
     app.getAkcja().DodajZalacznik();
     app.screenShot();
-    app.getZgłoszenie().ZalacznikTytul();
+    app.getZgloszenie().ZalacznikTytul();
     app.screenShot();
-    app.getZgłoszenie().ZalacznikPlik();
+    app.getZgloszenie().ZalacznikPlik();
     app.screenShot();
     app.saveandcloseButton();
     app.screenShot();
     app.getAkcja().Zamknij();
     app.screenShot();
-    app.getZgłoszenie().ZamknijTytul();
+    app.getZgloszenie().ZamknijTytul();
     app.screenShot();
     app.saveandcloseButton();
     app.screenShot();
