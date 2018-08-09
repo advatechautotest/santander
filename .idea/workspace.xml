@@ -85,8 +85,8 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/regresion test/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="15" column="57" lean-forward="false" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+            <state relative-caret-position="357">
+              <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -639,9 +639,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/regresion test" value="3067016409886" />
+        <entry key="$PROJECT_DIR$/regresion test" value="3067017102524" />
         <entry key="$PROJECT_DIR$/regresion test/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/regresion test/build.gradle" value="1453405781" />
+        <entry key="$PROJECT_DIR$/regresion test/build.gradle" value="3211636815" />
         <entry key="$PROJECT_DIR$/regresion test/gradle/wrapper/gradle-wrapper.properties" value="4171081951" />
         <entry key="$PROJECT_DIR$/sandbox" value="3066420478834" />
         <entry key="$PROJECT_DIR$/sandbox/.gradle" value="0" />
@@ -917,25 +917,25 @@
           <expand>
             <path>
               <item name="sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="regresion test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="regresion test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="regresion test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="regresion test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1419,15 +1419,15 @@
         <state relative-caret-position="612">
           <caret line="68" column="16" lean-forward="false" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#1050#1051#0" expanded="true" />
-            <element signature="e#1133#1134#0" expanded="true" />
-            <element signature="e#1514#1515#0" expanded="true" />
-            <element signature="e#1597#1598#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#654#655#0" expanded="false" />
+            <element signature="e#743#744#0" expanded="false" />
+            <element signature="e#777#778#0" expanded="false" />
+            <element signature="e#871#872#0" expanded="false" />
+            <element signature="e#1050#1051#0" expanded="false" />
+            <element signature="e#1133#1134#0" expanded="false" />
+            <element signature="e#1514#1515#0" expanded="false" />
+            <element signature="e#1597#1598#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1552,8 +1552,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/regresion test/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="15" column="57" lean-forward="false" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+        <state relative-caret-position="357">
+          <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
           <folding />
         </state>
       </provider>

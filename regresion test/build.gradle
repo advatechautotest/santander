@@ -11,11 +11,17 @@ dependencies {
     /*compile 'com.slickqa:testng:7.0.0-7'
     compile 'org.seleniumhq.selenium:selenium-java:3.9.1'
     annotationProcessor("org.projectlombok:lombok:1.16.20")
-    compileOnly("org.projectlombok:lombok:1.16.20")*/
+    compileOnly("org.projectlombok:lombok:1.16.20")
     compile 'com.slickqa:testng:7.0.0-7'
     compile 'org.seleniumhq.selenium:selenium-java:3.9.1'
     testAnnotationProcessor("org.projectlombok:lombok:$lombokVersion")
-    testCompileOnly("org.projectlombok:lombok:$lombokVersion")
+    testCompileOnly("org.projectlombok:lombok:$lombokVersion")*/
+    compile 'org.testng:testng:6.9.10'
+    compile 'org.seleniumhq.selenium:selenium-java:2.52.0'
+    compile 'org.hamcrest:java-hamcrest:2.0.0.0'
+    compile 'com.beust:jcommander:1.48'
+    compile 'com.thoughtworks.xstream:xstream:1.4.8'
+    compile 'com.google.code.gson:gson:2.6.1'
 	
 }
 
