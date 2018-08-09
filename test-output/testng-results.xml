@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="242410" started-at="2018-08-09T13:27:32 CEST" finished-at="2018-08-09T13:31:35 CEST">
+    <groups>
+    </groups>
+    <test name="Zgloszenie" duration-ms="242410" started-at="2018-08-09T13:27:32 CEST" finished-at="2018-08-09T13:31:35 CEST">
+      <class name="santander.regresion.test.PrzejecieZgloszenia">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:santander.regresion.test.PrzejecieZgloszenia@50f8360d]" name="setUp" is-config="true" duration-ms="5411" started-at="2018-08-09T13:30:55 CEST" finished-at="2018-08-09T13:31:01 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testPrzejecieZgloszenia()[pri:0, instance:santander.regresion.test.PrzejecieZgloszenia@50f8360d]" name="testPrzejecieZgloszenia" duration-ms="33677" started-at="2018-08-09T13:31:01 CEST" finished-at="2018-08-09T13:31:34 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrzejecieZgloszenia -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:santander.regresion.test.PrzejecieZgloszenia@50f8360d]" name="tearDown" is-config="true" duration-ms="360" started-at="2018-08-09T13:31:34 CEST" finished-at="2018-08-09T13:31:35 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- santander.regresion.test.PrzejecieZgloszenia -->
+      <class name="santander.regresion.test.ZgloszeniePrzeksztalceniewIncydentPierwszy">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:santander.regresion.test.ZgloszeniePrzeksztalceniewIncydentPierwszy@737996a0]" name="setUp" is-config="true" duration-ms="5505" started-at="2018-08-09T13:29:51 CEST" finished-at="2018-08-09T13:29:56 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testZgloszeniePrzeksztalceniewIncydentPierwszy()[pri:0, instance:santander.regresion.test.ZgloszeniePrzeksztalceniewIncydentPierwszy@737996a0]" name="testZgloszeniePrzeksztalceniewIncydentPierwszy" duration-ms="33850" started-at="2018-08-09T13:29:56 CEST" finished-at="2018-08-09T13:30:30 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testZgloszeniePrzeksztalceniewIncydentPierwszy -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:santander.regresion.test.ZgloszeniePrzeksztalceniewIncydentPierwszy@737996a0]" name="tearDown" is-config="true" duration-ms="397" started-at="2018-08-09T13:30:30 CEST" finished-at="2018-08-09T13:30:30 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- santander.regresion.test.ZgloszeniePrzeksztalceniewIncydentPierwszy -->
+      <class name="santander.regresion.test.ZamkniecieZgloszenia">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:santander.regresion.test.ZamkniecieZgloszenia@61dc03ce]" name="setUp" is-config="true" duration-ms="5350" started-at="2018-08-09T13:30:30 CEST" finished-at="2018-08-09T13:30:36 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testZamkniecieZgloszenia()[pri:0, instance:santander.regresion.test.ZamkniecieZgloszenia@61dc03ce]" name="testZamkniecieZgloszenia" duration-ms="19192" started-at="2018-08-09T13:30:36 CEST" finished-at="2018-08-09T13:30:55 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testZamkniecieZgloszenia -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:santander.regresion.test.ZamkniecieZgloszenia@61dc03ce]" name="tearDown" is-config="true" duration-ms="362" started-at="2018-08-09T13:30:55 CEST" finished-at="2018-08-09T13:30:55 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- santander.regresion.test.ZamkniecieZgloszenia -->
+      <class name="santander.regresion.test.ZgloszeniePrzeksztalcenieWeWniosekoUprawnienia">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:santander.regresion.test.ZgloszeniePrzeksztalcenieWeWniosekoUprawnienia@2096442d]" name="setUp" is-config="true" duration-ms="5873" started-at="2018-08-09T13:28:12 CEST" finished-at="2018-08-09T13:28:18 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testZgloszeniePrzeksztalcenieWeWniosekoUprawnienia()[pri:0, instance:santander.regresion.test.ZgloszeniePrzeksztalcenieWeWniosekoUprawnienia@2096442d]" name="testZgloszeniePrzeksztalcenieWeWniosekoUprawnienia" duration-ms="30600" started-at="2018-08-09T13:28:18 CEST" finished-at="2018-08-09T13:28:48 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testZgloszeniePrzeksztalcenieWeWniosekoUprawnienia -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:santander.regresion.test.ZgloszeniePrzeksztalcenieWeWniosekoUprawnienia@2096442d]" name="tearDown" is-config="true" duration-ms="385" started-at="2018-08-09T13:28:48 CEST" finished-at="2018-08-09T13:28:49 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- santander.regresion.test.ZgloszeniePrzeksztalcenieWeWniosekoUprawnienia -->
+      <class name="santander.regresion.test.ZgloszeniePrzeksztalcenieWeWniosek">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:santander.regresion.test.ZgloszeniePrzeksztalcenieWeWniosek@234bef66]" name="setUp" is-config="true" duration-ms="5525" started-at="2018-08-09T13:29:14 CEST" finished-at="2018-08-09T13:29:20 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testZgloszeniePrzeksztalcenieWeWniosek()[pri:0, instance:santander.regresion.test.ZgloszeniePrzeksztalcenieWeWniosek@234bef66]" name="testZgloszeniePrzeksztalcenieWeWniosek" duration-ms="30408" started-at="2018-08-09T13:29:20 CEST" finished-at="2018-08-09T13:29:50 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testZgloszeniePrzeksztalcenieWeWniosek -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:santander.regresion.test.ZgloszeniePrzeksztalcenieWeWniosek@234bef66]" name="tearDown" is-config="true" duration-ms="393" started-at="2018-08-09T13:29:50 CEST" finished-at="2018-08-09T13:29:51 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- santander.regresion.test.ZgloszeniePrzeksztalcenieWeWniosek -->
+      <class name="santander.regresion.test.Zgloszenie">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:santander.regresion.test.Zgloszenie@9f70c54]" name="setUp" is-config="true" duration-ms="5684" started-at="2018-08-09T13:28:49 CEST" finished-at="2018-08-09T13:28:55 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testZgloszenie()[pri:0, instance:santander.regresion.test.Zgloszenie@9f70c54]" name="testZgloszenie" duration-ms="19291" started-at="2018-08-09T13:28:55 CEST" finished-at="2018-08-09T13:29:14 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testZgloszenie -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:santander.regresion.test.Zgloszenie@9f70c54]" name="tearDown" is-config="true" duration-ms="327" started-at="2018-08-09T13:29:14 CEST" finished-at="2018-08-09T13:29:14 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- santander.regresion.test.Zgloszenie -->
+      <class name="santander.regresion.test.ZgloszeniePrzeksztalceniewIncydentBezpieczenstwa">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:santander.regresion.test.ZgloszeniePrzeksztalceniewIncydentBezpieczenstwa@2c9f9fb0]" name="setUp" is-config="true" duration-ms="7954" started-at="2018-08-09T13:27:32 CEST" finished-at="2018-08-09T13:27:40 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testZgloszeniePrzeksztalceniewIncydentBezpieczenstwa()[pri:0, instance:santander.regresion.test.ZgloszeniePrzeksztalceniewIncydentBezpieczenstwa@2c9f9fb0]" name="testZgloszeniePrzeksztalceniewIncydentBezpieczenstwa" duration-ms="31470" started-at="2018-08-09T13:27:40 CEST" finished-at="2018-08-09T13:28:12 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testZgloszeniePrzeksztalceniewIncydentBezpieczenstwa -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:santander.regresion.test.ZgloszeniePrzeksztalceniewIncydentBezpieczenstwa@2c9f9fb0]" name="tearDown" is-config="true" duration-ms="354" started-at="2018-08-09T13:28:12 CEST" finished-at="2018-08-09T13:28:12 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- santander.regresion.test.ZgloszeniePrzeksztalceniewIncydentBezpieczenstwa -->
+    </test> <!-- Zgloszenie -->
+  </suite> <!-- Suite1 -->
+</testng-results>
