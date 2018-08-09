@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="santander.regresion.test.ZgloszeniePrzeksztalceniewIncydentBezpieczenstwa" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-08-09T18:42:25" hostname="DESKTOP-H7PFGS0" time="30.852">
+  <properties/>
+  <testcase name="testZgloszeniePrzeksztalceniewIncydentBezpieczenstwa" classname="santander.regresion.test.ZgloszeniePrzeksztalceniewIncydentBezpieczenstwa" time="30.852"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[sie 09, 2018 8:42:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>

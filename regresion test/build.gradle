@@ -1,4 +1,5 @@
 apply plugin: 'java'
+apply plugin:'application'
 
 
 
@@ -20,11 +21,10 @@ dependencies {
 	
 }
 
-task testIncydent( type: Test) {
-    useTestNG {
-
-        suites 'src/test/resources/testngIncydent.xml'
-    }
+tasks.withType(JavaCompile) {
+    options.encoding = "utf-8" // adapt as necessary
 }
+test {
+    useTestNG() 
 
-
+	}

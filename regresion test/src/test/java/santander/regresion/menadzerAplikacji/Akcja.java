@@ -20,7 +20,8 @@ public class Akcja {
     }
 
     public void DodajNotatke() {
-        driver.findElement(By.xpath("//li[contains(text(), 'Dodaj notatkę')]")).click();
+        //driver.findElement(By.xpath("//li[contains(text(), 'Dodaj notatkę')]")).click();
+        driver.findElement(By.xpath(".//*[@id='actionPanel']/div[2]/ul/li[4]")).click();
     }
 
     public void Zamknij() {

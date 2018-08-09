@@ -53,6 +53,7 @@ public class IncydentKopiowanieProcesu extends TestBase {
         app.screenShot();
         //driver.findElement(By.xpath(".//*[@id='mainForm-IncidentKolBody']/tr/td[1]")).click();
         //driver.findElement(By.xpath("//tbody[contains(@class, 'listBodyRow pointerCursor listBodyRowActive']/tr/td[1]")).click();
+        Thread.sleep(10000);
         app.kolekcjaPierwszyElementKolekcji();
         app.screenShot();
         app.getAkcja().DodajNotatke();
