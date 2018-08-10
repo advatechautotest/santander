@@ -11,8 +11,9 @@ public class Skrot {
    }
     public void Wnioski() {
        // driver.findElement(By.xpath("//div[@class='shortcutGroupPanel']/'Wnioski')]")).click();
-
-        driver.switchTo().frame("shortcutGroup_20a44b81-8095-4f02-8afd-fb22a2ab8d3f_Items");
-        driver.findElement(By.xpath("//span[contains(text(), 'Wnioski')]")).click();
+        //driver.findElement(By.id("shortcutItem_0dfc851f-a6bd-438d-916c-833d48593a20"));
+        //driver.switchTo().frame(driver.findElement(By.xpath("//li[contains(text(), 'Wnioski')]")));
+        //driver.findElement(By.xpath("//li[contains(text(), 'Wnioski')]")).click();
+        driver.findElement(By.xpath("//div[contains(@class='shortcutItem')]/[contains(text(), 'Wnioski')]"));
     }
 }
