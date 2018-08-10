@@ -37,4 +37,5 @@ public class Zgloszenie {
     public void Opis() {
         driver.findElement(By.id("mainForm-Description2_editor")).sendKeys("Opis zedytowany");
     }
+
 }

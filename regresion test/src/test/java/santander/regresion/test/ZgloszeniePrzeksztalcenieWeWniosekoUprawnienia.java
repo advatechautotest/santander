@@ -8,7 +8,7 @@ public class ZgloszeniePrzeksztalcenieWeWniosekoUprawnienia extends TestBase {
 
     public void testZgloszeniePrzeksztalcenieWeWniosekoUprawnienia() throws Exception{
 
-        /*app.logInEndUser();
+        app.logInEndUser();
         app.procesNoweZgloszenie();
         app.screenShot();
         app.getZgloszenie().Tytul();
@@ -66,16 +66,20 @@ public class ZgloszeniePrzeksztalcenieWeWniosekoUprawnienia extends TestBase {
         app.getWniosek().ZalacznikPlik();
         app.screenShot();
         app.saveandcloseButton();
+        app.screenShot();
         app.getAkcja().ZglosWniosek();
         app.screenShot();
+        app.getKolekcja().PobierzNumerWniosku();
+        app.screenShot();
         app.logOut();
-        app.screenShot();*/
+        app.screenShot();
         app.logInUprawnienia();
         app.screenShot();
         app.getGrupa().Wyszukaj();
         app.screenShot();
         app.getSkrot().Wnioski();
         app.screenShot();
+        app.getKolekcja().WstawNumerWniosku();
     }
 
 
