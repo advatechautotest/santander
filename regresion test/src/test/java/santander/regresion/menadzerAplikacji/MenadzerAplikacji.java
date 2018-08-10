@@ -15,7 +15,10 @@ import java.util.concurrent.TimeUnit;
 
 public class MenadzerAplikacji {
     private FirefoxDriver driver;
-
+    private Skrot skrot;
+    private Grupa grupa;
+    private Kolekcja kolekcja;
+    private Wniosek wniosek;
     private Akcja akcja;
     private Incydent incydent;
     private Zgloszenie zgloszenie;
@@ -38,7 +41,10 @@ public class MenadzerAplikacji {
         incydent = new Incydent(driver);
         zgloszenie = new Zgloszenie(driver);
         akcja = new Akcja(driver);
-
+        wniosek = new Wniosek(driver);
+        kolekcja = new Kolekcja(driver);
+        grupa = new Grupa(driver);
+        skrot = new Skrot(driver);
     }
 
     public void saveandcloseButton() {
@@ -69,19 +75,15 @@ public class MenadzerAplikacji {
         driver.findElement(By.id("logonButton")).click();
     }
 
+    public void logInUprawnienia() {
+        driver.findElement(By.id("Ecom_User_ID")).click();
+        driver.findElement(By.id("Ecom_User_ID")).sendKeys("mdopierala@pl.aigcfg.net");
+        driver.findElement(By.id("logonButton")).click();
+    }
+
     public void logOut() {
         driver.findElement(By.xpath("//div[contains(@title, 'Wyloguj')]")).click();
     }
-
-    public void kolekcjaPierwszyElementKolekcji() {
-        driver.findElement(By.xpath(".//*[@class='listBody']/tr/td[1]")).click();
-    }
-
-    public void kolekcjaIncydent() {
-        driver.findElement(By.id("_btn_1")).click();
-    }
-
-
 
 
     public String zmianaSSnaWD() {
@@ -100,5 +102,21 @@ public class MenadzerAplikacji {
 
     public Akcja getAkcja() {
         return akcja;
+    }
+
+    public Wniosek getWniosek() {
+        return wniosek;
+    }
+
+    public Kolekcja getKolekcja() {
+        return kolekcja;
+    }
+
+    public Grupa getGrupa() {
+        return grupa;
+    }
+
+    public Skrot getSkrot() {
+        return skrot;
     }
 }

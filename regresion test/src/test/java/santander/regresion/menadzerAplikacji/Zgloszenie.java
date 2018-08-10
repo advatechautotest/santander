@@ -13,7 +13,7 @@ public class Zgloszenie {
     }
 
     public void ZalacznikPlik() {
-        File file = new File("attach/santander.txt");
+        File file = new File("regresion test/attach/santander.txt");
         if(!file.exists())throw new RuntimeException("file doesn't exist");
         else { driver.findElement(By.id("mainForm-AttachmentDocument")).sendKeys(file.getAbsolutePath()); }
     }

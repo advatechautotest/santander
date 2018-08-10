@@ -57,4 +57,7 @@ public class Akcja {
     public void SkopiujProces() {
         driver.findElement(By.xpath("//li[contains(text(), 'Skopiuj proces')]")).click();
     }
+    public void ZglosWniosek() {
+        driver.findElement(By.xpath("//li[contains(text(), 'Zgłoś wniosek')]")).click();
+    }
 }
