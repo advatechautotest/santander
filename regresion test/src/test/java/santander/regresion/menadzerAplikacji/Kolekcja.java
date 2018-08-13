@@ -26,6 +26,7 @@ public class Kolekcja {
     public void PobierzNumerWniosku() {
         //numer =driver.findElement(By.xpath(".//*[@id='contentTitleText']")).getText().substring(10, 17);
         numer =driver.findElement(By.xpath(".//*[@id='contentTitleText']")).getAttribute("value");
+        System.out.println(numer);
     }
     public void WstawNumerWniosku() {
         driver.findElement(By.id("list-c0")).sendKeys(numer);

@@ -80,6 +80,20 @@ public class ZgloszeniePrzeksztalcenieWeWniosekoUprawnienia extends TestBase {
         app.getSkrot().Wnioski();
         app.screenShot();
         app.getKolekcja().WstawNumerWniosku();
+        app.screenShot();
+        app.getKolekcja().PierwszyElementKolekcji();
+        app.screenShot();
+        app.getAkcja().DodajNotatke();
+        app.getWniosek().NotatkaTytul();
+        app.saveandcloseButton();
+        app.getAkcja().DodajZalacznik();
+        app.getWniosek().ZalacznikTytul();
+        app.getWniosek().ZalacznikPlik();
+        app.screenShot();
+        app.saveandcloseButton();
+        app.screenShot();
+        app.getAkcja().Przejmij();
+        app.screenShot();
     }
 
 
