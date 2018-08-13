@@ -1094,11 +1094,30 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.ZgloszeniePrzeksztalcenieWeWniosekoUprawnienia">
+    <configuration name="build (1)" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="regresion_test" />
+      <setting name="path" value="file://$PROJECT_DIR$/regresion test/build.gradle" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/regresion test" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="build" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="regresion_test" />
+      <setting name="path" value="file://$PROJECT_DIR$/regresion test/build.gradle" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/regresion test" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/ArturWójtowicz/Documents/GitHub/santander/regresion test/src/test/resources/testngZgloszenie.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="regresion_test_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/regresion test/src/test/resources/testngZgloszenie.xml" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="" />
@@ -1109,162 +1128,85 @@
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
       <option name="USE_DEFAULT_REPORTERS" value="true" />
       <option name="PROPERTIES_FILE" value="" />
-      <envs />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="IncydentKopiowanieProcesu" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <module name="regresion_test_test" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="santander.regresion.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="regresion_test_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="santander.regresion.test" />
       <option name="MAIN_CLASS_NAME" value="santander.regresion.test.IncydentKopiowanieProcesu" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Zgloszenie" type="TestNG" factoryName="TestNG" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <module name="regresion_test_test" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="santander.regresion.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="regresion_test_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="santander.regresion.test" />
       <option name="MAIN_CLASS_NAME" value="santander.regresion.test.Zgloszenie" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ZgloszeniePrzeksztalcenieWeWniosekoUprawnienia" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <module name="regresion_test_test" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="santander.regresion.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="regresion_test_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="santander.regresion.test" />
       <option name="MAIN_CLASS_NAME" value="santander.regresion.test.ZgloszeniePrzeksztalcenieWeWniosekoUprawnienia" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="regresion_test" />
-      <envs />
-    </configuration>
-    <configuration name="build (1)" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
-      <module name="regresion_test" />
-      <setting name="path" value="file://$PROJECT_DIR$/regresion test/build.gradle" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$/regresion test" />
-      <setting name="debug" value="false" />
-    </configuration>
-    <configuration name="build" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
-      <module name="regresion_test" />
-      <setting name="path" value="file://$PROJECT_DIR$/regresion test/build.gradle" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$/regresion test" />
-      <setting name="debug" value="false" />
-    </configuration>
-    <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.Zgloszenie" />
-      <item index="1" class="java.lang.String" itemvalue="Groovy.build" />
-      <item index="2" class="java.lang.String" itemvalue="Groovy.build (1)" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.C:/Users/ArturWójtowicz/Documents/GitHub/santander/regresion test/src/test/resources/testngZgloszenie.xml" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.IncydentKopiowanieProcesu" />
-      <item index="5" class="java.lang.String" itemvalue="TestNG.ZgloszeniePrzeksztalcenieWeWniosekoUprawnienia" />
+    <list>
+      <item itemvalue="TestNG.Zgloszenie" />
+      <item itemvalue="Groovy.build" />
+      <item itemvalue="Groovy.build (1)" />
+      <item itemvalue="TestNG.C:/Users/ArturWójtowicz/Documents/GitHub/santander/regresion test/src/test/resources/testngZgloszenie.xml" />
+      <item itemvalue="TestNG.IncydentKopiowanieProcesu" />
+      <item itemvalue="TestNG.ZgloszeniePrzeksztalcenieWeWniosekoUprawnienia" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.ZgloszeniePrzeksztalcenieWeWniosekoUprawnienia" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.IncydentKopiowanieProcesu" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.C:/Users/ArturWójtowicz/Documents/GitHub/santander/regresion test/src/test/resources/testngZgloszenie.xml" />
-        <item index="3" class="java.lang.String" itemvalue="Groovy.build (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Groovy.build" />
+      <list>
+        <item itemvalue="TestNG.ZgloszeniePrzeksztalcenieWeWniosekoUprawnienia" />
+        <item itemvalue="TestNG.IncydentKopiowanieProcesu" />
+        <item itemvalue="TestNG.C:/Users/ArturWójtowicz/Documents/GitHub/santander/regresion test/src/test/resources/testngZgloszenie.xml" />
+        <item itemvalue="Groovy.build (1)" />
+        <item itemvalue="Groovy.build" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
