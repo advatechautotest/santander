@@ -24,4 +24,7 @@ public class Wniosek {
     public void NotatkaTytul() {
         driver.findElement(By.id("mainForm-Text3_editor")).sendKeys("Wniosek Testowa notatka");
     }
+    public void AnulujTytul() {
+        driver.findElement(By.id("mainForm-FormItemTitle")).sendKeys("Wniosek o uprawnienia anulowano");
+    }
 }

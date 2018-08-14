@@ -60,4 +60,8 @@ public class Akcja {
     public void ZglosWniosek() {
         driver.findElement(By.xpath("//li[contains(text(), 'Zgłoś wniosek')]")).click();
     }
+    public void Anuluj(){
+        driver.findElement(By.xpath("//li[contains(text(), 'Anuluj')]")).click();
+    }
+
 }

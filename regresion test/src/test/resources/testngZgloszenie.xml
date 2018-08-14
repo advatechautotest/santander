@@ -11,6 +11,7 @@
             <class name="santander.regresion.test.ZgloszeniePrzeksztalceniewIncydentPierwszy"/>
             <class name="santander.regresion.test.ZamkniecieZgloszenia"/>
             <class name="santander.regresion.test.PrzejecieZgloszenia"/>
+            <class name="santander.regresion.test.ZgloszeniePrzeksztalcenieWeWniosekoUprawnieniaAnuluj"/>
         </classes>
     </test>
 </suite>

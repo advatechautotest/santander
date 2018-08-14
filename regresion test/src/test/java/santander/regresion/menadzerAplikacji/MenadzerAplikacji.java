@@ -119,4 +119,8 @@ public class MenadzerAplikacji {
     public Skrot getSkrot() {
         return skrot;
     }
+
+    public void Czekaj() throws InterruptedException {
+        Thread.sleep(35000);
+    }
 }
