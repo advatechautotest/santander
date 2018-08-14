@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+
+    <test name="Zgloszenie">
+        <classes>
+            <class name="santander.regresion.test.ZgloszeniePrzeksztalceniewIncydentBezpieczenstwa"/>
+            <class name="santander.regresion.test.ZgloszeniePrzeksztalcenieWeWniosekoUprawnienia"/>
+            <class name="santander.regresion.test.Zgloszenie"/>
+            <class name="santander.regresion.test.ZgloszeniePrzeksztalcenieWeWniosek"/>
+            <class name="santander.regresion.test.ZgloszeniePrzeksztalceniewIncydentPierwszy"/>
+            <class name="santander.regresion.test.ZamkniecieZgloszenia"/>
+            <class name="santander.regresion.test.PrzejecieZgloszenia"/>
+            <class name="santander.regresion.test.ZgloszeniePrzeksztalcenieWeWniosekoUprawnieniaAnuluj"/>
+        </classes>
+    </test>
+</suite>
