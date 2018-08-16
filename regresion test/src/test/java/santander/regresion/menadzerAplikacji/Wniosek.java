@@ -27,4 +27,8 @@ public class Wniosek {
     public void AnulujTytul() {
         driver.findElement(By.id("mainForm-FormItemTitle")).sendKeys("Wniosek o uprawnienia anulowano");
     }
+    public void Odrzuc() {
+        driver.findElement(By.id("mainForm-_ClosureCategoryDisplay")).click();
+        driver.findElement(By.xpath("//span[contains(text(), 'Inny')]"))
+    }
 }

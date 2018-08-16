@@ -63,5 +63,7 @@ public class Akcja {
     public void Anuluj(){
         driver.findElement(By.xpath("//li[contains(text(), 'Anuluj')]")).click();
     }
-
+    public void BrakAkceptacji() {
+        driver.findElement(By.xpath("//li[contains(text(), 'Brak akceptacji')]")).click();
+    }
 }
