@@ -32,6 +32,9 @@ public class Incydent {
     public void NotatkaRodzajPubliczna() {
         driver.findElement(By.xpath("//div[contains(text(), 'Notatka publiczna')]")).click();
     }
+    public void NotatkarodzajPrywatna(){
+        driver.findElement(By.xpath("//div[contains(text(), 'Notatka prywatna')]")).click();
+    }
 
     public void NotatkaRodzaj() {
         driver.findElement(By.id("mainForm-_RodzajnotatkiDisplay")).click();
@@ -78,6 +81,18 @@ public class Incydent {
     public void SkopiujProcesZamknacAutomatyczniePrawda() {
         driver.findElement(By.xpath("//div[contains(@value, 'True')]")).click();
     }
+    public void OznaczjakoPowaznyIncydent(){
+        driver.findElement(By.xpath("//li[contains(text(), 'Oznacz jako poważny incydent')]")).click();
+    }
+    public void RozwiazanieTemat(){
+        driver.findElement(By.id("mainForm-Title")).sendKeys("Testowe rozwiązanie");
+    }
+    public void ZamkniecieIncydentuTemat() throws InterruptedException {
+        driver.findElement(By.id("mainForm-Category2Display")).click();
+        Thread.sleep(03000);
+        driver.findElement(By.xpath("//span[contains(text(), 'Inny')]")).click();
+    }
+
 
 }
 

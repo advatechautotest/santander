@@ -20,8 +20,8 @@ public class Akcja {
     }
 
     public void DodajNotatke() {
-        //driver.findElement(By.xpath("//li[contains(text(), 'Dodaj notatkę')]")).click();
-        driver.findElement(By.xpath(".//*[@id='actionPanel']/div[2]/ul/li[4]")).click();
+        driver.findElement(By.xpath("//li[contains(text(), 'Dodaj notatkę')]")).click();
+        //driver.findElement(By.xpath(".//*[@id='actionPanel']/div[2]/ul/li[4]")).click();
     }
 
     public void Zamknij() {
@@ -65,5 +65,11 @@ public class Akcja {
     }
     public void BrakAkceptacji() {
         driver.findElement(By.xpath("//li[contains(text(), 'Brak akceptacji')]")).click();
+    }
+    public void DodajZadanie() {
+        driver.findElement(By.xpath("//li[contains(text(), 'Dodaj zadanie')]")).click();
+    }
+    public void Rozwiaz(){
+        driver.findElement(By.xpath("//li[contains(text(), 'Rozwiąż')]")).click();
     }
 }

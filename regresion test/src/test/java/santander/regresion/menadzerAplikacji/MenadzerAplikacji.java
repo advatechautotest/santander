@@ -22,6 +22,7 @@ public class MenadzerAplikacji {
     private Akcja akcja;
     private Incydent incydent;
     private Zgloszenie zgloszenie;
+    private Zadanie zadanie;
 
 
     public void screenShot()throws IOException, InterruptedException{
@@ -45,6 +46,7 @@ public class MenadzerAplikacji {
         kolekcja = new Kolekcja(driver);
         grupa = new Grupa(driver);
         skrot = new Skrot(driver);
+        zadanie = new Zadanie(driver);
     }
 
     public void saveandcloseButton() {
@@ -122,5 +124,9 @@ public class MenadzerAplikacji {
 
     public void Czekaj() throws InterruptedException {
         Thread.sleep(35000);
+    }
+
+    public Zadanie getZadanie() {
+        return zadanie;
     }
 }

@@ -29,6 +29,6 @@ public class Wniosek {
     }
     public void Odrzuc() {
         driver.findElement(By.id("mainForm-_ClosureCategoryDisplay")).click();
-        driver.findElement(By.xpath("//span[contains(text(), 'Inny')]"))
+        driver.findElement(By.xpath("//span[contains(text(), 'Inny')]"));
     }
 }
