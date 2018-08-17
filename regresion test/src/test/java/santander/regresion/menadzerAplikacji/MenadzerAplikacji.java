@@ -91,6 +91,7 @@ public class MenadzerAplikacji {
     public String zmianaSSnaWD() {
         return driver.getCurrentUrl().replaceAll("/ss/", "/wd/");
     }
+    public String zmianaWDnaSS() {return driver.getCurrentUrl().replaceAll("/wd/", "/ss/");}
     public void wprowadzPobranyUrl(String url) {
         driver.get(url);
     }

@@ -67,4 +67,16 @@ public class Akcja {
     public void Rozwiaz(){
         driver.findElement(By.xpath("//li[contains(text(), 'Rozwiąż')]")).click();
     }
+    public void ZarejstrujCzasPracy(){
+        driver.findElement(By.xpath("//li[contains(text(), 'Zarejestruj czas pracy')]")).click();
+    }
+    public void DodajPowiazanyCI(){
+        driver.findElement(By.xpath("//li[contains(text(), 'Dodaj powiązany CI')]")).click();
+    }
+    public void PoprosoWyjasnienia(){
+        driver.findElement(By.xpath("//li[contains(text(), 'Poproś o wyjaśnienia')]")).click();
+    }
+    public void WrocDoRealizacji(){
+        driver.findElement(By.xpath("//li[contains(text(), 'Wróć do realizacji')]")).click();
+    }
 }

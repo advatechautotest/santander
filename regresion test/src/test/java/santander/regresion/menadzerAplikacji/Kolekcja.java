@@ -23,6 +23,9 @@ public class Kolekcja {
     public void Wniosek() {
         driver.findElement(By.id("_btn_2")).click();
     }
+    public void SkopiowaneIncydenty(){
+        driver.findElement(By.id("_btn_20")).click();
+    }
     public void PobierzNumerWniosku() {
         //numer =driver.findElement(By.xpath(".//*[@id='contentTitleText']")).getText().substring(10, 17);
         numer =driver.findElement(By.xpath(".//*[@id='contentTitleText']")).getAttribute("value");

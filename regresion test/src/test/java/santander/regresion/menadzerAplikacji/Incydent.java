@@ -99,7 +99,26 @@ public class Incydent {
         Thread.sleep(03000);
         driver.findElement(By.xpath("//span[contains(text(), 'Inny')]")).click();
     }
+    public void CzasPracyUzupelnienie() throws InterruptedException {
+        driver.findElement(By.id("mainForm-_Czas")).sendKeys("30");
+        driver.findElement(By.id("mainForm-_Koniec-date")).click();
+        Thread.sleep(03000);
+        driver.findElement(By.xpath("//td[contains(text(), 'Dzisiaj')]")).click();
 
+    }
+    public void DodajCIWypelnienie(){
+        driver.findElement(By.id("mainForm-_TypCIDisplay")).click();
+        driver.findElement(By.xpath("//div[contains(text(), 'Access Point')]")).click();
+        driver.findElement(By.id("mainForm-_ConfigItemDisplay")).click();
+        driver.findElement(By.xpath("//div[contains(text(), 'FCW1907NMVT')]")).click();
+    }
 
+    public void PoprosoWyjasnieniaWypelnienie(){
+        driver.findElement(By.id("mainForm-_KategoriaszablonuodpowiedziDisplay")).click();
+        driver.findElement(By.xpath("//span[contains(text(), 'SD')]")).click();
+        driver.findElement(By.id("mainForm-_SzablonodpowiedziDisplay")).click();
+        driver.findElement(By.xpath("//div[contains(text(), 'Błędny formularz w WEB')]")).click();
+
+    }
 }
 
