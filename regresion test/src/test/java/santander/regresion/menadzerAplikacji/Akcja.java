@@ -14,7 +14,6 @@ public class Akcja {
     public void ZalozZgloszenie() {
         driver.findElement(By.xpath("//li[contains(text(), 'Załóż zgłoszenie')]")).click();
     }
-
     public void DodajZalacznik() {
         driver.findElement(By.xpath("//li[contains(text(), 'Dodaj załącznik')]")).click();
     }
@@ -23,7 +22,6 @@ public class Akcja {
         driver.findElement(By.xpath("//li[contains(text(), 'Dodaj notatkę')]")).click();
         //driver.findElement(By.xpath(".//*[@id='actionPanel']/div[2]/ul/li[4]")).click();
     }
-
     public void Zamknij() {
         driver.findElement(By.xpath("//li[contains(text(), 'Zamknij')]")).click();
     }
@@ -39,15 +37,12 @@ public class Akcja {
     public void PrzeksztalcwIncydentBezpieczenstwa() {
         driver.findElement(By.xpath("//li[contains(text(), 'Przekształć w incydent bezpieczeństwa')]")).click();
     }
-
     public void PrzeksztalcWeWniosekoUprawnienia() {
         driver.findElement(By.xpath("//li[contains(text(), 'Przekształć we wniosek o uprawnienia')]")).click();
     }
-
     public void PrzeksztalcWeWniosek() {
         driver.findElement(By.xpath("//li[contains(text(), 'Przekształć we wniosek')]")).click();
     }
-
     public void PrzeksztalcwIncydent() {
         driver.findElement(By.xpath("//li[contains(text(), 'Przekształć w incydent')]")).click();
     }

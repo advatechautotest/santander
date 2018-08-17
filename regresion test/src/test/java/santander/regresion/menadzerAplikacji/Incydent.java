@@ -35,7 +35,14 @@ public class Incydent {
     public void NotatkarodzajPrywatna(){
         driver.findElement(By.xpath("//div[contains(text(), 'Notatka prywatna')]")).click();
     }
-
+    public void AnulujIncydent(){
+        driver.findElement(By.xpath("//li[contains(text(), 'Anuluj incydent')]")).click();
+    }
+    public void AnulujIncydentKategoria() throws InterruptedException {
+        driver.findElement(By.id("mainForm-_ClosureCategoryDisplay")).click();
+        Thread.sleep(03000);
+        driver.findElement(By.xpath("//span[contains(text(), 'Anulowany: anulowany przez zgłaszającego')]")).click();
+    }
     public void NotatkaRodzaj() {
         driver.findElement(By.id("mainForm-_RodzajnotatkiDisplay")).click();
     }
