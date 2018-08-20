@@ -82,6 +82,11 @@ public class MenadzerAplikacji {
         driver.findElement(By.id("Ecom_User_ID")).sendKeys("mdopierala@pl.aigcfg.net");
         driver.findElement(By.id("logonButton")).click();
     }
+    public void logInAdminAplikacji(){
+        driver.findElement(By.id("Ecom_User_ID")).click();
+        driver.findElement(By.id("Ecom_User_ID")).sendKeys("pmazurek@pl.aigcfg.net");
+        driver.findElement(By.id("logonButton")).click();
+    }
 
     public void logOut() {
         driver.findElement(By.xpath("//div[contains(@title, 'Wyloguj')]")).click();
@@ -124,7 +129,7 @@ public class MenadzerAplikacji {
     }
 
     public void Czekaj() throws InterruptedException {
-        Thread.sleep(35000);
+        Thread.sleep(00000);
     }
 
     public Zadanie getZadanie() {

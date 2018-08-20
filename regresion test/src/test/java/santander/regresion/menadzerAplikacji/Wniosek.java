@@ -31,4 +31,12 @@ public class Wniosek {
         driver.findElement(By.id("mainForm-_ClosureCategoryDisplay")).click();
         driver.findElement(By.xpath("//span[contains(text(), 'Inny')]"));
     }
+    public void WniosekZrealizowany(){
+        driver.findElement(By.xpath("//li[contains(text(), 'Wniosek zrealizowany')]")).click();
+    }
+    public void ZamkniecieWniosku(){
+        driver.findElement(By.id("mainForm-Category2Display")).click();
+        driver.findElement(By.xpath("//span[contains(text(), 'Inny')]")).click();
+        driver.findElement(By.id("mainForm-Title2")).sendKeys("Wniosek Tytuł zamknięcia");
+    }
 }

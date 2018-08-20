@@ -3,10 +3,10 @@ package santander.regresion.test;
 import org.testng.annotations.Test;
 import santander.regresion.TestBase;
 
-public class WniosekoUprawnieniaZadanie1doWniosku extends TestBase {
+public class WniosekoUprawnieniaZrealizowany extends TestBase {
     @Test
 
-    public void testWniosekoUprawneniaZadanie1doWniosku() throws Exception{
+    public void testWniosekoUprawneniaZrealizowany() throws Exception{
 
         app.logInEndUser();
         app.procesNoweZgloszenie();
@@ -110,15 +110,60 @@ public class WniosekoUprawnieniaZadanie1doWniosku extends TestBase {
         app.screenShot();
         app.saveandcloseButton();
         app.getAkcja().DodajZalacznik();
-        app.getWniosek().ZalacznikTytul();
-        app.getWniosek().ZalacznikPlik();
+        app.getZadanie().ZalacznikTytul();
+        app.getZadanie().ZalacznikPlik();
         app.screenShot();
         app.saveandcloseButton();
+        app.screenShot();
         app.getAkcja().PrzekazDoRealizacji();
         app.screenShot();
         app.getAkcja().PrzypiszDoMnie();
         app.screenShot();
         app.getAkcja().Zatwierdz();
         app.screenShot();
+        app.getZadanie().PowrotDoWniosku();
+        app.screenShot();
+        app.getAkcja().Akceptacja();
+        app.screenShot();
+        app.getAkcja().Przejmij();
+        app.getAkcja().DodajZadanie();
+        app.screenShot();
+        app.getZadanie().UzupelnienieZadWniosekoUprawnieniaRealizacyjne();
+        app.screenShot();
+        app.saveButton();
+        app.getAkcja().PrzekazDoRealizacji();
+        app.screenShot();
+        app.getZadanie().PowrotDoWniosku();
+        app.getKolekcja().PobierzNumerWniosku();
+        app.logOut();
+        app.screenShot();
+        app.logInAdminAplikacji();
+        app.getSkrot().Wnioski();
+        app.screenShot();
+        app.getKolekcja().WstawNumerWniosku();
+        app.getKolekcja().PierwszyElementKolekcji();
+        app.screenShot();
+        app.getKolekcja().Zadanie2();
+        //app.getKolekcja().PierwszyElementKolekcji();
+        app.screenShot();
+        app.getAkcja().PrzypiszDoMnie();
+        app.screenShot();
+        app.getAkcja().DoWeryfikacji();
+        app.getAkcja().Dziala();
+        app.screenShot();
+        app.logOut();
+        app.logInUprawnienia();
+        app.getSkrot().Wnioski();
+        app.screenShot();
+        app.getKolekcja().WstawNumerWniosku();
+        app.getKolekcja().PierwszyElementKolekcji();
+        app.screenShot();
+        app.getWniosek().WniosekZrealizowany();
+        app.screenShot();
+        app.getWniosek().ZamkniecieWniosku();
+        app.screenShot();
+        app.saveandcloseButton();
+        app.screenShot();
+
     }
 }

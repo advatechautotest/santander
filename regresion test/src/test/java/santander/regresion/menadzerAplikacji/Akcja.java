@@ -76,7 +76,28 @@ public class Akcja {
     public void PoprosoWyjasnienia(){
         driver.findElement(By.xpath("//li[contains(text(), 'Poproś o wyjaśnienia')]")).click();
     }
+    public void PrzekazDoRealizacji(){
+        driver.findElement(By.xpath("//li[contains(text(), 'Przekaż do realizacji')]")).click();
+    }
     public void WrocDoRealizacji(){
         driver.findElement(By.xpath("//li[contains(text(), 'Wróć do realizacji')]")).click();
+    }
+    public void PrzypiszDoMnie(){
+        driver.findElement(By.xpath("//li[contains(text(), 'Przypisz do mnie')]")).click();
+    }
+    public void Zatwierdz(){
+        driver.findElement(By.xpath("//li[contains(text(), 'Zatwierdź')]")).click();
+    }
+    public void Akceptacja(){
+        driver.findElement(By.xpath("//li[contains(text(), 'Akceptacja')]")).click();
+    }
+    public void DoWeryfikacji(){
+        driver.findElement(By.xpath("//li[contains(text(), 'Do weryfikacji')]")).click();
+    }
+    public void Dziala(){
+        driver.findElement(By.xpath("//li[contains(text(), 'Działa')]")).click();
+    }
+    public void NieDziala(){
+        driver.findElement(By.xpath("//li[contains(text(), 'Nie działa')]")).click();
     }
 }
