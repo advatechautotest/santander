@@ -16,4 +16,7 @@ public class Skrot {
         //driver.findElement(By.xpath("//li[contains(text(), 'Wnioski')]")).click();
         //driver.findElement(By.xpath("//div[contains(@class='shortcutItem')]/[contains(text(), 'Wnioski')]"));
     }
+    public void Incydent(){
+        driver.findElement(By.id("shortcutItem_edaaa4e6-ca96-4fb8-aff2-7b294c612f3a")).click();
+    }
 }
