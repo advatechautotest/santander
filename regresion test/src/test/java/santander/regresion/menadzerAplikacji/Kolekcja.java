@@ -25,19 +25,17 @@ public class Kolekcja {
     }
     public void SkopiowaneIncydenty(){
         driver.findElement(By.id("_btn_20")).click();
+        driver.findElement(By.xpath(".//*[@id='mainForm-Zapytanie3Body']/tr/td[1]")).click();
     }
     public void Zadanie(){
         driver.findElement(By.id("_btn_14")).click();
-        //driver.findElement(By.id("mainForm-TasksBody")).click();
         driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr/td[1]")).click();
     }
     public void Zadanie2(){
         driver.findElement(By.id("_btn_21")).click();
-        //driver.findElement(By.id("mainForm-TasksBody")).click();
         driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr[2]/td[2]")).click();
     }
     public void PobierzNumerWniosku() {
-        //numer =driver.findElement(By.xpath(".//*[@id='contentTitleText']")).getText().substring(10, 17);
         numer =driver.findElement(By.id("contentTitleText")).getText().replaceAll("\\D+","");
         System.out.println(numer);
     }

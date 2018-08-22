@@ -3,10 +3,10 @@ package santander.regresion.test;
 import org.testng.annotations.Test;
 import santander.regresion.TestBase;
 
-public class Incydent extends TestBase {
+public class IncydentZadanie extends TestBase {
     @Test
 
-    public void testIncydent() throws Exception{
+    public void testIncydentZadanie() throws Exception{
 
         app.logInEndUser();
         app.procesNoweZgloszenie();
@@ -125,13 +125,13 @@ public class Incydent extends TestBase {
         app.getIncydent().PoprosoWyjasnieniaWypelnienie();
         app.screenShot();
         app.saveandcloseButton();
-        app.zmianaWDnaSS();
+        String URL = app.zmianaWDnaSS();
         //app.getKolekcja().PobierzNumerWniosku();
         app.logOut();
         app.screenShot();
         app.logInEndUser();
         app.screenShot();
-        app.wprowadzPobranyUrl(url);
+        app.wprowadzPobranyUrl(URL);
         app.screenShot();
         app.getAkcja().DodajNotatke();
         app.getIncydent().NotatkaTytul();
@@ -146,8 +146,13 @@ public class Incydent extends TestBase {
         app.saveandcloseButton();
         app.screenShot();
         app.logOut();
-
-
+        app.logIn1wszaLinia();
+        app.screenShot();
+        app.przelaczDoWeb();
+        app.screenShot();
+        app.getSkrot().Incydent();
+        app.getKolekcja().WstawNumerWniosku();
+        app.screenShot();
 
     }
 }
