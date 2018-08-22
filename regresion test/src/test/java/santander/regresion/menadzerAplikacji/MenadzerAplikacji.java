@@ -100,7 +100,6 @@ public class MenadzerAplikacji {
     public void wprowadzPobranyUrl(String url) {
         driver.get(url);
     }
-    public void przelaczDoWeb(){driver.findElement(By.xpath("//div[contains(@title, 'Przełącz do aplikacji Web Desk')]")).click();}
 
     public Zgloszenie getZgloszenie() {
         return zgloszenie;
