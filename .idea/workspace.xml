@@ -57,7 +57,10 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="12" />
+<<<<<<< HEAD
           <entry key="project.open.time.0" value="1" />
+=======
+>>>>>>> parent of 413f555... KopiowanieWnioskuoUprawnienia
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.22" value="2" />
           <entry key="project.open.time.23" value="1" />
@@ -66,20 +69,28 @@
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.86" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="3" />
+<<<<<<< HEAD
           <entry key="java" value="46" />
+=======
+          <entry key="java" value="45" />
+>>>>>>> parent of 413f555... KopiowanieWnioskuoUprawnienia
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="3" />
+<<<<<<< HEAD
           <entry key="JAVA" value="46" />
+=======
+          <entry key="JAVA" value="45" />
+>>>>>>> parent of 413f555... KopiowanieWnioskuoUprawnienia
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
@@ -106,10 +117,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/MenadzerAplikacji.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1275">
               <caret line="81" column="84" selection-start-line="81" selection-start-column="60" selection-end-line="81" selection-end-column="84" />
+=======
+            <state relative-caret-position="398">
+              <caret line="86" column="82" lean-forward="true" selection-start-line="86" selection-start-column="60" selection-end-line="86" selection-end-column="82" />
+>>>>>>> parent of 413f555... KopiowanieWnioskuoUprawnienia
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Zadanie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="56" column="62" selection-start-line="56" selection-start-column="62" selection-end-line="56" selection-end-column="62" />
+              <folding>
+                <element signature="e#1946#1947#0" expanded="true" />
+                <element signature="e#1967#1968#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,12 +147,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Akcja.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="969">
               <caret line="79" column="84" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="84" />
+=======
+            <state relative-caret-position="500">
+              <caret line="79" column="71" selection-start-line="79" selection-start-column="71" selection-end-line="79" selection-end-column="71" />
+>>>>>>> parent of 413f555... KopiowanieWnioskuoUprawnienia
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2527#2528#0" expanded="true" />
                 <element signature="e#2616#2617#0" expanded="true" />
+                <element signature="e#3344#3345#0" expanded="true" />
+                <element signature="e#3442#3443#0" expanded="true" />
+                <element signature="e#3839#3840#0" expanded="true" />
+                <element signature="e#3927#3928#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/WniosekoUprawnieniaZrealizowany.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="135" column="43" selection-start-line="135" selection-start-column="43" selection-end-line="135" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,8 +182,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Kolekcja.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="680">
               <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+=======
+            <state relative-caret-position="374">
+              <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+>>>>>>> parent of 413f555... KopiowanieWnioskuoUprawnienia
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#283#284#0" expanded="true" />
@@ -154,8 +209,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Wniosek.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="646">
               <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+=======
+            <state relative-caret-position="364">
+              <caret line="34" column="83" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="83" />
+>>>>>>> parent of 413f555... KopiowanieWnioskuoUprawnienia
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#602#603#0" expanded="true" />
@@ -165,11 +225,25 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/nowa_klasa_to_kielbasa.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Incydent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-231">
+              <caret line="24" column="49" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="49" />
+              <folding>
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#1174#1175#0" expanded="true" />
+                <element signature="e#1271#1272#0" expanded="true" />
+              </folding>
+>>>>>>> parent of 413f555... KopiowanieWnioskuoUprawnienia
             </state>
           </provider>
         </entry>
@@ -897,7 +971,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="583" />
     <option name="y" value="-15" />
     <option name="width" value="1291" />
@@ -979,10 +1053,16 @@
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534936229008" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534772311413" />
+>>>>>>> parent of 413f555... KopiowanieWnioskuoUprawnienia
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
@@ -1017,7 +1097,11 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="TestNG.Zgloszenie">
+=======
+  <component name="RunManager" selected="TestNG.WniosekoUprawnieniaZrealizowany">
+>>>>>>> parent of 413f555... KopiowanieWnioskuoUprawnienia
     <configuration name="Incydent" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="regresion_test_test" />
       <extension name="coverage">
@@ -1036,7 +1120,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WniosekoUprawnieniaKopiowanieProcesu" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="IncydentAnulowanie" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="regresion_test_test" />
       <extension name="coverage">
         <pattern>
@@ -1045,16 +1129,20 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="santander.regresion.test" />
+<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="santander.regresion.test.WniosekoUprawnieniaKopiowanieProcesu" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
+=======
+      <option name="MAIN_CLASS_NAME" value="santander.regresion.test.IncydentAnulowanie" />
+>>>>>>> parent of 413f555... KopiowanieWnioskuoUprawnienia
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WniosekoUprawnieniaProsbaoWyjasnieniaBezZalacznika" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WniosekoUprawnieniaBrakAkceptacji" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="regresion_test_test" />
       <extension name="coverage">
         <pattern>
@@ -1063,16 +1151,20 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="santander.regresion.test" />
+<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="santander.regresion.test.WniosekoUprawnieniaProsbaoWyjasnieniaBezZalacznika" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
+=======
+      <option name="MAIN_CLASS_NAME" value="santander.regresion.test.WniosekoUprawnieniaBrakAkceptacji" />
+>>>>>>> parent of 413f555... KopiowanieWnioskuoUprawnienia
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WniosekoUprawnieniaProsbaoWyjasnieniaZzalacznikiem" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WniosekoUprawnieniaZadanie1doWniosku" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="regresion_test_test" />
       <extension name="coverage">
         <pattern>
@@ -1081,9 +1173,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="santander.regresion.test" />
+<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="santander.regresion.test.WniosekoUprawnieniaProsbaoWyjasnieniaZzalacznikiem" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
+=======
+      <option name="MAIN_CLASS_NAME" value="santander.regresion.test.WniosekoUprawnieniaZadanie1doWniosku" />
+>>>>>>> parent of 413f555... KopiowanieWnioskuoUprawnienia
       <properties />
       <listeners />
       <method v="2">
@@ -1128,6 +1224,7 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.Zgloszenie" />
+<<<<<<< HEAD
       <item itemvalue="TestNG.WniosekoUprawnieniaKopiowanieProcesu" />
       <item itemvalue="TestNG.WniosekoUprawnieniaProsbaoWyjasnieniaZzalacznikiem" />
       <item itemvalue="TestNG.WniosekoUprawnieniaZrealizowany" />
@@ -1141,6 +1238,21 @@
         <item itemvalue="TestNG.WniosekoUprawnieniaZrealizowany" />
         <item itemvalue="TestNG.WniosekoUprawnieniaProsbaoWyjasnieniaZzalacznikiem" />
         <item itemvalue="TestNG.WniosekoUprawnieniaKopiowanieProcesu" />
+=======
+      <item itemvalue="TestNG.WniosekoUprawnieniaBrakAkceptacji" />
+      <item itemvalue="TestNG.WniosekoUprawnieniaZadanie1doWniosku" />
+      <item itemvalue="TestNG.IncydentAnulowanie" />
+      <item itemvalue="TestNG.Incydent" />
+      <item itemvalue="TestNG.WniosekoUprawnieniaZrealizowany" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.WniosekoUprawnieniaZrealizowany" />
+        <item itemvalue="TestNG.Incydent" />
+        <item itemvalue="TestNG.WniosekoUprawnieniaBrakAkceptacji" />
+        <item itemvalue="TestNG.WniosekoUprawnieniaZadanie1doWniosku" />
+        <item itemvalue="TestNG.IncydentAnulowanie" />
+>>>>>>> parent of 413f555... KopiowanieWnioskuoUprawnienia
       </list>
     </recent_temporary>
   </component>
@@ -1190,12 +1302,16 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info id="Capture Tool" />
       <window_info id="Image Layers" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34541577" />
+>>>>>>> parent of 413f555... KopiowanieWnioskuoUprawnienia
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -1384,6 +1500,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/IncydentKopiowanieProcesu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="89" column="71" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Grupa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1409,6 +1532,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/Incydent.java">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="99" column="8" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
@@ -1443,13 +1567,56 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-231">
           <caret line="24" column="49" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="49" />
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="99" column="8" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Zgloszenie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="33" column="49" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Skrot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="94" selection-start-line="13" selection-start-column="94" selection-end-line="13" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Akcja.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="79" column="71" selection-start-line="79" selection-start-column="71" selection-end-line="79" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2527#2528#0" expanded="true" />
+            <element signature="e#2616#2617#0" expanded="true" />
+            <element signature="e#3344#3345#0" expanded="true" />
+            <element signature="e#3442#3443#0" expanded="true" />
+            <element signature="e#3839#3840#0" expanded="true" />
+            <element signature="e#3927#3928#0" expanded="true" />
+          </folding>
+>>>>>>> parent of 413f555... KopiowanieWnioskuoUprawnienia
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/WniosekoUprawnieniaZrealizowany.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="231">
           <caret line="135" column="43" selection-start-line="135" selection-start-column="43" selection-end-line="135" selection-end-column="43" />
+=======
+        <state relative-caret-position="204">
+          <caret line="105" column="10" selection-start-line="105" selection-start-column="10" selection-end-line="105" selection-end-column="10" />
+>>>>>>> parent of 413f555... KopiowanieWnioskuoUprawnienia
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1458,30 +1625,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/MenadzerAplikacji.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1275">
           <caret line="81" column="84" selection-start-line="81" selection-start-column="60" selection-end-line="81" selection-end-column="84" />
+=======
+        <state relative-caret-position="398">
+          <caret line="86" column="82" lean-forward="true" selection-start-line="86" selection-start-column="60" selection-end-line="86" selection-end-column="82" />
+>>>>>>> parent of 413f555... KopiowanieWnioskuoUprawnienia
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Akcja.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
           <caret line="79" column="84" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="84" />
+=======
+    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Wniosek.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="34" column="83" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="83" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2527#2528#0" expanded="true" />
-            <element signature="e#2616#2617#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Zadanie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="56" column="62" selection-start-line="56" selection-start-column="62" selection-end-line="56" selection-end-column="62" />
+>>>>>>> parent of 413f555... KopiowanieWnioskuoUprawnienia
+          <folding>
+            <element signature="e#1946#1947#0" expanded="true" />
+            <element signature="e#1967#1968#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Kolekcja.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+=======
+    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Incydent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-231">
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="49" />
+          <folding>
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
+            <element signature="e#1271#1272#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Kolekcja.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+        <state relative-caret-position="374">
+          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+>>>>>>> parent of 413f555... KopiowanieWnioskuoUprawnienia
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#283#284#0" expanded="true" />
@@ -1498,6 +1710,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Skrot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1520,6 +1733,14 @@
             <element signature="imports" expanded="true" />
             <element signature="e#602#603#0" expanded="true" />
             <element signature="e#699#700#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/WniosekoUprawnieniaZrealizowany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="135" column="43" selection-start-line="135" selection-start-column="43" selection-end-line="135" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+>>>>>>> parent of 413f555... KopiowanieWnioskuoUprawnienia
           </folding>
         </state>
       </provider>
