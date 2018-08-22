@@ -29,7 +29,7 @@ public class MenadzerAplikacji {
     File scr=((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
     File dest= new File("C:/advatech/screenshot_"+timestamp()+".png");
     FileHandler.copy(scr, dest); }
-
+//blabla
     public String  timestamp() {
     return new SimpleDateFormat("yyyy-MM-dd HH-mm-ss").format(new Date());}
 
