@@ -101,6 +101,9 @@ public class MenadzerAplikacji {
         driver.get(url);
     }
     public void przelaczDoWeb(){driver.findElement(By.xpath("//div[contains(@title, 'Przełącz do aplikacji Web Desk')]")).click();}
+    public void Czekaj() throws InterruptedException {
+        Thread.sleep(00000);
+    }
 
     public Zgloszenie getZgloszenie() {
         return zgloszenie;
@@ -127,10 +130,6 @@ public class MenadzerAplikacji {
 
     public Skrot getSkrot() {
         return skrot;
-    }
-
-    public void Czekaj() throws InterruptedException {
-        Thread.sleep(00000);
     }
 
     public Zadanie getZadanie() {

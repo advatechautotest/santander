@@ -110,8 +110,8 @@ public class WniosekoUprawnieniaZrealizowany extends TestBase {
         app.screenShot();
         app.saveandcloseButton();
         app.getAkcja().DodajZalacznik();
-        app.getZadanie().ZalacznikTytul();
-        app.getZadanie().ZalacznikPlik();
+        app.getZadanie().ZalacznikWniosekTytul();
+        app.getZadanie().ZalacznikWniosekPlik();
         app.screenShot();
         app.saveandcloseButton();
         app.screenShot();
@@ -121,7 +121,7 @@ public class WniosekoUprawnieniaZrealizowany extends TestBase {
         app.screenShot();
         app.getAkcja().Zatwierdz();
         app.screenShot();
-        app.getZadanie().PowrotDoWniosku();
+        app.getZadanie().PowrotDoWnioskuLink();
         app.screenShot();
         app.getAkcja().Akceptacja();
         app.screenShot();
@@ -133,7 +133,7 @@ public class WniosekoUprawnieniaZrealizowany extends TestBase {
         app.saveButton();
         app.getAkcja().PrzekazDoRealizacji();
         app.screenShot();
-        app.getZadanie().PowrotDoWniosku();
+        app.getZadanie().PowrotDoWnioskuLink();
         app.getKolekcja().PobierzNumerWniosku();
         app.logOut();
         app.screenShot();
