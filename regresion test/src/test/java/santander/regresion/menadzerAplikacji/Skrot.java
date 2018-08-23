@@ -9,6 +9,8 @@ public class Skrot {
    public Skrot(FirefoxDriver driver){
        this.driver = driver;
    }
+
+
     public void Wnioski() {
        // driver.findElement(By.xpath("//div[@class='shortcutGroupPanel']/'Wnioski')]")).click();
         driver.findElement(By.id("shortcutItem_0dfc851f-a6bd-438d-916c-833d48593a20")).click();

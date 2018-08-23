@@ -100,4 +100,5 @@ public class Akcja {
     public void NieDziala(){
         driver.findElement(By.xpath("//li[contains(text(), 'Nie działa')]")).click();
     }
+    public void Odrzuc(){ driver.findElement(By.xpath("//li[contains(text(), 'Odrzuć')]")).click(); }
 }
