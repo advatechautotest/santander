@@ -101,12 +101,9 @@ public class MenadzerAplikacji {
         driver.get(url);
     }
     public void przelaczDoWeb(){driver.findElement(By.xpath("//div[contains(@title, 'Przełącz do aplikacji Web Desk')]")).click();}
-<<<<<<< HEAD
     public void Czekaj() throws InterruptedException {
         Thread.sleep(00000);
     }
-=======
->>>>>>> parent of f6833d0... zmianav1
 
     public Zgloszenie getZgloszenie() {
         return zgloszenie;
