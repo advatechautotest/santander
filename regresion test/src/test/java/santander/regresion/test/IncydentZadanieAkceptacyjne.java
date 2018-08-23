@@ -127,7 +127,7 @@ public class IncydentZadanieAkceptacyjne extends TestBase {
         app.screenShot();
         app.wprowadzPobranyUrl(URL);
         app.screenShot();
-        app.getKolekcja().PobierzNumerWniosku();
+        app.getKolekcja().PobierzNumerIncydentu();
         app.getAkcja().DodajNotatke();
         app.getIncydent().NotatkaTytul();
         app.screenShot();
@@ -147,7 +147,7 @@ public class IncydentZadanieAkceptacyjne extends TestBase {
         app.screenShot();
         app.getGrupa().Wyszukaj();
         app.getSkrot().Incydent();
-        app.getKolekcja().WstawNumerWniosku();
+        app.getKolekcja().WstawNumerIncydentu();
         app.screenShot();
         app.getKolekcja().PierwszyElementKolekcji();
         app.getAkcja().DodajZadanie();
@@ -170,7 +170,7 @@ public class IncydentZadanieAkceptacyjne extends TestBase {
         app.getGrupa().Wyszukaj();
         app.getSkrot().Incydent();
         app.screenShot();
-        app.getKolekcja().WstawNumerWniosku();
+        app.getKolekcja().WstawNumerIncydentu();
         app.screenShot();
         app.getKolekcja().PierwszyElementKolekcji();
         app.screenShot();

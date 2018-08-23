@@ -3,7 +3,7 @@ package santander.regresion.test;
 import org.testng.annotations.Test;
 import santander.regresion.TestBase;
 
-public class ZamkniecieZgloszenia extends TestBase {
+public class ZgloszenieZamkniecie extends TestBase {
 
 @Test
 

@@ -11,6 +11,11 @@ public class Zmiana {
         this.driver = driver;
     }
 
+    public void typZmianyStandardowa(){
+        driver.findElement(By.id("mainForm-_ChangeType1Display")).click();
+        driver.findElement(By.xpath("//div[contains(@value, '1fed8117-0c67-4f52-9b58-2ae8d02a3bc2')]")).click();
+    }
+
     public void SzablonZmianyDRS_FIX_PILNY_Z3() {
         driver.findElement(By.id("mainForm-_SzablonzmianyDisplay")).sendKeys("DRS_FIX_PILNY_Z3");
         //driver.findElement(By.id("mainForm-_SzablonzmianyDisplay")).click();
@@ -35,6 +40,10 @@ public class Zmiana {
         driver.findElement(By.id("mainForm-_Details2_editor")).sendKeys(Keys.DELETE);
         driver.findElement(By.id("mainForm-_Details2_editor")).sendKeys("edycja brak realizacji zmiany");
 
+    }
+    public void KategoriaZamknieciaZmiany(){
+        driver.findElement(By.id("mainForm-_ChangeClosureCategoryDisplay")).click();
+        driver.findElement(By.xpath("//div[contains(@value, '8311f678-e406-429a-94d0-38bfd126ac54')]")).click();
     }
 }
 

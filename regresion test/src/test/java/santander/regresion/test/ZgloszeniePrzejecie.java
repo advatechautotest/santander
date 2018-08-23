@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 import santander.regresion.TestBase;
 
 
-public class PrzejecieZgloszenia extends TestBase {
+public class ZgloszeniePrzejecie extends TestBase {
 
     @Test
     public void testPrzejecieZgloszenia() throws Exception{

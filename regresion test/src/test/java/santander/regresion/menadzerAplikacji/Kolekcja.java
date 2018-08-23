@@ -7,7 +7,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class Kolekcja {
 
     private FirefoxDriver driver;
-    String numer;
+    String numer1;
+    String numer2;
+    String numer3;
 
     public Kolekcja(FirefoxDriver driver) {
         this.driver = driver;
@@ -41,13 +43,31 @@ public class Kolekcja {
     }
 
     public void PobierzNumerWniosku() {
-        numer = driver.findElement(By.id("contentTitleText")).getText().replaceAll("\\D+", "");
-        System.out.println(numer);
+        numer1 = driver.findElement(By.id("contentTitleText")).getText().replaceAll("\\D+", "");
+        System.out.println(numer1);
+    }
+    public void PobierzNumerIncydentu() {
+        numer2 = driver.findElement(By.id("contentTitleText")).getText().replaceAll("\\D+", "");
+        System.out.println(numer2);
+    }
+    public void PobierzNumerZmiany() {
+        numer3 = driver.findElement(By.id("contentTitleText")).getText().replaceAll("\\D+", "");
+        System.out.println(numer3);
     }
 
     public void WstawNumerWniosku() {
         driver.findElement(By.id("list-c0")).click();
-        driver.findElement(By.id("list-c0")).sendKeys(numer);
+        driver.findElement(By.id("list-c0")).sendKeys(numer1);
+        driver.findElement(By.id("list-c0")).sendKeys(Keys.ENTER);
+    }
+    public void WstawNumerIncydentu() {
+        driver.findElement(By.id("list-c0")).click();
+        driver.findElement(By.id("list-c0")).sendKeys(numer2);
+        driver.findElement(By.id("list-c0")).sendKeys(Keys.ENTER);
+    }
+    public void WstawNumerZmiany() {
+        driver.findElement(By.id("list-c0")).click();
+        driver.findElement(By.id("list-c0")).sendKeys(numer3);
         driver.findElement(By.id("list-c0")).sendKeys(Keys.ENTER);
     }
 

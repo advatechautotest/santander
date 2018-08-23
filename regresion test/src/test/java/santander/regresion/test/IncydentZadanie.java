@@ -127,7 +127,7 @@ public class IncydentZadanie extends TestBase {
         app.screenShot();
         app.wprowadzPobranyUrl(URL);
         app.screenShot();
-        app.getKolekcja().PobierzNumerWniosku();
+        app.getKolekcja().PobierzNumerIncydentu();
         app.getAkcja().DodajNotatke();
         app.getIncydent().NotatkaTytul();
         app.screenShot();
@@ -147,7 +147,7 @@ public class IncydentZadanie extends TestBase {
         app.screenShot();
         app.getGrupa().Wyszukaj();
         app.getSkrot().Incydent();
-        app.getKolekcja().WstawNumerWniosku();
+        app.getKolekcja().WstawNumerIncydentu();
         app.screenShot();
         app.getKolekcja().PierwszyElementKolekcji();
         app.getAkcja().DodajZadanie();

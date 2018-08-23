@@ -3,10 +3,10 @@ package santander.regresion.test;
 import org.testng.annotations.Test;
 import santander.regresion.TestBase;
 
-public class Incydent extends TestBase {
+public class ZmianaZincydentu extends TestBase {
     @Test
 
-    public void testIncydent() throws Exception{
+    public void testZmianaZincydentu() throws Exception{
 
         app.logInEndUser();
         app.procesNoweZgloszenie();
@@ -155,7 +155,37 @@ public class Incydent extends TestBase {
         app.screenShot();
         app.getKolekcja().PierwszyElementKolekcji();
         app.screenShot();
-
+        app.getAkcja().UtworzZmianeZincydentu();
+        app.screenShot();
+        app.getZmiana().typZmianyStandardowa();
+        app.getZmiana().SzablonZmianyDRS_FIX_PILNY_Z3();
+        app.screenShot();
+        app.saveButton();
+        app.screenShot();
+        app.getAkcja().AnulujZmiane();
+        app.getZmiana().KategoriaZamknieciaZmiany();
+        app.screenShot();
+        app.cancelButton();
+        app.screenShot();
+        app.getAkcja().UtworzZmianeZincydentu();
+        app.screenShot();
+        app.getZmiana().typZmianyStandardowa();
+        app.getZmiana().SzablonZmianyDRS_FIX_PILNY_Z3();
+        app.screenShot();
+        app.saveButton();
+        app.getKolekcja().ZmianaSzczegolyZmianyPrzyczynaZmiany();
+        app.getZmiana().SzczegolyZmianyPrzyczynaZmianySzczegolyEdycja();
+        app.screenShot();
+        app.saveandcloseButton();
+        app.getKolekcja().ZmianaSzczegolyZmianyWplywZmiany();
+        app.getZmiana().SzczegolyZmianyWplywZmianySzczegolyEdycja();
+        app.screenShot();
+        app.saveandcloseButton();
+        app.getKolekcja().ZmianaSzczegolyZmianySkutkiBrakuRealizacjiZmiany();
+        app.getZmiana().SzczegolyZmianySkutkiBrakuRealizacjiZmianySzczegolyEdycja();
+        app.screenShot();
+        app.saveandcloseButton();
+        app.getAkcja().ZmianaPrzygotowana();
 
     }
 }
