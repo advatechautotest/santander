@@ -1,6 +1,7 @@
 package santander.regresion.menadzerAplikacji;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -35,6 +36,7 @@ public class MenadzerAplikacji {
     return new SimpleDateFormat("yyyy-MM-dd HH-mm-ss").format(new Date());}
 
     public void initTest() {
+
         driver = new FirefoxDriver(new FirefoxOptions().setLegacy(true));
         System.setProperty("webdriver.gecko.driver","drivers/geckodriver.exe");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -93,6 +95,12 @@ public class MenadzerAplikacji {
         driver.findElement(By.id("Ecom_User_ID")).sendKeys("pmazurek@pl.aigcfg.net");
         driver.findElement(By.id("logonButton")).click();
     }
+    public void logInDRSZZIP(){
+        driver.findElement(By.id("Ecom_User_ID")).click();
+        driver.findElement(By.id("Ecom_User_ID")).sendKeys("jcalka@pl.aigcfg.net");
+        driver.findElement(By.id("logonButton")).click();
+    }
+
 
     public void logOut() {
         driver.findElement(By.xpath("//div[contains(@title, 'Wyloguj')]")).click();
@@ -110,6 +118,12 @@ public class MenadzerAplikacji {
 
     public void Czekaj() throws InterruptedException {
         Thread.sleep(5000);
+    }
+    public void set100(){
+    //To set browser to default zoom level 100%
+        for(int i=0; i<4; i++) {
+            driver.findElement(By.tagName("html")).sendKeys(Keys.chord(Keys.CONTROL, Keys.SUBTRACT));
+        }
     }
 
 
