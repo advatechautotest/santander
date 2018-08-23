@@ -23,6 +23,7 @@ public class MenadzerAplikacji {
     private Incydent incydent;
     private Zgloszenie zgloszenie;
     private Zadanie zadanie;
+    private Zmiana zmiana;
 
 
     public void screenShot()throws IOException, InterruptedException{
@@ -47,6 +48,7 @@ public class MenadzerAplikacji {
         grupa = new Grupa(driver);
         skrot = new Skrot(driver);
         zadanie = new Zadanie(driver);
+        zmiana = new Zmiana(driver);
     }
 
     public void saveandcloseButton() {
@@ -101,12 +103,11 @@ public class MenadzerAplikacji {
         driver.get(url);
     }
     public void przelaczDoWeb(){driver.findElement(By.xpath("//div[contains(@title, 'Przełącz do aplikacji Web Desk')]")).click();}
-<<<<<<< HEAD
+
     public void Czekaj() throws InterruptedException {
         Thread.sleep(00000);
     }
-=======
->>>>>>> parent of f6833d0... zmianav1
+
 
     public Zgloszenie getZgloszenie() {
         return zgloszenie;
@@ -137,5 +138,8 @@ public class MenadzerAplikacji {
 
     public Zadanie getZadanie() {
         return zadanie;
+    }
+    public Zmiana getZmiana() {
+        return zmiana;
     }
 }
