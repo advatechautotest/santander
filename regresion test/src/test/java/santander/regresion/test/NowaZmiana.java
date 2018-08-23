@@ -15,6 +15,6 @@ public class NowaZmiana extends TestBase {
         app.screenShot();
         app.getSkrot().ZmianaStandardowa();
         app.screenShot();
-        
+
     }
 }
