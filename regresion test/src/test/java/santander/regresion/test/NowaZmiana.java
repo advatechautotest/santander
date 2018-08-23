@@ -18,9 +18,6 @@ public class NowaZmiana extends TestBase {
         app.getSkrot().ZmianaStandardowa();
         app.screenShot();
         
-<<<<<<< HEAD
->>>>>>> parent of 8e3da78... zmiana
-=======
 >>>>>>> parent of 8e3da78... zmiana
     }
 }

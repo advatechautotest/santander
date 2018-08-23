@@ -105,7 +105,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
 <<<<<<< HEAD
-<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/MenadzerAplikacji.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -121,15 +120,6 @@
               <caret line="70" column="57" lean-forward="true" selection-start-line="70" selection-start-column="57" selection-end-line="70" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
-=======
-      <file leaf-file-name="MenadzerAplikacji.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/MenadzerAplikacji.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="70" column="57" lean-forward="true" selection-start-line="70" selection-start-column="57" selection-end-line="70" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
->>>>>>> parent of 8e3da78... zmiana
                 <marker date="1534941182908" expanded="false" signature="1860:1871" ph=" { " />
                 <marker date="1534941182908" expanded="false" signature="1928:1934" ph=" }" />
                 <marker date="1534941182908" expanded="false" signature="1964:1975" ph=" { " />
@@ -158,9 +148,6 @@
                 <marker date="1534941182908" expanded="false" signature="4203:4209" ph=" }" />
                 <marker date="1534941182908" expanded="false" signature="4333:4344" ph=" { " />
                 <marker date="1534941182908" expanded="false" signature="4359:4365" ph=" }" />
-<<<<<<< HEAD
->>>>>>> parent of 8e3da78... zmiana
-=======
 >>>>>>> parent of 8e3da78... zmiana
               </folding>
             </state>
@@ -168,23 +155,17 @@
         </entry>
       </file>
 <<<<<<< HEAD
-<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Akcja.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="434">
               <caret line="102" column="24" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
 =======
-=======
->>>>>>> parent of 8e3da78... zmiana
       <file leaf-file-name="NowaZmiana.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/NowaZmiana.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-<<<<<<< HEAD
->>>>>>> parent of 8e3da78... zmiana
-=======
 >>>>>>> parent of 8e3da78... zmiana
               <folding>
                 <element signature="imports" expanded="true" />
@@ -216,23 +197,6 @@
 <<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
 =======
-      <file leaf-file-name="IncydentZamkniecie.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/IncydentZamkniecie.java">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="1218">
-              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-=======
-            <state relative-caret-position="483">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
->>>>>>> parent of 8e3da78... zmiana
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="IncydentZamkniecie.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/IncydentZamkniecie.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -280,13 +244,8 @@
         <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Skrot.java">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
-<<<<<<< HEAD
             <state relative-caret-position="272">
               <caret line="19" selection-start-line="19" selection-end-line="19" />
-=======
-            <state relative-caret-position="210">
-              <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="45" />
->>>>>>> parent of 8e3da78... zmiana
 =======
             <state relative-caret-position="210">
               <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="45" />
@@ -337,10 +296,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
-=======
->>>>>>> parent of 8e3da78... zmiana
       <find>incydentNotatkaRodzajPubliczna</find>
       <find>incydentNotatkaRodzaj</find>
       <find>incydentOpisEdycja</find>
@@ -373,7 +329,6 @@
       <find>mainForm-Title2</find>
       <find>getIncydent</find>
 <<<<<<< HEAD
-<<<<<<< HEAD
       <find>getZadanie.</find>
       <find>getZadanie().</find>
       <find>app.</find>
@@ -381,8 +336,6 @@
       <find>getZadanie()</find>
       <find>app.getZadanie().PowrotDoWniosku();</find>
       <find>ZarejstrujCzasPracy()</find>
-=======
->>>>>>> parent of 8e3da78... zmiana
 =======
 >>>>>>> parent of 8e3da78... zmiana
     </findStrings>
@@ -416,11 +369,8 @@
       <replace>driver</replace>
       <replace>getWniosek</replace>
 <<<<<<< HEAD
-<<<<<<< HEAD
       <replace />
       <replace>app.getZadanie().PowrotDoWnioskuLink();</replace>
-=======
->>>>>>> parent of 8e3da78... zmiana
 =======
 >>>>>>> parent of 8e3da78... zmiana
     </replaceStrings>
@@ -1054,7 +1004,6 @@
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/WniosekoUprawnieniaKopiowanieProcesu.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
 <<<<<<< HEAD
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Zgloszenie.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Incydent.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Wniosek.java" />
@@ -1068,8 +1017,6 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
 =======
-=======
->>>>>>> parent of 8e3da78... zmiana
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/MenadzerAplikacji.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Grupa.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Skrot.java" />
@@ -1078,9 +1025,6 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-<<<<<<< HEAD
->>>>>>> parent of 8e3da78... zmiana
-=======
 >>>>>>> parent of 8e3da78... zmiana
     <option name="x" value="583" />
     <option name="y" value="-15" />
@@ -1386,12 +1330,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
 <<<<<<< HEAD
-<<<<<<< HEAD
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-=======
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
->>>>>>> parent of 8e3da78... zmiana
 =======
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
 >>>>>>> parent of 8e3da78... zmiana
@@ -1462,10 +1402,7 @@
   </component>
   <component name="editorHistoryManager">
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
-=======
->>>>>>> parent of 8e3da78... zmiana
     <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Wniosek.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1622,9 +1559,6 @@
           <caret line="61" column="33" selection-start-line="10" selection-start-column="8" selection-end-line="61" selection-end-column="33" />
 =======
           <caret line="61" column="33" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="61" selection-end-column="33" />
-<<<<<<< HEAD
->>>>>>> parent of 8e3da78... zmiana
-=======
 >>>>>>> parent of 8e3da78... zmiana
         </state>
       </provider>
@@ -1672,28 +1606,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Zgloszenie.java">
-<<<<<<< HEAD
-=======
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="45" />
-          <folding>
-            <element signature="e#995#996#0" expanded="true" />
-            <element signature="e#1081#1082#0" expanded="true" />
-            <marker date="1534942102185" expanded="false" signature="621:632" ph=" { " />
-            <marker date="1534942102185" expanded="false" signature="705:711" ph=" }" />
-            <marker date="1534942102185" expanded="false" signature="743:754" ph=" { " />
-            <marker date="1534942102185" expanded="false" signature="833:839" ph=" }" />
-            <marker date="1534942102185" expanded="false" signature="864:875" ph=" { " />
-            <marker date="1534942102185" expanded="false" signature="956:962" ph=" }" />
-            <marker date="1534942102185" expanded="false" signature="1106:1117" ph=" { " />
-            <marker date="1534942102185" expanded="false" signature="1203:1209" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/WniosekoUprawnieniaProsbaoWyjasnieniaBezZalacznika.java">
->>>>>>> parent of 8e3da78... zmiana
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="45" />
@@ -1887,7 +1799,6 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Grupa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -1914,64 +1825,16 @@
             <element signature="e#2527#2528#0" expanded="true" />
             <element signature="e#2616#2617#0" expanded="true" />
           </folding>
-=======
-    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/MenadzerAplikacji.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="70" column="57" lean-forward="true" selection-start-line="70" selection-start-column="57" selection-end-line="70" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1534941182908" expanded="false" signature="1860:1871" ph=" { " />
-            <marker date="1534941182908" expanded="false" signature="1928:1934" ph=" }" />
-            <marker date="1534941182908" expanded="false" signature="1964:1975" ph=" { " />
-            <marker date="1534941182908" expanded="false" signature="2033:2039" ph=" }" />
-            <marker date="1534941182908" expanded="false" signature="2207:2218" ph=" { " />
-            <marker date="1534941182908" expanded="false" signature="2232:2238" ph=" }" />
-            <marker date="1534941182908" expanded="false" signature="3252:3263" ph=" { " />
-            <marker date="1534941182908" expanded="false" signature="3338:3344" ph=" }" />
-            <marker date="1534941182908" expanded="false" signature="3379:3390" ph=" { " />
-            <marker date="1534941182908" expanded="false" signature="3447:3453" ph=" }" />
-            <marker date="1534941182908" expanded="false" signature="3593:3604" ph=" { " />
-            <marker date="1534941182908" expanded="false" signature="3620:3626" ph=" }" />
-            <marker date="1534941182908" expanded="false" signature="3797:3808" ph=" { " />
-            <marker date="1534941182908" expanded="false" signature="3826:3832" ph=" }" />
-            <marker date="1534941182908" expanded="false" signature="3866:3877" ph=" { " />
-            <marker date="1534941182908" expanded="false" signature="3893:3899" ph=" }" />
-            <marker date="1534941182908" expanded="false" signature="3928:3939" ph=" { " />
-            <marker date="1534941182908" expanded="false" signature="3952:3958" ph=" }" />
-            <marker date="1534941182908" expanded="false" signature="3991:4002" ph=" { " />
-            <marker date="1534941182908" expanded="false" signature="4017:4023" ph=" }" />
-            <marker date="1534941182908" expanded="false" signature="4058:4069" ph=" { " />
-            <marker date="1534941182908" expanded="false" signature="4085:4091" ph=" }" />
-            <marker date="1534941182908" expanded="false" signature="4120:4131" ph=" { " />
-            <marker date="1534941182908" expanded="false" signature="4144:4150" ph=" }" />
-            <marker date="1534941182908" expanded="false" signature="4179:4190" ph=" { " />
-            <marker date="1534941182908" expanded="false" signature="4203:4209" ph=" }" />
-            <marker date="1534941182908" expanded="false" signature="4333:4344" ph=" { " />
-            <marker date="1534941182908" expanded="false" signature="4359:4365" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Grupa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="16" column="84" lean-forward="false" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
-          <folding />
->>>>>>> parent of 8e3da78... zmiana
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Skrot.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="272">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#913#914#0" expanded="true" />
 =======
-=======
->>>>>>> parent of 8e3da78... zmiana
         <state relative-caret-position="483">
           <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
@@ -1987,9 +1850,6 @@
           <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-<<<<<<< HEAD
->>>>>>> parent of 8e3da78... zmiana
-=======
 >>>>>>> parent of 8e3da78... zmiana
           </folding>
         </state>
