@@ -15,6 +15,7 @@ import java.util.concurrent.TimeUnit;
 
 public class MenadzerAplikacji {
     private FirefoxDriver driver;
+    private Zmiana zmiana;
     private Skrot skrot;
     private Grupa grupa;
     private Kolekcja kolekcja;
@@ -47,6 +48,7 @@ public class MenadzerAplikacji {
         grupa = new Grupa(driver);
         skrot = new Skrot(driver);
         zadanie = new Zadanie(driver);
+        zmiana = new Zmiana(driver);
     }
 
     public void saveandcloseButton() {
@@ -100,7 +102,8 @@ public class MenadzerAplikacji {
     public void wprowadzPobranyUrl(String url) {
         driver.get(url);
     }
-    public void przelaczDoWeb(){driver.findElement(By.xpath("//div[contains(@title, 'Przełącz do aplikacji Web Desk')]")).click();}
+    public void przelaczDoWeb(){
+        driver.findElement(By.xpath("//div[contains(@title, 'Przełącz do aplikacji Web Desk')]")).click();}
 
     public Zgloszenie getZgloszenie() {
         return zgloszenie;
@@ -135,5 +138,9 @@ public class MenadzerAplikacji {
 
     public Zadanie getZadanie() {
         return zadanie;
+    }
+
+    public Zmiana getZmiana() {
+        return zmiana;
     }
 }
