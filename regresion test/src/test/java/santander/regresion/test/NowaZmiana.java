@@ -10,15 +10,5 @@ public class NowaZmiana extends TestBase {
 
 
         app.logIn1wszaLinia();
-        app.screenShot();
-        app.getGrupa().Nowy();
-        app.screenShot();
-        app.getSkrot().ZmianaStandardowa();
-        app.screenShot();
-        app.getZmiana().SzablonZmianyDRS_FIX_PILNY_Z3();
-        app.screenShot();
-        app.saveButton();
-        app.screenShot();
-
     }
 }
