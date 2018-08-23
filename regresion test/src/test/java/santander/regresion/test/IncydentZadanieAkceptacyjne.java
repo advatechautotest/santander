@@ -3,10 +3,10 @@ package santander.regresion.test;
 import org.testng.annotations.Test;
 import santander.regresion.TestBase;
 
-public class IncydentZadanie extends TestBase {
+public class IncydentZadanieAkceptacyjne extends TestBase {
     @Test
 
-    public void testIncydentZadanie() throws Exception{
+    public void testIncydentZadanieAkceptacyjne() throws Exception{
 
         app.logInEndUser();
         app.procesNoweZgloszenie();
@@ -151,61 +151,46 @@ public class IncydentZadanie extends TestBase {
         app.screenShot();
         app.getKolekcja().PierwszyElementKolekcji();
         app.getAkcja().DodajZadanie();
-        app.getZadanie().UzupelnienieZadIncydentInne();
-        app.screenShot();
-        app.saveButton();
-        app.screenShot();
-        app.getAkcja().DodajZalacznik();
-        app.getZadanie().ZalacznikIncydentTytul();
-        app.getZadanie().ZalacznikIncydentPlik();
-        app.screenShot();
-        app.saveandcloseButton();
-        app.getAkcja().PrzekazDoRealizacji();
-        app.screenShot();
-        app.getAkcja().Przejmij();
-        app.screenShot();
-        app.getAkcja().Zamknij();
-        app.screenShot();
-        app.getZadanie().PowrotDoIncydentuLink();
-        app.screenShot();
-        app.getAkcja().DodajZadanie();
-        app.screenShot();
-        app.getZadanie().UzupelnienieZadIncydentUser();
-        app.screenShot();
+        app.getZadanie().UzupelnienieZadIncydentZadAkceptacyjneEndUser();
         app.saveButton();
         app.screenShot();
         app.getAkcja().PrzekazDoRealizacji();
         app.screenShot();
-        app.getAkcja().ZarejstrujCzasPracy();
-        app.getIncydent().CzasPracyUzupelnienie();
+        String Url = app.zmianaWDnaSS();
+        app.logOut();
         app.screenShot();
-        app.saveandcloseButton();
+        app.logInEndUser();
+        app.wprowadzPobranyUrl(Url);
         app.screenShot();
-        app.getAkcja().Zamknij();
-        app.screenShot();
-        app.getZadanie().PowrotDoIncydentuLink();
-        app.screenShot();
-        app.getAkcja().DodajZadanie();
-        app.screenShot();
-        app.getZadanie().UzupelnienieZadIncydentZadAkceptacyjne();
-        app.screenShot();
-        app.saveButton();
-        app.screenShot();
-        app.getAkcja().PrzekazDoRealizacji();
-        app.screenShot();
-        app.getAkcja().Przejmij();
-        app.getAkcja().Odrzuc();
-        app.getZadanie().PowrotDoIncydentuLink();
-        app.screenShot();
-        app.getAkcja().DodajZadanie();
-        app.screenShot();
-        app.getZadanie().UzupelnienieZadIncydentZadAkceptacyjne();
-        app.screenShot();
-        app.saveButton();
-        app.screenShot();
-        app.getAkcja().PrzekazDoRealizacji();
-        app.screenShot();
-        app.getAkcja().Przejmij();
         app.getAkcja().Zatwierdz();
+        app.screenShot();
+        app.logOut();
+        app.logIn1wszaLinia();
+        app.screenShot();
+        app.getGrupa().Wyszukaj();
+        app.getSkrot().Incydent();
+        app.screenShot();
+        app.getKolekcja().WstawNumerWniosku();
+        app.screenShot();
+        app.getKolekcja().PierwszyElementKolekcji();
+        app.screenShot();
+        app.getAkcja().DodajZadanie();
+        app.screenShot();
+        app.getZadanie().UzupelnienieZadIncydentZadAkceptacyjneEndUser();
+        app.screenShot();
+        app.saveButton();
+        app.screenShot();
+        app.getAkcja().PrzekazDoRealizacji();
+        app.screenShot();
+        String uRl = app.zmianaWDnaSS();
+        app.logOut();
+        app.screenShot();
+        app.logInEndUser();
+        app.wprowadzPobranyUrl(uRl);
+        app.screenShot();
+        app.getAkcja().Odrzuc();
+        app.screenShot();
+        app.logOut();
+        app.screenShot();
     }
 }

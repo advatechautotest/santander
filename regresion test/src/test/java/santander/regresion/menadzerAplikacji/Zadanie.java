@@ -57,7 +57,7 @@ public class Zadanie {
         driver.findElement(By.xpath("//div[contains(text(), 'I linia')]")).click();
 
         driver.findElement(By.id("mainForm-AnalystTitleDisplay")).click();
-        driver.findElement(By.xpath("//div[contains(text(), 'Bednarz Krzysztof')]")).click();
+        driver.findElement(By.xpath("//div[contains(@value, '3991323e-83b8-482e-9d6c-722af926e01e')]")).click();
 
         driver.findElement(By.id("mainForm-_Tytuledytowalny")).sendKeys("Test zadania");
     }
@@ -66,10 +66,22 @@ public class Zadanie {
         driver.findElement(By.xpath("//span[contains(text(), 'Zadanie akceptacyjne')]")).click();
 
         driver.findElement(By.id("mainForm-_ZadaniedlakoncowegoDisplay")).click();
-        driver.findElement(By.xpath("//span[contains(text(), 'Fałsz')]")).click();
+        driver.findElement(By.xpath("//div[contains(@value, 'False')]")).click();
 
         driver.findElement(By.id("mainForm-_SupportGroupDisplay")).click();
         driver.findElement(By.xpath("//div[contains(text(), 'I linia')]")).click();
+
+        driver.findElement(By.id("mainForm-_Tytuledytowalny")).sendKeys("Test zadania");
+    }
+    public void UzupelnienieZadIncydentZadAkceptacyjneEndUser(){
+        driver.findElement(By.id("mainForm-Category2Display")).click();
+        driver.findElement(By.xpath("//span[contains(text(), 'Zadanie akceptacyjne')]")).click();
+
+        driver.findElement(By.id("mainForm-_ZadaniedlakoncowegoDisplay")).click();
+        driver.findElement(By.xpath("//div[contains(@value, 'True')]")).click();
+
+        driver.findElement(By.id("mainForm-_EndUserDisplay")).click();
+        driver.findElement(By.xpath("//div[contains(@value, 'c7dce48a-4f9c-4b17-b64f-37ba92a0d0bd')]")).click();
 
         driver.findElement(By.id("mainForm-_Tytuledytowalny")).sendKeys("Test zadania");
     }
