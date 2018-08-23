@@ -105,7 +105,7 @@ public class MenadzerAplikacji {
     public void przelaczDoWeb(){driver.findElement(By.xpath("//div[contains(@title, 'Przełącz do aplikacji Web Desk')]")).click();}
 
     public void Czekaj() throws InterruptedException {
-        Thread.sleep(00000);
+        Thread.sleep(5000);
     }
 
 

@@ -19,5 +19,25 @@ public class NowaZmiana extends TestBase {
         app.screenShot();
         app.saveButton();
         app.screenShot();
+        app.getKolekcja().ZmianaSzczegolyZmianyPrzyczynaZmiany();
+        app.screenShot();
+        app.getZmiana().SzczegolyZmianyPrzyczynaZmianySzczegolyEdycja();
+        app.screenShot();
+        app.saveandcloseButton();
+        app.screenShot();
+        app.getKolekcja().ZmianaSzczegolyZmianyWplywZmiany();
+        app.screenShot();
+        app.getZmiana().SzczegolyZmianyWplywZmianySzczegolyEdycja();
+        app.screenShot();
+        app.saveandcloseButton();
+        app.screenShot();
+        app.getKolekcja().ZmianaSzczegolyZmianySkutkiBrakuRealizacjiZmiany();
+        app.screenShot();
+        app.getZmiana().SzczegolyZmianySkutkiBrakuRealizacjiZmianySzczegolyEdycja();
+        app.screenShot();
+        app.saveandcloseButton();
+        app.screenShot();
+
+        app.Czekaj();
     }
 }
