@@ -1,5 +1,7 @@
 package santander.regresion.test;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
 import santander.regresion.TestBase;
 
@@ -8,7 +10,7 @@ public class NowaZmiana extends TestBase {
     public void testNowaZmiana() throws Exception{
 
 
-
+        //app.set100();
         app.logIn1wszaLinia();
         app.screenShot();
         app.getGrupa().Nowy();
@@ -37,6 +39,15 @@ public class NowaZmiana extends TestBase {
         app.screenShot();
         app.saveandcloseButton();
         app.screenShot();
+        app.logOut();
+        app.screenShot();
+        app.logInDRSZZIP();
+        app.screenShot();
+        app.getGrupa().Wyszukaj();
+        app.screenShot();
+        app.getSkrot().Zmiany();
+        app.screenShot();
+
 
         app.Czekaj();
     }
