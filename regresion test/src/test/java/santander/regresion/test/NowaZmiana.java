@@ -10,5 +10,14 @@ public class NowaZmiana extends TestBase {
 
 
         app.logIn1wszaLinia();
+<<<<<<< HEAD
+=======
+        app.screenShot();
+        app.getGrupa().Nowy();
+        app.screenShot();
+        app.getSkrot().ZmianaStandardowa();
+        app.screenShot();
+        
+>>>>>>> parent of 8e3da78... zmiana
     }
 }
