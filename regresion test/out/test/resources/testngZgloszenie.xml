@@ -9,8 +9,8 @@
             <class name="santander.regresion.test.Zgloszenie"/>
             <class name="santander.regresion.test.ZgloszeniePrzeksztalcenieWeWniosek"/>
             <class name="santander.regresion.test.ZgloszeniePrzeksztalceniewIncydentPierwszy"/>
-            <class name="santander.regresion.test.ZamkniecieZgloszenia"/>
-            <class name="santander.regresion.test.PrzejecieZgloszenia"/>
+            <class name="santander.regresion.test.ZgloszenieZamkniecie"/>
+            <class name="santander.regresion.test.ZgloszeniePrzejecie"/>
             <class name="santander.regresion.test.ZgloszeniePrzeksztalcenieWeWniosekoUprawnieniaAnuluj"/>
         </classes>
     </test>

@@ -16,7 +16,7 @@ public class Incydent {
     }
 
     public void ZalacznikPlik() {
-        File file = new File("attach/santander.txt");
+        File file = new File("regresion test/attach/santander.txt");
         if(!file.exists())throw new RuntimeException("file doesn't exist");
         else { driver.findElement(By.id("mainForm-AttachmentDocument2")).sendKeys(file.getAbsolutePath());}
     }

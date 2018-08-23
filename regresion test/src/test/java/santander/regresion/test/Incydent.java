@@ -98,8 +98,9 @@ public class Incydent extends TestBase {
         app.screenShot();
         app.getKolekcja().SkopiowaneIncydenty();
         app.Czekaj();
-        app.getKolekcja().PierwszyElementKolekcji();
-        app.screenShot();
+        //app.getKolekcja().PierwszyElementKolekcji();
+        //app.screenShot();
+        app.Czekaj();
         app.getAkcja().ZglosIncydent();
         app.screenShot();
         app.getAkcja().Przejmij();
