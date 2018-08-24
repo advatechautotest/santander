@@ -103,5 +103,5 @@ public class Akcja {
     public void Odrzuc(){ driver.findElement(By.xpath("//li[contains(text(), 'Odrzuć')]")).click(); }
     public void UtworzZmianeZincydentu(){ driver.findElement(By.xpath("//li[contains(text(), 'Utwórz zmianę z incydentu')]")).click(); }
     public void ZmianaPrzygotowana(){ driver.findElement(By.xpath("//li[contains(text(), 'Zmiana przygotowana')]")).click(); }
-    public void AnulujZmiane(){ driver.findElement(By.xpath("//li[contains(text(), 'Anuluj zmiane')]")).click(); }
+    public void AnulujZmiane(){ driver.findElement(By.xpath("//li[contains(text(), 'Anuluj zmianę')]")).click(); }
 }
