@@ -41,6 +41,30 @@ public class Kolekcja {
         driver.findElement(By.id("_btn_21")).click();
         driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr[2]/td[2]")).click();
     }
+    public void ZadanieZmiany() {
+        driver.findElement(By.id("_btn_3")).click();
+        driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr[1]/td[1]")).click();
+    }
+    public void ZadanieZmiany2() {
+        driver.findElement(By.id("_btn_3")).click();
+        driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr[2]/td[1]")).click();
+    }
+    public void ZadanieZmiany3() {
+        driver.findElement(By.id("_btn_3")).click();
+        driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr[3]/td[1]")).click();
+    }
+    public void ZadanieZmiany4() {
+        driver.findElement(By.id("_btn_3")).click();
+        driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr[4]/td[1]")).click();
+    }
+    public void ZadanieZmiany5() {
+        driver.findElement(By.id("_btn_3")).click();
+        driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr[5]/td[1]")).click();
+    }
+    public void ZadanieZmiany6() {
+        driver.findElement(By.id("_btn_3")).click();
+        driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr[6]/td[1]")).click();
+    }
 
     public void PobierzNumerWniosku() {
         numer1 = driver.findElement(By.id("contentTitleText")).getText().replaceAll("\\D+", "");

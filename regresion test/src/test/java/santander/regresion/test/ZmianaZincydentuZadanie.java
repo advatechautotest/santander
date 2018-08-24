@@ -3,10 +3,10 @@ package santander.regresion.test;
 import org.testng.annotations.Test;
 import santander.regresion.TestBase;
 
-public class Incydent extends TestBase {
+public class ZmianaZincydentuZadanie extends TestBase {
     @Test
 
-    public void testIncydent() throws Exception{
+    public void testZmianaZincydentuZadanie() throws Exception{
 
         app.logInEndUser();
         app.procesNoweZgloszenie();
@@ -99,12 +99,12 @@ public class Incydent extends TestBase {
         app.getKolekcja().SkopiowaneIncydenty();
         app.Czekaj();
         //app.getKolekcja().PierwszyElementKolekcji();
-        //app.screenShot();
-        app.Czekaj();
+        app.screenShot();
         app.getAkcja().ZglosIncydent();
         app.screenShot();
         app.getAkcja().Przejmij();
         app.screenShot();
+        app.getKolekcja().PobierzNumerIncydentu();
         app.getAkcja().DodajZalacznik();
         app.getIncydent().ZalacznikTytul();
         app.getIncydent().ZalacznikPlik();
@@ -121,18 +121,18 @@ public class Incydent extends TestBase {
         app.screenShot();
         app.saveandcloseButton();
         app.screenShot();
+        String urL = app.zmianaWDnaSS();
         app.getAkcja().PoprosoWyjasnienia();
         app.screenShot();
         app.getIncydent().PoprosoWyjasnieniaWypelnienie();
         app.screenShot();
         app.saveandcloseButton();
         app.zmianaWDnaSS();
-        app.getKolekcja().PobierzNumerIncydentu();
         app.logOut();
         app.screenShot();
         app.logInEndUser();
         app.screenShot();
-        app.wprowadzPobranyUrl(url);
+        app.wprowadzPobranyUrl(urL);
         app.screenShot();
         app.getAkcja().DodajNotatke();
         app.getIncydent().NotatkaTytul();
@@ -149,6 +149,8 @@ public class Incydent extends TestBase {
         app.logOut();
         app.logIn1wszaLinia();
         app.screenShot();
+        app.przelaczDoWeb();
+        app.screenShot();
         app.getGrupa().Wyszukaj();
         app.getSkrot().Incydent();
         app.screenShot();
@@ -156,7 +158,76 @@ public class Incydent extends TestBase {
         app.screenShot();
         app.getKolekcja().PierwszyElementKolekcji();
         app.screenShot();
-
-
+        app.getAkcja().UtworzZmianeZincydentu();
+        app.screenShot();
+        app.getZmiana().typZmianyStandardowa();
+        app.getZmiana().SzablonZmianyDRS_FIX_PILNY_Z3();
+        app.screenShot();
+        app.saveButton();
+        app.getKolekcja().ZmianaSzczegolyZmianyPrzyczynaZmiany();
+        app.getZmiana().SzczegolyZmianyPrzyczynaZmianySzczegolyEdycja();
+        app.screenShot();
+        app.saveandcloseButton();
+        app.getKolekcja().ZmianaSzczegolyZmianyWplywZmiany();
+        app.getZmiana().SzczegolyZmianyWplywZmianySzczegolyEdycja();
+        app.screenShot();
+        app.saveandcloseButton();
+        app.getKolekcja().ZmianaSzczegolyZmianySkutkiBrakuRealizacjiZmiany();
+        app.getZmiana().SzczegolyZmianySkutkiBrakuRealizacjiZmianySzczegolyEdycja();
+        app.screenShot();
+        app.saveandcloseButton();
+        app.getKolekcja().PobierzNumerZmiany();
+        app.getAkcja().ZmianaPrzygotowana();
+        app.screenShot();
+        app.logOut();
+        app.logInDRSZZIP();
+        app.getGrupa().Wyszukaj();
+        app.getSkrot().Zmiany();
+        app.getKolekcja().WstawNumerZmiany();
+        app.screenShot();
+        app.getKolekcja().PierwszyElementKolekcji();
+        app.screenShot();
+        app.getAkcja().Przejmij();
+        app.screenShot();
+        app.logOut();
+        app.logInDRSAdmin();
+        app.screenShot();
+        app.getGrupa().Wyszukaj();
+        app.getSkrot().Zmiany();
+        app.getKolekcja().WstawNumerZmiany();
+        app.screenShot();
+        app.getKolekcja().PierwszyElementKolekcji();
+        app.screenShot();
+        app.getKolekcja().ZadanieZmiany();
+        app.screenShot();
+        app.getAkcja().DodajNotatke();
+        app.screenShot();
+        app.getZmiana().NotatkaZadanieTytul();
+        app.screenShot();
+        app.saveandcloseButton();
+        app.screenShot();
+        app.getAkcja().DodajZalacznik();
+        app.screenShot();
+        app.getZmiana().ZalacznikZadanieTytul();
+        app.getZmiana().ZalacznikZadaniePlik();
+        app.screenShot();
+        app.saveandcloseButton();
+        app.getAkcja().Przyjmij();
+        app.screenShot();
+        app.getAkcja().DodajNotatke();
+        app.screenShot();
+        app.getZmiana().NotatkaZadanieTytul();
+        app.screenShot();
+        app.saveandcloseButton();
+        app.screenShot();
+        app.getAkcja().DodajZalacznik();
+        app.screenShot();
+        app.getZmiana().ZalacznikZmianaZadanieTytul();
+        app.getZmiana().ZalacznikZmianaZadaniePlik();
+        app.screenShot();
+        app.saveandcloseButton();
+        app.screenShot();
+        app.getAkcja().Zamknij();
+        app.screenShot();
     }
 }
