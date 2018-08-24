@@ -127,7 +127,7 @@ public class Incydent extends TestBase {
         app.screenShot();
         app.saveandcloseButton();
         app.zmianaWDnaSS();
-        //app.getKolekcja().PobierzNumerIncydentu();
+        app.getKolekcja().PobierzNumerIncydentu();
         app.logOut();
         app.screenShot();
         app.logInEndUser();

@@ -33,7 +33,9 @@ public class Akcja {
     public void Przejmij() {
         driver.findElement(By.xpath("//li[contains(text(), 'Przejmij')]")).click();
     }
-
+    public void Przyjmij() {
+        driver.findElement(By.xpath("//li[contains(text(), 'Przyjmij')]")).click();
+    }
     public void PrzeksztalcwIncydentBezpieczenstwa() {
         driver.findElement(By.xpath("//li[contains(text(), 'Przekształć w incydent bezpieczeństwa')]")).click();
     }
@@ -104,4 +106,6 @@ public class Akcja {
     public void UtworzZmianeZincydentu(){ driver.findElement(By.xpath("//li[contains(text(), 'Utwórz zmianę z incydentu')]")).click(); }
     public void ZmianaPrzygotowana(){ driver.findElement(By.xpath("//li[contains(text(), 'Zmiana przygotowana')]")).click(); }
     public void AnulujZmiane(){ driver.findElement(By.xpath("//li[contains(text(), 'Anuluj zmianę')]")).click(); }
+    public void DodecyzjiCAB(){ driver.findElement(By.xpath("//li[contains(text(), 'Do decyzji CAB')]")).click(); }
+    public void ZmianaPowiodlaSie(){ driver.findElement(By.xpath("//li[contains(text(), 'Zmiana powiodła się')]")).click(); }
 }

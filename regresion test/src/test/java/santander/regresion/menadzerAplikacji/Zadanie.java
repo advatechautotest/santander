@@ -112,4 +112,5 @@ public class Zadanie {
         driver.findElement(By.id("mainForm-Request")).click();
     }
     public void PowrotDoIncydentuLink(){driver.findElement(By.id("mainForm-Incident")).click();}
+    public void PowrotDoZmianyLink(){driver.findElement(By.id("mainForm-Change")).click();}
 }
