@@ -98,7 +98,7 @@ public class ZmianaZincydentu extends TestBase {
         app.screenShot();
         app.getKolekcja().SkopiowaneIncydenty();
         app.Czekaj();
-        app.getKolekcja().PierwszyElementKolekcji();
+       //app.getKolekcja().PierwszyElementKolekcji();
         app.screenShot();
         app.getAkcja().ZglosIncydent();
         app.screenShot();
