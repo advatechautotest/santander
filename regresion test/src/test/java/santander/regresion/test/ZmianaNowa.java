@@ -5,7 +5,7 @@ import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
 import santander.regresion.TestBase;
 
-public class NowaZmiana extends TestBase {
+public class ZmianaNowa extends TestBase {
     @Test
     public void testNowaZmiana() throws Exception{
 
@@ -39,6 +39,9 @@ public class NowaZmiana extends TestBase {
         app.screenShot();
         app.saveandcloseButton();
         app.screenShot();
+        app.getKolekcja().PobierzNumerZmiany();
+        app.getAkcja().ZmianaPrzygotowana();
+        app.screenShot();
         app.logOut();
         app.screenShot();
         app.logInDRSZZIP();
@@ -47,6 +50,9 @@ public class NowaZmiana extends TestBase {
         app.screenShot();
         app.getSkrot().Zmiany();
         app.screenShot();
+        app.getKolekcja().WstawNumerZmiany();
+        app.screenShot();
+        app.getKolekcja().PierwszyElementKolekcji();
 
 
         app.Czekaj();
