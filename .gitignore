@@ -16,3 +16,4 @@ gradle-app.setting
 .idea/workspace.xml
 regresion test/src/test/java/santander/regresion/TestBase.java
 regresion test/src/test/java/santander/regresion/TestBase.java
+/**/.idea/workspace.xml
