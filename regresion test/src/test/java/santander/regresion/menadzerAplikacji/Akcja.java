@@ -11,13 +11,10 @@ public class Akcja {
         this.driver = driver;
     }
 
-    public void ZalozZgloszenie() {
-        driver.findElement(By.xpath("//li[contains(text(), 'Załóż zgłoszenie')]")).click();
-    }
+    public void ZalozZgloszenie() { driver.findElement(By.xpath("//li[contains(text(), 'Załóż zgłoszenie')]")).click(); }
     public void DodajZalacznik() {
         driver.findElement(By.xpath("//li[contains(text(), 'Dodaj załącznik')]")).click();
     }
-
     public void DodajNotatke() {
         driver.findElement(By.xpath("//li[contains(text(), 'Dodaj notatkę')]")).click();
         //driver.findElement(By.xpath(".//*[@id='actionPanel']/div[2]/ul/li[4]")).click();
@@ -25,29 +22,19 @@ public class Akcja {
     public void Zamknij() {
         driver.findElement(By.xpath("//li[contains(text(), 'Zamknij')]")).click();
     }
-
     public void Edytuj() {
         driver.findElement(By.xpath("//li[contains(text(), 'Edytuj')]")).click();
     }
-
     public void Przejmij() {
         driver.findElement(By.xpath("//li[contains(text(), 'Przejmij')]")).click();
     }
     public void Przyjmij() {
         driver.findElement(By.xpath("//li[contains(text(), 'Przyjmij')]")).click();
     }
-    public void PrzeksztalcwIncydentBezpieczenstwa() {
-        driver.findElement(By.xpath("//li[contains(text(), 'Przekształć w incydent bezpieczeństwa')]")).click();
-    }
-    public void PrzeksztalcWeWniosekoUprawnienia() {
-        driver.findElement(By.xpath("//li[contains(text(), 'Przekształć we wniosek o uprawnienia')]")).click();
-    }
-    public void PrzeksztalcWeWniosek() {
-        driver.findElement(By.xpath("//li[contains(text(), 'Przekształć we wniosek')]")).click();
-    }
-    public void PrzeksztalcwIncydent() {
-        driver.findElement(By.xpath("//li[contains(text(), 'Przekształć w incydent')]")).click();
-    }
+    public void PrzeksztalcwIncydentBezpieczenstwa() { driver.findElement(By.xpath("//li[contains(text(), 'Przekształć w incydent bezpieczeństwa')]")).click(); }
+    public void PrzeksztalcWeWniosekoUprawnienia() { driver.findElement(By.xpath("//li[contains(text(), 'Przekształć we wniosek o uprawnienia')]")).click(); }
+    public void PrzeksztalcWeWniosek() { driver.findElement(By.xpath("//li[contains(text(), 'Przekształć we wniosek')]")).click(); }
+    public void PrzeksztalcwIncydent() { driver.findElement(By.xpath("//li[contains(text(), 'Przekształć w incydent')]")).click(); }
     public void ZglosIncydent() {
         driver.findElement(By.xpath("//li[contains(text(), 'Zgłoś incydent')]")).click();
     }
@@ -69,21 +56,11 @@ public class Akcja {
     public void Rozwiaz(){
         driver.findElement(By.xpath("//li[contains(text(), 'Rozwiąż')]")).click();
     }
-    public void ZarejstrujCzasPracy(){
-        driver.findElement(By.xpath("//li[contains(text(), 'Zarejestruj czas pracy')]")).click();
-    }
-    public void DodajPowiazanyCI(){
-        driver.findElement(By.xpath("//li[contains(text(), 'Dodaj powiązany CI')]")).click();
-    }
-    public void PoprosoWyjasnienia(){
-        driver.findElement(By.xpath("//li[contains(text(), 'Poproś o wyjaśnienia')]")).click();
-    }
-    public void PrzekazDoRealizacji(){
-        driver.findElement(By.xpath("//li[contains(text(), 'Przekaż do realizacji')]")).click();
-    }
-    public void WrocDoRealizacji(){
-        driver.findElement(By.xpath("//li[contains(text(), 'Wróć do realizacji')]")).click();
-    }
+    public void ZarejstrujCzasPracy(){ driver.findElement(By.xpath("//li[contains(text(), 'Zarejestruj czas pracy')]")).click(); }
+    public void DodajPowiazanyCI(){ driver.findElement(By.xpath("//li[contains(text(), 'Dodaj powiązany CI')]")).click(); }
+    public void PoprosoWyjasnienia(){ driver.findElement(By.xpath("//li[contains(text(), 'Poproś o wyjaśnienia')]")).click(); }
+    public void PrzekazDoRealizacji(){ driver.findElement(By.xpath("//li[contains(text(), 'Przekaż do realizacji')]")).click(); }
+    public void WrocDoRealizacji(){ driver.findElement(By.xpath("//li[contains(text(), 'Wróć do realizacji')]")).click(); }
     public void PrzypiszDoMnie(){
         driver.findElement(By.xpath("//li[contains(text(), 'Przypisz do mnie')]")).click();
     }
@@ -105,11 +82,11 @@ public class Akcja {
     public void Odrzuc(){ driver.findElement(By.xpath("//li[contains(text(), 'Odrzuć')]")).click(); }
     public void UtworzZmianeZincydentu(){ driver.findElement(By.xpath("//li[contains(text(), 'Utwórz zmianę z incydentu')]")).click(); }
     public void ZmianaPrzygotowana(){ driver.findElement(By.xpath("//li[contains(text(), 'Zmiana przygotowana')]")).click(); }
-<<<<<<< HEAD
     public void AnulujZmiane(){ driver.findElement(By.xpath("//li[contains(text(), 'Anuluj zmianę')]")).click(); }
     public void DodecyzjiCAB(){ driver.findElement(By.xpath("//li[contains(text(), 'Do decyzji CAB')]")).click(); }
+    public void DodajCzlonkaCAB(){ driver.findElement(By.xpath("//li[contains(text(), 'Dodaj członka CAB')]")).click(); }
     public void ZmianaPowiodlaSie(){ driver.findElement(By.xpath("//li[contains(text(), 'Zmiana powiodła się')]")).click(); }
-=======
-    public void AnulujZmiane(){ driver.findElement(By.xpath("//li[contains(text(), 'Anuluj zmiane')]")).click(); }
->>>>>>> ba432494f1ac126692ebf3441ab2fd2261806699
+    public void ZmianaNiePowiodlaSie(){ driver.findElement(By.xpath("//li[contains(text(), 'Zmiana powiodła się')]")).click(); }
+    public void DodajSzczegolZmiany(){ driver.findElement(By.xpath("//li[contains(text(), 'Zmiana powiodła się')]")).click(); }
+
 }

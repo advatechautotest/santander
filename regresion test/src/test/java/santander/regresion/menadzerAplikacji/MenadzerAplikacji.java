@@ -100,7 +100,6 @@ public class MenadzerAplikacji {
         driver.findElement(By.id("Ecom_User_ID")).sendKeys("jcalka@pl.aigcfg.net");
         driver.findElement(By.id("logonButton")).click();
     }
-<<<<<<< HEAD
     public void logInDRSAdmin(){
         driver.findElement(By.id("Ecom_User_ID")).click();
         driver.findElement(By.id("Ecom_User_ID")).sendKeys("rabednarski@pl.aigcfg.net");
@@ -111,10 +110,7 @@ public class MenadzerAplikacji {
         driver.findElement(By.id("Ecom_User_ID")).sendKeys("rkrawiec@pl.aigcfg.net");
         driver.findElement(By.id("logonButton")).click();
     }
-=======
 
-
->>>>>>> ba432494f1ac126692ebf3441ab2fd2261806699
     public void logOut() {
         driver.findElement(By.xpath("//div[contains(@title, 'Wyloguj')]")).click();
     }

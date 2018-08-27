@@ -32,8 +32,8 @@ public class Kolekcja {
         driver.findElement(By.xpath(".//*[@id='mainForm-Zapytanie3Body']/tr/td[1]")).click();
     }
 
-    public void Zadanie() {
-        driver.findElement(By.id("_btn_14")).click();
+    public void Zadania() {
+        driver.findElement(By.id("//div[contains(text(), 'Zadania')]")).click();
         driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr/td[1]")).click();
     }
 

@@ -85,6 +85,27 @@ public class Zadanie {
 
         driver.findElement(By.id("mainForm-_Tytuledytowalny")).sendKeys("Test zadania");
     }
+    public void UzupelnienieZadZmianaAwaryjnaInne(){
+        driver.findElement(By.id("mainForm-Category2Display")).click();
+        driver.findElement(By.xpath("//span[contains(text(), 'Inne')]")).click();
+
+        driver.findElement(By.id("mainForm-_TaskOwnerDisplay")).click();
+        driver.findElement(By.xpath("//div[contains(text(), 'Mazurek Przemysław')]")).click();
+
+        driver.findElement(By.id("mainForm-_Tytuledytowalny")).sendKeys("Test zadania");
+    }
+    public void UzupelnienieZadZmianaAwaryjnaAkceptacyjne(){
+        driver.findElement(By.id("mainForm-_OwnerGroupDisplay")).click();
+        driver.findElement(By.xpath("//div[contains(text(), 'Administratorzy Aplikacji')]")).click();
+
+        driver.findElement(By.id("mainForm-Category2Display")).click();
+        driver.findElement(By.xpath("//span[contains(text(), 'Zadanie akceptacyjne')]")).click();
+
+        driver.findElement(By.id("mainForm-_TaskOwnerDisplay")).click();
+        driver.findElement(By.xpath("//div[contains(text(), 'Mazurek Przemysław')]")).click();
+
+        driver.findElement(By.id("mainForm-_Tytuledytowalny")).sendKeys("Test zadania");
+    }
 
     public void ZalacznikWniosekTytul() {
         driver.findElement(By.id("mainForm-_Name")).sendKeys("Zadanie tytuł załącznika");

@@ -46,6 +46,11 @@ public class Zmiana {
         driver.findElement(By.id("mainForm-_ChangeClosureCategoryDisplay")).click();
         driver.findElement(By.xpath("//div[contains(@value, '8311f678-e406-429a-94d0-38bfd126ac54')]")).click(); }
 
+        public void ZamkniecieZmianyUzupelnij() {
+            driver.findElement(By.id("mainForm-Title")).sendKeys("Tytuł zamknięcia zmiany awaryjnej");
+            driver.findElement(By.id("mainForm-CategoryNameDisplay")).click();
+            driver.findElement(By.xpath("//span[contains(text(), 'Inne')]")).click();
+        }
     public void NotatkaZadanieTytul() {
         driver.findElement(By.id("mainForm-Text_editor")).sendKeys("Testowa notatka do zadania");
     }
@@ -69,6 +74,29 @@ public class Zmiana {
         driver.findElement(By.id("mainForm-Title")).sendKeys("Testowy tytuł zamknięcia");
         driver.findElement(By.id("mainForm-CategoryNameDisplay")).click();
         driver.findElement(By.xpath("//span[contains(text(), 'Inne')]")).click();
+    }
+    public void ZmianaNiePowiodlaSieUzupelnij(){
+        driver.findElement(By.id("mainForm-_RollOutFailed")).sendKeys("Testowy tytuł");
+    }
+    public void DzialaWstecz(){
+        driver.findElement(By.id("mainForm-_DziałaWsteczDisplay")).click();
+    }
+    public void DzialaWsteczPrawda(){
+        driver.findElement(By.xpath("//div[contains(text(), 'Prawda')]")).click();
+    }
+    public void DzialaWsteczFalsz(){
+        driver.findElement(By.xpath("//div[contains(text(), 'Prawda')]")).click();
+    }
+    public void ZmianaAwaryjnaTytul() {
+        driver.findElement(By.id("mainForm-_Tytuledytowalny")).sendKeys("Tytuł zmiany awaryjnej");
+    }
+    public void SzczegolZmiany(){
+        driver.findElement(By.id("mainForm-_ChangeDetailType1Display")).click();
+        driver.findElement(By.xpath("//div[contains(text(), '1-Przyczyna zmiany')]")).click();
+        driver.findElement(By.id("mainForm-_Details2_editor")).sendKeys("Opis szczegółu zmiany");
+    }
+    public void OpisEdytuj() {
+        driver.findElement(By.id("mainForm-Description_editor")).sendKeys("Opis zmiany zedytowany");
     }
 }
 
