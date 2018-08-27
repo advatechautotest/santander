@@ -100,7 +100,10 @@ public class MenadzerAplikacji {
         driver.findElement(By.id("Ecom_User_ID")).sendKeys("jcalka@pl.aigcfg.net");
         driver.findElement(By.id("logonButton")).click();
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 715eba4e211fc456b180cb9963c0ec82a7cbe08b
     public void logInDRSAdmin(){
         driver.findElement(By.id("Ecom_User_ID")).click();
         driver.findElement(By.id("Ecom_User_ID")).sendKeys("rabednarski@pl.aigcfg.net");

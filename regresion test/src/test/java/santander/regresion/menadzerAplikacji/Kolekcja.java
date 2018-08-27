@@ -32,13 +32,13 @@ public class Kolekcja {
         driver.findElement(By.xpath(".//*[@id='mainForm-Zapytanie3Body']/tr/td[1]")).click();
     }
 
-    public void Zadanie() {
-        driver.findElement(By.id("_btn_14")).click();
+    public void Zadania() {
+        driver.findElement(By.xpath("//div[contains(text(), 'Zadania')]")).click();
         driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr/td[1]")).click();
     }
 
     public void Zadanie2() {
-        driver.findElement(By.id("_btn_21")).click();
+        driver.findElement(By.xpath("//div[contains(text(), 'Zadania')]")).click();
         driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr[2]/td[2]")).click();
     }
     public void ZadanieZmiany() {

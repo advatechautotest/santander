@@ -84,6 +84,30 @@ public class Zadanie {
 
         driver.findElement(By.id("mainForm-_Tytuledytowalny")).sendKeys("Test zadania");
     }
+    public void UzupelnienieZadZmianaAwaryjnaInne(){
+        driver.findElement(By.id("mainForm-_OwnerGroupDisplay")).click();
+        driver.findElement(By.xpath("//div[contains(@value, 'cd4ebe2b-a153-4851-b2c0-647188d27e8e')]")).click();
+
+        driver.findElement(By.id("mainForm-Category2Display")).click();
+        driver.findElement(By.xpath("//span[contains(text(), 'Inne')]")).click();
+
+        driver.findElement(By.id("mainForm-_TaskOwnerDisplay")).click();
+        driver.findElement(By.xpath("//div[contains(@value, '0777fea4-30ca-411d-8993-647e07a4cb8d')]")).click();
+
+        driver.findElement(By.id("mainForm-_Tytuledytowalny")).sendKeys("Test zadania");
+    }
+    public void UzupelnienieZadZmianaAwaryjnaAkceptacyjne(){
+        driver.findElement(By.id("mainForm-_OwnerGroupDisplay")).click();
+        driver.findElement(By.xpath("//div[contains(@value, 'cd4ebe2b-a153-4851-b2c0-647188d27e8e')]")).click();
+
+        driver.findElement(By.id("mainForm-Category2Display")).click();
+        driver.findElement(By.xpath("//span[contains(text(), 'Zadanie akceptacyjne')]")).click();
+
+        driver.findElement(By.id("mainForm-_TaskOwnerDisplay")).click();
+        driver.findElement(By.xpath("//div[contains(@value, '0777fea4-30ca-411d-8993-647e07a4cb8d')]")).click();
+
+        driver.findElement(By.id("mainForm-_Tytuledytowalny")).sendKeys("Test zadania");
+    }
 
     public void ZalacznikWniosekTytul() {
         driver.findElement(By.id("mainForm-_Name")).sendKeys("Zadanie tytuł załącznika");

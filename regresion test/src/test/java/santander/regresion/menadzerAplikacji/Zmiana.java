@@ -46,6 +46,11 @@ public class Zmiana {
         driver.findElement(By.id("mainForm-_ChangeClosureCategoryDisplay")).click();
         driver.findElement(By.xpath("//div[contains(@value, '8311f678-e406-429a-94d0-38bfd126ac54')]")).click(); }
 
+        public void ZamkniecieZmianyUzupelnij() {
+            driver.findElement(By.id("mainForm-Title")).sendKeys("Tytuł zamknięcia zmiany awaryjnej");
+            driver.findElement(By.id("mainForm-CategoryNameDisplay")).click();
+            driver.findElement(By.xpath("//span[contains(text(), 'Inne')]")).click();
+        }
     public void NotatkaZadanieTytul() {
         driver.findElement(By.id("mainForm-Text_editor")).sendKeys("Testowa notatka do zadania");
     }
@@ -53,7 +58,7 @@ public class Zmiana {
         driver.findElement(By.id("mainForm-Title2")).sendKeys("Tytuł załącznika");
     }
     public void ZalacznikZadaniePlik() {
-        File file = new File("regresion test/attach/santander.txt");
+        File file = new File("attach/santander.txt");
         if(!file.exists())throw new RuntimeException("file doesn't exist");
         else { driver.findElement(By.id("mainForm-AttachmentDocument2")).sendKeys(file.getAbsolutePath()); }
     }
@@ -61,7 +66,7 @@ public class Zmiana {
         driver.findElement(By.id("mainForm-_Tytul")).sendKeys("Tytuł załącznika");
     }
     public void ZalacznikZmianaZadaniePlik() {
-        File file = new File("regresion test/attach/santander.txt");
+        File file = new File("attach/santander.txt");
         if(!file.exists())throw new RuntimeException("file doesn't exist");
         else { driver.findElement(By.id("mainForm-_Plik")).sendKeys(file.getAbsolutePath()); }
     }
@@ -71,6 +76,7 @@ public class Zmiana {
         driver.findElement(By.xpath("//span[contains(text(), 'Inne')]")).click();
     }
     public void ZmianaNiePowiodlaSieUzupelnij(){
+<<<<<<< HEAD
         driver.findElement(By.id("mainForm-_RollOutFailed")).sendKeys("Zmiana nie powiodła się");
 
     }
@@ -78,6 +84,31 @@ public class Zmiana {
         driver.findElement(By.id("mainForm-Title")).sendKeys("Zamknij Zmianę");
         driver.findElement(By.id("mainForm-CategoryNameDisplay")).click();
         driver.findElement(By.xpath("//span[contains(text(), 'Zmiana nie powiodła się')]")).click();
+=======
+        driver.findElement(By.id("mainForm-_RollOutFailed")).click();
+        driver.findElement(By.id("mainForm-_RollOutFailed")).sendKeys("Testowy tytuł");
+        driver.findElement(By.id("mainForm-_Details")).click();
+    }
+    public void DzialaWstecz(){
+        driver.findElement(By.id("mainForm-_DziałaWsteczDisplay")).click();
+    }
+    public void DzialaWsteczPrawda(){
+        driver.findElement(By.xpath("//div[contains(text(), 'Prawda')]")).click();
+    }
+    public void DzialaWsteczFalsz(){
+        driver.findElement(By.xpath("//div[contains(text(), 'Prawda')]")).click();
+    }
+    public void ZmianaAwaryjnaTytul() {
+        driver.findElement(By.id("mainForm-_Tytuledytowalny")).sendKeys("Tytuł zmiany awaryjnej");
+    }
+    public void SzczegolZmiany(){
+        driver.findElement(By.id("mainForm-_ChangeDetailType1Display")).click();
+        driver.findElement(By.xpath("//div[contains(text(), '1-Przyczyna zmiany')]")).click();
+        driver.findElement(By.id("mainForm-_Details2_editor")).sendKeys("Opis szczegółu zmiany");
+    }
+    public void OpisEdytuj() {
+        driver.findElement(By.id("mainForm-Description_editor")).sendKeys("Opis zmiany zedytowany");
+>>>>>>> 715eba4e211fc456b180cb9963c0ec82a7cbe08b
     }
 }
 

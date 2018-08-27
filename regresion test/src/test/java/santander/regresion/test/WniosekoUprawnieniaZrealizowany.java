@@ -102,7 +102,7 @@ public class WniosekoUprawnieniaZrealizowany extends TestBase {
         app.getZadanie().UzupelnienieZadWniosekoUprawnieniaAKceptacyjne();
         app.screenShot();
         app.saveandcloseButton();
-        app.getKolekcja().Zadanie();
+        app.getKolekcja().Zadania();
         //app.getKolekcja().PierwszyElementKolekcji();
         app.screenShot();
         app.getAkcja().DodajNotatke();
