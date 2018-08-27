@@ -52,6 +52,8 @@ public class ZmianaAwaryjna extends TestBase {
         app.getAkcja().ZmianaNiePowiodlaSie();
         app.getZmiana().ZmianaNiePowiodlaSieUzupelnij();
         app.screenShot();
+        app.saveandcloseButton();
+        app.screenShot();
         app.getAkcja().Edytuj();
         app.getZmiana().OpisEdytuj();
         app.saveandcloseButton();
@@ -75,7 +77,7 @@ public class ZmianaAwaryjna extends TestBase {
         app.screenShot();
         app.saveandcloseButton();
         app.screenShot();
-        app.getKolekcja().Zadania();
+        app.getKolekcja().Zadanie2();
         app.screenShot();
         app.getAkcja().PrzekazDoRealizacji();
         app.screenShot();

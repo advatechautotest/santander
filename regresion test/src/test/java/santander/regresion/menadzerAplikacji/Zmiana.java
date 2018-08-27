@@ -58,7 +58,7 @@ public class Zmiana {
         driver.findElement(By.id("mainForm-Title2")).sendKeys("Tytuł załącznika");
     }
     public void ZalacznikZadaniePlik() {
-        File file = new File("regresion test/attach/santander.txt");
+        File file = new File("attach/santander.txt");
         if(!file.exists())throw new RuntimeException("file doesn't exist");
         else { driver.findElement(By.id("mainForm-AttachmentDocument2")).sendKeys(file.getAbsolutePath()); }
     }
@@ -66,7 +66,7 @@ public class Zmiana {
         driver.findElement(By.id("mainForm-_Tytul")).sendKeys("Tytuł załącznika");
     }
     public void ZalacznikZmianaZadaniePlik() {
-        File file = new File("regresion test/attach/santander.txt");
+        File file = new File("attach/santander.txt");
         if(!file.exists())throw new RuntimeException("file doesn't exist");
         else { driver.findElement(By.id("mainForm-_Plik")).sendKeys(file.getAbsolutePath()); }
     }
@@ -76,7 +76,9 @@ public class Zmiana {
         driver.findElement(By.xpath("//span[contains(text(), 'Inne')]")).click();
     }
     public void ZmianaNiePowiodlaSieUzupelnij(){
+        driver.findElement(By.id("mainForm-_RollOutFailed")).click();
         driver.findElement(By.id("mainForm-_RollOutFailed")).sendKeys("Testowy tytuł");
+        driver.findElement(By.id("mainForm-_Details")).click();
     }
     public void DzialaWstecz(){
         driver.findElement(By.id("mainForm-_DziałaWsteczDisplay")).click();

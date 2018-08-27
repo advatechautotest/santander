@@ -86,7 +86,7 @@ public class Akcja {
     public void DodecyzjiCAB(){ driver.findElement(By.xpath("//li[contains(text(), 'Do decyzji CAB')]")).click(); }
     public void DodajCzlonkaCAB(){ driver.findElement(By.xpath("//li[contains(text(), 'Dodaj członka CAB')]")).click(); }
     public void ZmianaPowiodlaSie(){ driver.findElement(By.xpath("//li[contains(text(), 'Zmiana powiodła się')]")).click(); }
-    public void ZmianaNiePowiodlaSie(){ driver.findElement(By.xpath("//li[contains(text(), 'Zmiana powiodła się')]")).click(); }
-    public void DodajSzczegolZmiany(){ driver.findElement(By.xpath("//li[contains(text(), 'Zmiana powiodła się')]")).click(); }
+    public void ZmianaNiePowiodlaSie(){ driver.findElement(By.xpath("//li[contains(text(), 'Zmiana nie powiodła się')]")).click(); }
+    public void DodajSzczegolZmiany(){ driver.findElement(By.xpath("//li[contains(text(), 'Dodaj szczegół zmiany')]")).click(); }
 
 }
