@@ -130,11 +130,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ZmianaNowa.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ZmianaNowa.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNowa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
-              <caret line="276" column="25" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="295" selection-end-column="0" />
+            <state relative-caret-position="331">
+              <caret line="289" column="25" lean-forward="true" selection-start-line="289" selection-start-column="25" selection-end-line="289" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -162,7 +162,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Zmiana.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Zmiana.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Zmiana.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="392">
@@ -1504,43 +1504,43 @@
         <state relative-caret-position="720">
           <caret line="1874" column="10" lean-forward="false" selection-start-line="1874" selection-start-column="10" selection-end-line="1874" selection-end-column="10" />
           <folding>
-            <marker date="1535373281035" expanded="true" signature="117594:117611" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="117594:117629" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="117594:117642" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="117594:117657" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="119268:119349" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="117692:119920" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="117705:119905" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="117759:118054" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="117778:118039" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="117841:118019" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="117881:117985" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="117902:117963" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="118104:118431" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="118123:118416" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="118218:118396" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="118258:118362" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="118279:118340" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="118482:118747" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="118501:118732" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="118534:118712" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="118574:118678" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="118595:118656" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="118790:119096" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="118809:119081" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="118883:119061" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="118923:119027" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="118944:119005" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="119147:119503" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="119166:119488" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="119251:119468" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="119291:119434" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="119312:119412" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="119555:119891" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="119574:119876" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="119678:119856" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="119718:119822" ph="..." />
-            <marker date="1535373281035" expanded="true" signature="119739:119800" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="117594:117611" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="117594:117629" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="117594:117642" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="117594:117657" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="119268:119349" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="117692:119920" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="117705:119905" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="117759:118054" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="117778:118039" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="117841:118019" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="117881:117985" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="117902:117963" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="118104:118431" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="118123:118416" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="118218:118396" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="118258:118362" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="118279:118340" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="118482:118747" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="118501:118732" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="118534:118712" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="118574:118678" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="118595:118656" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="118790:119096" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="118809:119081" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="118883:119061" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="118923:119027" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="118944:119005" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="119147:119503" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="119166:119488" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="119251:119468" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="119291:119434" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="119312:119412" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="119555:119891" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="119574:119876" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="119678:119856" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="119718:119822" ph="..." />
+            <marker date="1535373285090" expanded="true" signature="119739:119800" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1716,16 +1716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNowa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="276" column="25" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="295" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Akcja.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -1743,6 +1733,16 @@
         <state relative-caret-position="392">
           <caret line="75" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNowa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="289" column="25" lean-forward="true" selection-start-line="289" selection-start-column="25" selection-end-line="289" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
