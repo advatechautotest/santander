@@ -111,6 +111,11 @@ public class MenadzerAplikacji {
         driver.findElement(By.id("Ecom_User_ID")).sendKeys("rkrawiec@pl.aigcfg.net");
         driver.findElement(By.id("logonButton")).click();
     }
+    public void logInMenadzerZmian(){
+        driver.findElement(By.id("Ecom_User_ID")).click();
+        driver.findElement(By.id("Ecom_User_ID")).sendKeys("apierzchlewicz@pl.aigcfg.net");
+        driver.findElement(By.id("logonButton")).click();
+    }
 
     public void logOut() {
         driver.findElement(By.xpath("//div[contains(@title, 'Wyloguj')]")).click();

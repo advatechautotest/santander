@@ -84,7 +84,7 @@ public class Zmiana {
         driver.findElement(By.id("mainForm-Title")).sendKeys("Zamknij Zmianę");
         driver.findElement(By.id("mainForm-CategoryNameDisplay")).click();
         driver.findElement(By.xpath("//span[contains(text(), 'Zmiana nie powiodła się')]")).click();
-        
+
     }
     public void DzialaWstecz(){
         driver.findElement(By.id("mainForm-_DziałaWsteczDisplay")).click();
