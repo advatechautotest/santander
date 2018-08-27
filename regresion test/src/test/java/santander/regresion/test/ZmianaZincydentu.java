@@ -217,8 +217,8 @@ public class ZmianaZincydentu extends TestBase {
         app.screenShot();
         app.getAkcja().DodajZalacznik();
         app.screenShot();
-        app.getZmiana().ZalacznikZadanieTytul();
-        app.getZmiana().ZalacznikZadaniePlik();
+        app.getZmiana().ZalacznikZmianaZadanieTytul();
+        app.getZmiana().ZalacznikZmianaZadaniePlik();
         app.screenShot();
         app.saveandcloseButton();
         app.getAkcja().Przyjmij();

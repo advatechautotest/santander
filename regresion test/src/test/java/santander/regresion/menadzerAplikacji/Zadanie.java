@@ -11,7 +11,6 @@ import java.util.List;
 
 public class Zadanie {
     private FirefoxDriver driver;
-
     public Zadanie(FirefoxDriver driver) {
         this.driver = driver;
     }
@@ -113,4 +112,20 @@ public class Zadanie {
     }
     public void PowrotDoIncydentuLink(){driver.findElement(By.id("mainForm-Incident")).click();}
     public void PowrotDoZmianyLink(){driver.findElement(By.id("mainForm-Change")).click();}
+
+    public void UzupelnienieZadZmianaDRSZZIP(){
+        //Kategoria zadania
+        driver.findElement(By.id("mainForm-Category2Display")).click();
+        driver.findElement(By.xpath("//span[contains(text(), 'Inne')]")).click();
+        //Zadanie dla grupy
+        driver.findElement(By.id("mainForm-_OwnerGroupDisplay")).click();
+        driver.findElement(By.xpath("//div[contains(@value, 'e5c28c67-fff5-4d8c-b3d4-95ac4c1773ee')]")).click();
+        //Zadanie dla serwisanta
+        driver.findElement(By.id("mainForm-_TaskOwnerDisplay")).click();
+        //Obczaic pozniej aktualny = driver.findElement(By.xpath("//div[contains(@value, 'e1b847e4-3e78-4765-85bf-aff934123718')]")).click();
+        driver.findElement(By.xpath("//div[contains(@value, 'e1b847e4-3e78-4765-85bf-aff934123718')]")).click();
+
+        driver.findElement(By.id("mainForm-_Tytuledytowalny")).sendKeys("Test zadania zmiany");
+    }
 }
+

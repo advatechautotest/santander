@@ -66,9 +66,18 @@ public class Zmiana {
         else { driver.findElement(By.id("mainForm-_Plik")).sendKeys(file.getAbsolutePath()); }
     }
     public void ZmianaPowiodlaSieUzupelnij(){
-        driver.findElement(By.id("mainForm-Title")).sendKeys("Testowy tytuł zamknięcia");
+        driver.findElement(By.id("mainForm-Title")).sendKeys("Zmiana powiodła się");
         driver.findElement(By.id("mainForm-CategoryNameDisplay")).click();
         driver.findElement(By.xpath("//span[contains(text(), 'Inne')]")).click();
+    }
+    public void ZmianaNiePowiodlaSieUzupelnij(){
+        driver.findElement(By.id("mainForm-_RollOutFailed")).sendKeys("Zmiana nie powiodła się");
+
+    }
+    public void ZamknijZmianeUzupelnij(){
+        driver.findElement(By.id("mainForm-Title")).sendKeys("Zamknij Zmianę");
+        driver.findElement(By.id("mainForm-CategoryNameDisplay")).click();
+        driver.findElement(By.xpath("//span[contains(text(), 'Zmiana nie powiodła się')]")).click();
     }
 }
 
