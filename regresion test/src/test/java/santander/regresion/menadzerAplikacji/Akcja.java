@@ -82,23 +82,20 @@ public class Akcja {
     public void Odrzuc(){ driver.findElement(By.xpath("//li[contains(text(), 'Odrzuć')]")).click(); }
     public void UtworzZmianeZincydentu(){ driver.findElement(By.xpath("//li[contains(text(), 'Utwórz zmianę z incydentu')]")).click(); }
     public void ZmianaPrzygotowana(){ driver.findElement(By.xpath("//li[contains(text(), 'Zmiana przygotowana')]")).click(); }
-<<<<<<< HEAD
 
-=======
->>>>>>> 715eba4e211fc456b180cb9963c0ec82a7cbe08b
     public void AnulujZmiane(){ driver.findElement(By.xpath("//li[contains(text(), 'Anuluj zmianę')]")).click(); }
     public void DodecyzjiCAB(){ driver.findElement(By.xpath("//li[contains(text(), 'Do decyzji CAB')]")).click(); }
     public void DodajCzlonkaCAB(){ driver.findElement(By.xpath("//li[contains(text(), 'Dodaj członka CAB')]")).click(); }
     public void ZmianaPowiodlaSie(){ driver.findElement(By.xpath("//li[contains(text(), 'Zmiana powiodła się')]")).click(); }
-<<<<<<< HEAD
+
     public void ZwrocDoModyfikacji(){ driver.findElement(By.xpath("//li[contains(text(), 'Zwróć do modyfikacji')]")).click(); }
     public void DoPonownejAkceptacji(){ driver.findElement(By.xpath("//li[contains(text(), 'Do ponownej akceptacji')]")).click(); }
     public void ZmianaNiePowiodlaSie(){ driver.findElement(By.xpath("//li[contains(text(), 'Zmiana nie powiodła się')]")).click(); }
     public void ZamknijZmiane(){ driver.findElement(By.xpath("//li[contains(text(), 'Zamknij zmianę')]")).click(); }
 
-=======
-    public void ZmianaNiePowiodlaSie(){ driver.findElement(By.xpath("//li[contains(text(), 'Zmiana nie powiodła się')]")).click(); }
+
+
     public void DodajSzczegolZmiany(){ driver.findElement(By.xpath("//li[contains(text(), 'Dodaj szczegół zmiany')]")).click(); }
->>>>>>> 715eba4e211fc456b180cb9963c0ec82a7cbe08b
+
 
 }

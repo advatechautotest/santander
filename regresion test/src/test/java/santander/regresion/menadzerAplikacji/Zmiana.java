@@ -66,7 +66,7 @@ public class Zmiana {
         driver.findElement(By.id("mainForm-_Tytul")).sendKeys("Tytuł załącznika");
     }
     public void ZalacznikZmianaZadaniePlik() {
-        File file = new File("attach/santander.txt");
+        File file = new File("regresion test/attach/santander.txt");
         if(!file.exists())throw new RuntimeException("file doesn't exist");
         else { driver.findElement(By.id("mainForm-_Plik")).sendKeys(file.getAbsolutePath()); }
     }
@@ -76,7 +76,7 @@ public class Zmiana {
         driver.findElement(By.xpath("//span[contains(text(), 'Inne')]")).click();
     }
     public void ZmianaNiePowiodlaSieUzupelnij(){
-<<<<<<< HEAD
+
         driver.findElement(By.id("mainForm-_RollOutFailed")).sendKeys("Zmiana nie powiodła się");
 
     }
@@ -84,7 +84,7 @@ public class Zmiana {
         driver.findElement(By.id("mainForm-Title")).sendKeys("Zamknij Zmianę");
         driver.findElement(By.id("mainForm-CategoryNameDisplay")).click();
         driver.findElement(By.xpath("//span[contains(text(), 'Zmiana nie powiodła się')]")).click();
-=======
+
         driver.findElement(By.id("mainForm-_RollOutFailed")).click();
         driver.findElement(By.id("mainForm-_RollOutFailed")).sendKeys("Testowy tytuł");
         driver.findElement(By.id("mainForm-_Details")).click();
@@ -108,7 +108,7 @@ public class Zmiana {
     }
     public void OpisEdytuj() {
         driver.findElement(By.id("mainForm-Description_editor")).sendKeys("Opis zmiany zedytowany");
->>>>>>> 715eba4e211fc456b180cb9963c0ec82a7cbe08b
+
     }
 }
 
