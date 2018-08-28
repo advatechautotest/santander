@@ -107,5 +107,9 @@ public class Zmiana {
         driver.findElement(By.id("mainForm-Description_editor")).sendKeys("Opis zmiany zedytowany");
 
     }
+    public void ZmianaZadanieOdrzucZadanieUzupelnij() {
+
+        driver.findElement(By.id("mainForm-_Szczegoly")).sendKeys("Przyczyna odrzucenia zadania");
+    }
 }
 

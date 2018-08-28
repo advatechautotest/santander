@@ -92,7 +92,8 @@ public class Akcja {
     public void DoPonownejAkceptacji(){ driver.findElement(By.xpath("//li[contains(text(), 'Do ponownej akceptacji')]")).click(); }
     public void ZmianaNiePowiodlaSie(){ driver.findElement(By.xpath("//li[contains(text(), 'Zmiana nie powiodła się')]")).click(); }
     public void ZamknijZmiane(){ driver.findElement(By.xpath("//li[contains(text(), 'Zamknij zmianę')]")).click(); }
-
+    public void OdrzucZadanie(){ driver.findElement(By.xpath("//li[contains(text(), 'Odrzuć zadanie')]")).click(); }
+    public void DoRealizacji(){ driver.findElement(By.xpath("//li[contains(text(), 'Do realizacji')]")).click(); }
 
 
     public void DodajSzczegolZmiany(){ driver.findElement(By.xpath("//li[contains(text(), 'Dodaj szczegół zmiany')]")).click(); }
