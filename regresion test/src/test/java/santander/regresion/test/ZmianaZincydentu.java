@@ -120,6 +120,7 @@ public class ZmianaZincydentu extends TestBase {
         app.screenShot();
         app.saveandcloseButton();
         app.screenShot();
+        String Url = app.zmianaWDnaSS();
         app.getAkcja().PoprosoWyjasnienia();
         app.screenShot();
         app.getIncydent().PoprosoWyjasnieniaWypelnienie();
@@ -131,7 +132,7 @@ public class ZmianaZincydentu extends TestBase {
         app.screenShot();
         app.logInEndUser();
         app.screenShot();
-        app.wprowadzPobranyUrl(url);
+        app.wprowadzPobranyUrl(Url);
         app.screenShot();
         app.getAkcja().DodajNotatke();
         app.getIncydent().NotatkaTytul();
@@ -148,6 +149,7 @@ public class ZmianaZincydentu extends TestBase {
         app.logOut();
         app.logIn1wszaLinia();
         app.screenShot();
+        app.przelaczDoWeb();
         app.getGrupa().Wyszukaj();
         app.getSkrot().Incydent();
         app.screenShot();

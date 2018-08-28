@@ -16,7 +16,7 @@ public class Kolekcja {
     }
 
     public void PierwszyElementKolekcji() {
-        driver.findElement(By.xpath(".//*[@class='listBody']/tr/td[2]")).click();
+        driver.findElement(By.xpath(".//*[@class='listBody']/tr/td[1]")).click();
     }
 
     public void Incydent() {

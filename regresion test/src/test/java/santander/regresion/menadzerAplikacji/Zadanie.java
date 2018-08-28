@@ -115,7 +115,7 @@ public class Zadanie {
     }
 
     public void ZalacznikWniosekPlik() {
-        File file = new File("attach/santander.txt");
+        File file = new File("regresion test/attach/santander.txt");
         if (!file.exists()) throw new RuntimeException("file doesn't exist");
         else {
             driver.findElement(By.id("mainForm-_Attachment")).sendKeys(file.getAbsolutePath());
@@ -125,7 +125,7 @@ public class Zadanie {
         driver.findElement(By.id("mainForm-_Tytul")).sendKeys("Zadanie tytuł załącznika");
     }
     public void ZalacznikIncydentPlik(){
-        File file = new File("attach/santander.txt");
+        File file = new File("regresion test/attach/santander.txt");
         if (!file.exists()) throw new RuntimeException("file doesn't exist");
         else {
             driver.findElement(By.id("mainForm-_Dokument")).sendKeys(file.getAbsolutePath());

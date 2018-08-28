@@ -42,6 +42,7 @@ public class MenadzerAplikacji {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         driver.get("http://10.0.19.28/upgrade18.WebAccess/wd/Logon/Logon.rails");
+        //driver.get("http://10.0.19.41/20180801.WebAccess/wd/Logon/Logon.rails");
         incydent = new Incydent(driver);
         zgloszenie = new Zgloszenie(driver);
         akcja = new Akcja(driver);

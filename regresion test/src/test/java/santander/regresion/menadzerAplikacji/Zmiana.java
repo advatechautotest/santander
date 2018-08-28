@@ -93,7 +93,7 @@ public class Zmiana {
         driver.findElement(By.xpath("//div[contains(text(), 'Prawda')]")).click();
     }
     public void DzialaWsteczFalsz(){
-        driver.findElement(By.xpath("//div[contains(text(), 'Prawda')]")).click();
+        driver.findElement(By.xpath("//div[contains(text(), 'Fałsz')]")).click();
     }
     public void ZmianaAwaryjnaTytul() {
         driver.findElement(By.id("mainForm-_Tytuledytowalny")).sendKeys("Tytuł zmiany awaryjnej");
