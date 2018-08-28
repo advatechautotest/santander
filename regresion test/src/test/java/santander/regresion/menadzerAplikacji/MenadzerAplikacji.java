@@ -69,6 +69,9 @@ public class MenadzerAplikacji {
     public void procesNoweZgloszenie() {
         driver.findElement(By.id("shortcutItem_a7dbbd84-ffac-4d13-8c99-6f99d281d6f4")).click();
     }
+    public void procesNowyIncydentBezpieczenstwa() {
+        driver.findElement(By.id("shortcutItem_b5b3414a-1ac8-470e-9ed5-995d4902bc75")).click();
+    }
 
     public void quit() {
         driver.quit();
@@ -115,6 +118,11 @@ public class MenadzerAplikacji {
     public void logInMenadzerZmian(){
         driver.findElement(By.id("Ecom_User_ID")).click();
         driver.findElement(By.id("Ecom_User_ID")).sendKeys("apierzchlewicz@pl.aigcfg.net");
+        driver.findElement(By.id("logonButton")).click();
+    }
+    public void logInSOC_L1(){
+        driver.findElement(By.id("Ecom_User_ID")).click();
+        driver.findElement(By.id("Ecom_User_ID")).sendKeys("mciszek@pl.aigcfg.net");
         driver.findElement(By.id("logonButton")).click();
     }
 

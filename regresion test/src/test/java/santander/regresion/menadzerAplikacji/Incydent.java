@@ -66,6 +66,12 @@ public class Incydent {
     public void SkopiujProcesListaProcesowWniosekoUprawnienia() {
         driver.findElement(By.xpath("//div[contains(@value, '91135d83-54e1-4e5b-b02d-529e62a5ce75')]")).click();
     }
+    public void SkopiujProcesSzablonIncydent() {
+        driver.findElement(By.id("mainForm-_SzablonwnioskuDisplay")).click();
+    }
+    public void SkopiujProcesSzablonIncydentuUzupelnij() {
+        driver.findElement(By.xpath("//div[contains(@value, 'e46acb61-46d9-482f-afd0-f902f6b4aef3')]")).click();
+    }
     public void SkopiujProcesPrzyczyna() {
         driver.findElement(By.id("mainForm-_PrzyczynaskopiowaniaDisplay")).click();
         //driver.findElement(By.id("control-wrapper-mainForm-_Przyczynaskopiowania")).click();
