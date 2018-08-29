@@ -9,6 +9,8 @@ public class ZmianaNormalna extends TestBase {
 
         app.logInAdminAplikacji();
         app.screenShot();
+        app.BiezacaGrupaMenadzerZmian();
+        app.screenShot();
         app.getGrupa().Nowy();
         app.screenShot();
         app.getSkrot().ZmianaNormalna();
@@ -119,7 +121,7 @@ public class ZmianaNormalna extends TestBase {
         app.screenShot();
         app.getAkcja().WyslijDoCzlonkowCAB();
         app.screenShot();
-        app.getKolekcja().ZadanieZmiany();
+        app.getKolekcja().Zadania();
         app.screenShot();
         app.getAkcja().DodajNotatke();
         app.screenShot();
@@ -127,13 +129,15 @@ public class ZmianaNormalna extends TestBase {
         app.screenShot();
         app.saveandcloseButton();
         app.screenShot();
+        app.getAkcja().DodajZalacznik();
+        app.screenShot();
         app.getZmiana().ZalacznikZmianaZadanieTytul();
         app.screenShot();
         app.getZmiana().ZalacznikZmianaZadaniePlik();
         app.screenShot();
         app.saveandcloseButton();
         app.screenShot();
-        app.getAkcja().Przejmij();
+        app.getAkcja().Przyjmij();
         app.screenShot();
         app.getAkcja().Zatwierdz();
         app.screenShot();

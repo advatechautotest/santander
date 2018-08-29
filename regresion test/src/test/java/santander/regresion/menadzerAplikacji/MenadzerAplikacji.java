@@ -118,6 +118,12 @@ public class MenadzerAplikacji {
         driver.findElement(By.id("logonButton")).click();
     }
 
+    public void BiezacaGrupaMenadzerZmian(){
+        driver.findElement(By.id("currentGroupBox")).click();
+        driver.findElement(By.xpath("//div[contains(@value, '0_managerowiezmian')]")).click();
+
+    }
+
     public void logOut() {
         driver.findElement(By.xpath("//div[contains(@title, 'Wyloguj')]")).click();
     }

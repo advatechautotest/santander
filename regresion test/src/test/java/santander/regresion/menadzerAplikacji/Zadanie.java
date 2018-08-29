@@ -109,11 +109,19 @@ public class Zadanie {
         driver.findElement(By.id("mainForm-_Tytuledytowalny")).sendKeys("Test zadania");
     }
     public void UzupelnienieZadZmianaDodajCzlonkaCAB(){
-        driver.findElement(By.id("mainForm-_OwnerGroupDisplay")).click();
+
+
+        driver.findElement(By.id("mainForm-_OwnerGroupDisplay")).sendKeys("Managerowie zmian");
         driver.findElement(By.xpath("//div[contains(@value, 'e649946c-9a59-45cd-894a-b2c3d3518e74')]")).click();
 
         driver.findElement(By.id("mainForm-Category2Display")).click();
-        driver.findElement(By.xpath("//span[contains(text(), 'Zadanie akceptacyjne')]")).click();
+        //driver.findElement(By.id("mainForm-Category2Display")).sendKeys("Zadanie akceptacyjne");
+        //driver.findElement(By.xpath("//span[contains(text(), 'Zadanie akceptacyjne')]")).click();
+        driver.findElement(By.xpath("//div[contains(@value, '5169023c-5370-492b-9b11-9d372e8600d5')]")).click();
+
+
+
+
 
         //driver.findElement(By.id("mainForm-_TaskOwnerDisplay")).click();
         //driver.findElement(By.xpath("//div[contains(@value, '0777fea4-30ca-411d-8993-647e07a4cb8d')]")).click();
