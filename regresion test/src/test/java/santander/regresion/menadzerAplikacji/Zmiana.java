@@ -111,5 +111,17 @@ public class Zmiana {
 
         driver.findElement(By.id("mainForm-_Szczegoly")).sendKeys("Przyczyna odrzucenia zadania");
     }
+    public void ZmianaNormalnaUzupelnij() {
+        driver.findElement(By.id("mainForm-RaiseUserTitleDisplay")).sendKeys("Mazurek Przemysław");
+        driver.findElement(By.xpath("//div[contains(@value, '0777fea4-30ca-411d-8993-647e07a4cb8d')]")).click();
+
+        driver.findElement(By.id("mainForm-CategoryNameDisplay")).click();
+        //driver.findElement(By.xpath("//div[contains(@value, '81a209b5-4b01-4317-b43e-c1426a27197d')]")).click();
+        driver.findElement(By.xpath("//div[contains(text(), 'Inne')]")).click();
+
+        driver.findElement(By.id("mainForm-_Tytuledytowalny")).sendKeys("Zmiana normalna tytuł");
+
+    }
+
 }
 

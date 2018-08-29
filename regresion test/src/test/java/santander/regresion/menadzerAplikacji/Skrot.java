@@ -28,5 +28,8 @@ public class Skrot {
         driver.findElement(By.id("shortcutItem_737a7664-a891-45d1-9c40-7aad58440b2c")).click(); }
     public void ZmianaAwaryjna() {
         driver.findElement(By.id("shortcutItem_6cc38b42-8624-4d6b-936d-bad58214be4f")).click(); }
+    public void ZmianaNormalna() {
+        driver.findElement(By.id("shortcutItem_405f5c10-ba98-44ac-8dad-d6ee588934c1")).click(); }
+
 
 }
