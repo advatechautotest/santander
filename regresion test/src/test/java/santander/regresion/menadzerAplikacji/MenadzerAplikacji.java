@@ -125,6 +125,16 @@ public class MenadzerAplikacji {
         driver.findElement(By.id("Ecom_User_ID")).sendKeys("mciszek@pl.aigcfg.net");
         driver.findElement(By.id("logonButton")).click();
     }
+    public void logInSOC_L2(){
+        driver.findElement(By.id("Ecom_User_ID")).click();
+        driver.findElement(By.id("Ecom_User_ID")).sendKeys("akurczewski@pl.aigcfg.net");
+        driver.findElement(By.id("logonButton")).click();
+    }
+    public void logInSOC_L3(){
+        driver.findElement(By.id("Ecom_User_ID")).click();
+        driver.findElement(By.id("Ecom_User_ID")).sendKeys("rpiechal@pl.aigcfg.net");
+        driver.findElement(By.id("logonButton")).click();
+    }
 
     public void logOut() {
         driver.findElement(By.xpath("//div[contains(@title, 'Wyloguj')]")).click();
