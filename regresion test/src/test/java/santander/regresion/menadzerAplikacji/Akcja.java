@@ -94,8 +94,9 @@ public class Akcja {
     public void ZamknijZmiane(){ driver.findElement(By.xpath("//li[contains(text(), 'Zamknij zmianę')]")).click(); }
     public void OdrzucZadanie(){ driver.findElement(By.xpath("//li[contains(text(), 'Odrzuć zadanie')]")).click(); }
     public void DoRealizacji(){ driver.findElement(By.xpath("//li[contains(text(), 'Do realizacji')]")).click(); }
-
-
+    public void PrzekazDoManageraZmian(){ driver.findElement(By.xpath("//li[contains(text(), 'Przekaż do Managera zmian')]")).click(); }
+    public void WyslijDoCzlonkowCAB(){ driver.findElement(By.xpath("//li[contains(text(), 'Wyślij do członków CAB')]")).click(); }
+    public void DoWdrozenia(){ driver.findElement(By.xpath("//li[contains(text(), 'Do wdrożenia')]")).click(); }
     public void DodajSzczegolZmiany(){ driver.findElement(By.xpath("//li[contains(text(), 'Dodaj szczegół zmiany')]")).click(); }
 
 

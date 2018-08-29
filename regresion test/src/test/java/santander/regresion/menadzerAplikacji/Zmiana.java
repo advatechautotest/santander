@@ -58,7 +58,7 @@ public class Zmiana {
         driver.findElement(By.id("mainForm-Title2")).sendKeys("Tytuł załącznika");
     }
     public void ZalacznikZadaniePlik() {
-        File file = new File("attach/santander.txt");
+        File file = new File("regresion test/attach/santander.txt");
         if(!file.exists())throw new RuntimeException("file doesn't exist");
         else { driver.findElement(By.id("mainForm-AttachmentDocument2")).sendKeys(file.getAbsolutePath()); }
     }
@@ -117,7 +117,7 @@ public class Zmiana {
 
         driver.findElement(By.id("mainForm-CategoryNameDisplay")).click();
         //driver.findElement(By.xpath("//div[contains(@value, '81a209b5-4b01-4317-b43e-c1426a27197d')]")).click();
-        driver.findElement(By.xpath("//div[contains(text(), 'Inne')]")).click();
+        driver.findElement(By.xpath("//span[contains(text(), 'Inne')]")).click();
 
         driver.findElement(By.id("mainForm-_Tytuledytowalny")).sendKeys("Zmiana normalna tytuł");
 
