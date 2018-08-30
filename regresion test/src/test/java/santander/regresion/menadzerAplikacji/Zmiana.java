@@ -104,8 +104,16 @@ public class Zmiana {
         driver.findElement(By.id("mainForm-_Details2_editor")).sendKeys("Opis szczegółu zmiany");
     }
     public void OpisEdytuj() {
+        driver.findElement(By.id("mainForm-Description_editor")).click();
+        driver.findElement(By.id("mainForm-Description_editor")).sendKeys(Keys.DELETE);
         driver.findElement(By.id("mainForm-Description_editor")).sendKeys("Opis zmiany zedytowany");
 
+    }
+    public void ZmianaNormalnaAnuluj() {
+        driver.findElement(By.id("mainForm-_ChangeClosureCategoryDisplay")).click();
+        driver.findElement(By.xpath("//div[contains(@value, '4d814661-04bf-4adf-a8b4-069b326dffc8')]")).click();
+
+        driver.findElement(By.id("mainForm-_Details_editor")).sendKeys("Szczegóły Anulowania zmiany normalnej");
     }
     public void ZmianaZadanieOdrzucZadanieUzupelnij() {
 

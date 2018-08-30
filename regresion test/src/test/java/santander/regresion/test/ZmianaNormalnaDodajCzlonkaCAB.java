@@ -3,9 +3,9 @@ package santander.regresion.test;
 import org.testng.annotations.Test;
 import santander.regresion.TestBase;
 
-public class ZmianaNormalna extends TestBase {
+public class ZmianaNormalnaDodajCzlonkaCAB extends TestBase {
     @Test
-    public void testZmianaNormalna() throws Exception{
+    public void testZmianaNormalnaDodajCzlonkaCAB() throws Exception{
 
         app.logInAdminAplikacji();
         app.screenShot();
@@ -143,78 +143,6 @@ public class ZmianaNormalna extends TestBase {
         app.screenShot();
         app.getZadanie().PowrotDoZmianyLink();
         app.screenShot();
-        app.getAkcja().Zatwierdz();
-        app.screenShot();
-        app.getAkcja().DodajNotatke();
-        app.screenShot();
-        app.getZmiana().NotatkaZadanieTytul();
-        app.screenShot();
-        app.saveandcloseButton();
-        app.screenShot();
-        app.getAkcja().DodajZalacznik();
-        app.screenShot();
-        app.getZmiana().ZalacznikZadanieTytul();
-        app.screenShot();
-        app.getZmiana().ZalacznikZadaniePlik();
-        app.screenShot();
-        app.saveandcloseButton();
-        app.screenShot();
-        app.getAkcja().Edytuj();
-        app.screenShot();
-        app.getZmiana().OpisEdytuj();
-        app.screenShot();
-        app.saveandcloseButton();
-        app.screenShot();
-        app.getAkcja().DoWdrozenia();
-        app.screenShot();
-        app.getAkcja().DodajNotatke();
-        app.screenShot();
-        app.getZmiana().NotatkaZadanieTytul();
-        app.screenShot();
-        app.saveandcloseButton();
-        app.screenShot();
-        app.getAkcja().DodajZalacznik();
-        app.screenShot();
-        app.getZmiana().ZalacznikZadanieTytul();
-        app.screenShot();
-        app.getZmiana().ZalacznikZadaniePlik();
-        app.screenShot();
-        app.saveandcloseButton();
-        app.screenShot();
-        app.getAkcja().Edytuj();
-        app.screenShot();
-        app.getZmiana().OpisEdytuj();
-        app.screenShot();
-        app.saveandcloseButton();
-        app.screenShot();
-        app.getAkcja().DoWeryfikacji();
-        app.screenShot();
-        app.getAkcja().DodajNotatke();
-        app.screenShot();
-        app.getZmiana().NotatkaZadanieTytul();
-        app.screenShot();
-        app.saveandcloseButton();
-        app.screenShot();
-        app.getAkcja().DodajZalacznik();
-        app.screenShot();
-        app.getZmiana().ZalacznikZadanieTytul();
-        app.screenShot();
-        app.getZmiana().ZalacznikZadaniePlik();
-        app.screenShot();
-        app.saveandcloseButton();
-        app.screenShot();
-        app.getAkcja().Edytuj();
-        app.screenShot();
-        app.getZmiana().OpisEdytuj();
-        app.screenShot();
-        app.saveandcloseButton();
-        app.screenShot();
-        app.getAkcja().Zamknij();
-        app.screenShot();
-        app.getZmiana().ZamknijZmianeUzupelnij();
-        app.screenShot();
-
-
 
 
     }
