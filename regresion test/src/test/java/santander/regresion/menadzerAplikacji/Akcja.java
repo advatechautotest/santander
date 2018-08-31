@@ -98,6 +98,7 @@ public class Akcja {
     public void WyslijDoCzlonkowCAB(){ driver.findElement(By.xpath("//li[contains(text(), 'Wyślij do członków CAB')]")).click(); }
     public void DoWdrozenia(){ driver.findElement(By.xpath("//li[contains(text(), 'Do wdrożenia')]")).click(); }
     public void DodajSzczegolZmiany(){ driver.findElement(By.xpath("//li[contains(text(), 'Dodaj szczegół zmiany')]")).click(); }
+    public void KoniecznaModyfikacja(){ driver.findElement(By.xpath("//li[contains(text(), 'Konieczna modyfikacja')]")).click(); }
 
 
 }

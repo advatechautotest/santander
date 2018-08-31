@@ -104,68 +104,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MenadzerAplikacji.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/MenadzerAplikacji.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="116" column="60" lean-forward="true" selection-start-line="116" selection-start-column="60" selection-end-line="116" selection-end-column="82" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1535550594752" expanded="false" signature="2041:2052" ph=" { " />
-                <marker date="1535550594752" expanded="false" signature="2109:2115" ph=" }" />
-                <marker date="1535550594752" expanded="false" signature="2145:2156" ph=" { " />
-                <marker date="1535550594752" expanded="false" signature="2214:2220" ph=" }" />
-                <marker date="1535550594752" expanded="false" signature="2252:2263" ph=" { " />
-                <marker date="1535550594752" expanded="false" signature="2322:2328" ph=" }" />
-                <marker date="1535550594752" expanded="false" signature="2496:2507" ph=" { " />
-                <marker date="1535550594752" expanded="false" signature="2521:2527" ph=" }" />
-                <marker date="1535550594752" expanded="false" signature="4722:4733" ph=" { " />
-                <marker date="1535550594752" expanded="false" signature="4808:4814" ph=" }" />
-                <marker date="1535550594752" expanded="false" signature="4849:4860" ph=" { " />
-                <marker date="1535550594752" expanded="false" signature="4917:4923" ph=" }" />
-                <marker date="1535550594752" expanded="false" signature="5063:5074" ph=" { " />
-                <marker date="1535550594752" expanded="false" signature="5090:5096" ph=" }" />
-                <marker date="1535550594752" expanded="false" signature="5583:5594" ph=" { " />
-                <marker date="1535550594752" expanded="false" signature="5612:5618" ph=" }" />
-                <marker date="1535550594752" expanded="false" signature="5652:5663" ph=" { " />
-                <marker date="1535550594752" expanded="false" signature="5679:5685" ph=" }" />
-                <marker date="1535550594752" expanded="false" signature="5714:5725" ph=" { " />
-                <marker date="1535550594752" expanded="false" signature="5738:5744" ph=" }" />
-                <marker date="1535550594752" expanded="false" signature="5777:5788" ph=" { " />
-                <marker date="1535550594752" expanded="false" signature="5803:5809" ph=" }" />
-                <marker date="1535550594752" expanded="false" signature="5844:5855" ph=" { " />
-                <marker date="1535550594752" expanded="false" signature="5871:5877" ph=" }" />
-                <marker date="1535550594752" expanded="false" signature="5906:5917" ph=" { " />
-                <marker date="1535550594752" expanded="false" signature="5930:5936" ph=" }" />
-                <marker date="1535550594752" expanded="false" signature="5965:5976" ph=" { " />
-                <marker date="1535550594752" expanded="false" signature="5989:5995" ph=" }" />
-                <marker date="1535550594752" expanded="false" signature="6028:6039" ph=" { " />
-                <marker date="1535550594752" expanded="false" signature="6054:6060" ph=" }" />
-                <marker date="1535550594752" expanded="false" signature="6090:6101" ph=" { " />
-                <marker date="1535550594752" expanded="false" signature="6115:6121" ph=" }" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Akcja.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Akcja.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+            <state relative-caret-position="417">
+              <caret line="100" column="113" lean-forward="false" selection-start-line="100" selection-start-column="113" selection-end-line="100" selection-end-column="113" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3715#3716#0" expanded="true" />
                 <element signature="e#3811#3812#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Zmiana.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Zmiana.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Zmiana.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="112" column="47" lean-forward="false" selection-start-line="112" selection-start-column="47" selection-end-line="112" selection-end-column="47" />
+            <state relative-caret-position="415">
+              <caret line="142" column="0" lean-forward="true" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#282#283#0" expanded="true" />
@@ -183,78 +140,93 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ZmianaNormalnaKrotka.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNormalnaKrotka.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="40" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZmianaNormalnaDoWeryfikacjiZamknij.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNormalnaDoWeryfikacjiZamknij.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZmianaNormalnaDoWdrozeniaAnuluj.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNormalnaDoWdrozeniaAnuluj.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1337">
+              <caret line="86" column="33" lean-forward="false" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZmianaNormalnaNiePowiodlaSieZamknij.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNormalnaNiePowiodlaSieZamknij.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="60" column="25" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="82" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZmianaNormalnaDodajCzlonkaCAB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNormalnaDodajCzlonkaCAB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="373">
+              <caret line="62" column="25" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="62" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZmianaNormalnaKrotkaOdrzuc.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNormalnaKrotkaOdrzuc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="917">
+              <caret line="46" column="25" lean-forward="true" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZmianaNormalnaKrotkaKoniecznaModyfikacja.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNormalnaKrotkaKoniecznaModyfikacja.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="44" column="25" lean-forward="true" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ZmianaNormalna.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNormalna.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="294">
               <caret line="20" column="25" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="20" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZmianaNormalnaAnuluj.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNormalnaAnuluj.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZmianaAwaryjnaAnuluj1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaAwaryjnaAnuluj1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Kolekcja.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Kolekcja.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1774">
-              <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1535456517666" expanded="true" signature="1217:1327" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Zadanie.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Zadanie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="84" column="53" lean-forward="false" selection-start-line="84" selection-start-column="49" selection-end-line="84" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Grupa.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Grupa.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZmianaNowaStandardowaPowiodlaSie.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNowaStandardowaPowiodlaSie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1134">
-              <caret line="174" column="47" lean-forward="false" selection-start-line="174" selection-start-column="8" selection-end-line="174" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -273,7 +245,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getIncydent</find>
       <find>zmiana.driver</find>
       <find>Grupa</find>
       <find>WstawNumerWniosku()</find>
@@ -303,6 +274,7 @@
       <find>CONtr</find>
       <find>opi</find>
       <find>CAB</find>
+      <find>cab</find>
     </findStrings>
     <replaceStrings>
       <replace>PrzeksztalcwIncydent</replace>
@@ -922,12 +894,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/regresion test/src/test/resources/testngIncydent.xml" />
-        <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/PrzejecieZgloszenia.java" />
-        <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZamkniecieZgloszenia.java" />
-        <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/Zgloszenie.java" />
-        <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZgloszeniePrzeksztalcenieWeWniosek.java" />
-        <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZgloszeniePrzeksztalceniewIncydentBezpieczenstwa.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZgloszeniePrzeksztalceniewIncydentPierwszy.java" />
         <option value="$PROJECT_DIR$/regresion test/build.gradle" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZgloszeniePrzeksztalcenieWeWniosekoUprawnieniaAnuluj.java" />
@@ -966,13 +932,19 @@
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNowaStandardowaAutomatycznieOdrzucona.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNowaStandardowaPowiodlaSie.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Skrot.java" />
-        <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Akcja.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Zadanie.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/MenadzerAplikacji.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNormalna.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNormalnaDodajCzlonkaCAB.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNormalnaAnuluj.java" />
+        <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNormalnaKrotka.java" />
+        <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNormalnaKrotkaOdrzuc.java" />
+        <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Akcja.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Zmiana.java" />
+        <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNormalnaKrotkaKoniecznaModyfikacja.java" />
+        <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNormalnaNiePowiodlaSieZamknij.java" />
+        <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNormalnaDoWeryfikacjiZamknij.java" />
+        <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNormalnaDoWdrozeniaAnuluj.java" />
       </list>
     </option>
   </component>
@@ -1095,7 +1067,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ZmianaNormalnaAnuluj">
+  <component name="RunManager" selected="TestNG.ZmianaNormalnaDoWdrozeniaAnuluj">
     <configuration name="Zgloszenie" type="TestNG" factoryName="TestNG" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
@@ -1128,7 +1100,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="ZmianaNormalna" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ZmianaNormalnaDoWdrozeniaAnuluj" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="santander.regresion.test.*" />
@@ -1140,7 +1112,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="santander.regresion.test" />
-      <option name="MAIN_CLASS_NAME" value="santander.regresion.test.ZmianaNormalna" />
+      <option name="MAIN_CLASS_NAME" value="santander.regresion.test.ZmianaNormalnaDoWdrozeniaAnuluj" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -1160,7 +1132,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="ZmianaNormalnaAnuluj" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ZmianaNormalnaDoWeryfikacjiZamknij" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="santander.regresion.test.*" />
@@ -1172,7 +1144,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="santander.regresion.test" />
-      <option name="MAIN_CLASS_NAME" value="santander.regresion.test.ZmianaNormalnaAnuluj" />
+      <option name="MAIN_CLASS_NAME" value="santander.regresion.test.ZmianaNormalnaDoWeryfikacjiZamknij" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -1192,7 +1164,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="ZmianaNormalnaDodajCzlonkaCAB" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ZmianaNormalnaKrotkaKoniecznaModyfikacja" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="santander.regresion.test.*" />
@@ -1204,7 +1176,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="santander.regresion.test" />
-      <option name="MAIN_CLASS_NAME" value="santander.regresion.test.ZmianaNormalnaDodajCzlonkaCAB" />
+      <option name="MAIN_CLASS_NAME" value="santander.regresion.test.ZmianaNormalnaKrotkaKoniecznaModyfikacja" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -1224,7 +1196,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="ZmianaNowaStandardowaAutomatycznieOdrzucona" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ZmianaNormalnaKrotkaOdrzuc" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="santander.regresion.test.*" />
@@ -1236,7 +1208,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="santander.regresion.test" />
-      <option name="MAIN_CLASS_NAME" value="santander.regresion.test.ZmianaNowaStandardowaAutomatycznieOdrzucona" />
+      <option name="MAIN_CLASS_NAME" value="santander.regresion.test.ZmianaNormalnaKrotkaOdrzuc" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -1256,7 +1228,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="ZmianaNowaStandardowaPowiodlaSie" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ZmianaNormalnaNiePowiodlaSieZamknij" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="santander.regresion.test.*" />
@@ -1268,7 +1240,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="santander.regresion.test" />
-      <option name="MAIN_CLASS_NAME" value="santander.regresion.test.ZmianaNowaStandardowaPowiodlaSie" />
+      <option name="MAIN_CLASS_NAME" value="santander.regresion.test.ZmianaNormalnaNiePowiodlaSieZamknij" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -1290,19 +1262,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="TestNG.Zgloszenie" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.ZmianaNowaStandardowaAutomatycznieOdrzucona" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.ZmianaNowaStandardowaPowiodlaSie" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.ZmianaNormalna" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.ZmianaNormalnaDodajCzlonkaCAB" />
-      <item index="5" class="java.lang.String" itemvalue="TestNG.ZmianaNormalnaAnuluj" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.ZmianaNormalnaKrotkaOdrzuc" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.ZmianaNormalnaKrotkaKoniecznaModyfikacja" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.ZmianaNormalnaNiePowiodlaSieZamknij" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.ZmianaNormalnaDoWeryfikacjiZamknij" />
+      <item index="5" class="java.lang.String" itemvalue="TestNG.ZmianaNormalnaDoWdrozeniaAnuluj" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.ZmianaNormalnaAnuluj" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.ZmianaNormalnaDodajCzlonkaCAB" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.ZmianaNormalna" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.ZmianaNowaStandardowaPowiodlaSie" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.ZmianaNowaStandardowaAutomatycznieOdrzucona" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.ZmianaNormalnaDoWdrozeniaAnuluj" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.ZmianaNormalnaDoWeryfikacjiZamknij" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.ZmianaNormalnaNiePowiodlaSieZamknij" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.ZmianaNormalnaKrotkaKoniecznaModyfikacja" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.ZmianaNormalnaKrotkaOdrzuc" />
       </list>
     </recent_temporary>
   </component>
@@ -1323,35 +1295,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ZmianaNormalna - 2018.08.30 at 08h 52m 20s.xml">
-      <configuration name="ZmianaNormalna" configurationId="TestNG" />
+    <history-entry file="ZmianaNormalnaDoWdrozeniaAnuluj - 2018.08.31 at 10h 26m 58s.xml">
+      <configuration name="ZmianaNormalnaDoWdrozeniaAnuluj" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ZmianaNormalna - 2018.08.30 at 08h 54m 54s.xml">
-      <configuration name="ZmianaNormalna" configurationId="TestNG" />
+    <history-entry file="ZmianaNormalnaDoWdrozeniaAnuluj - 2018.08.31 at 10h 28m 24s.xml">
+      <configuration name="ZmianaNormalnaDoWdrozeniaAnuluj" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ZmianaNormalna - 2018.08.30 at 09h 01m 00s.xml">
-      <configuration name="ZmianaNormalna" configurationId="TestNG" />
+    <history-entry file="ZmianaNormalnaDoWeryfikacjiZamknij - 2018.08.31 at 10h 06m 48s.xml">
+      <configuration name="ZmianaNormalnaDoWeryfikacjiZamknij" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ZmianaNormalna - 2018.08.30 at 09h 07m 39s.xml">
-      <configuration name="ZmianaNormalna" configurationId="TestNG" />
+    <history-entry file="ZmianaNormalnaDoWeryfikacjiZamknij - 2018.08.31 at 10h 25m 45s.xml">
+      <configuration name="ZmianaNormalnaDoWeryfikacjiZamknij" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ZmianaNormalnaAnuluj - 2018.08.30 at 09h 24m 15s.xml">
-      <configuration name="ZmianaNormalnaAnuluj" configurationId="TestNG" />
+    <history-entry file="ZmianaNormalnaKrotkaKoniecznaModyfikacja - 2018.08.31 at 09h 32m 38s.xml">
+      <configuration name="ZmianaNormalnaKrotkaKoniecznaModyfikacja" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ZmianaNormalnaAnuluj - 2018.08.30 at 09h 31m 31s.xml">
-      <configuration name="ZmianaNormalnaAnuluj" configurationId="TestNG" />
+    <history-entry file="ZmianaNormalnaNiePowiodlaSieZamknij - 2018.08.31 at 09h 33m 44s.xml">
+      <configuration name="ZmianaNormalnaNiePowiodlaSieZamknij" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ZmianaNormalnaAnuluj - 2018.08.30 at 09h 32m 40s.xml">
-      <configuration name="ZmianaNormalnaAnuluj" configurationId="TestNG" />
+    <history-entry file="ZmianaNormalnaNiePowiodlaSieZamknij - 2018.08.31 at 09h 39m 09s.xml">
+      <configuration name="ZmianaNormalnaNiePowiodlaSieZamknij" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ZmianaNormalnaAnuluj - 2018.08.30 at 09h 34m 29s.xml">
-      <configuration name="ZmianaNormalnaAnuluj" configurationId="TestNG" />
+    <history-entry file="ZmianaNormalnaNiePowiodlaSieZamknij - 2018.08.31 at 09h 40m 23s.xml">
+      <configuration name="ZmianaNormalnaNiePowiodlaSieZamknij" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ZmianaNormalnaDodajCzlonkaCAB - 2018.08.30 at 09h 18m 40s.xml">
-      <configuration name="ZmianaNormalnaDodajCzlonkaCAB" configurationId="TestNG" />
+    <history-entry file="ZmianaNormalnaNiePowiodlaSieZamknij - 2018.08.31 at 09h 43m 07s.xml">
+      <configuration name="ZmianaNormalnaNiePowiodlaSieZamknij" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ZmianaNormalnaDodajCzlonkaCAB - 2018.08.30 at 09h 23m 46s.xml">
-      <configuration name="ZmianaNormalnaDodajCzlonkaCAB" configurationId="TestNG" />
+    <history-entry file="ZmianaNormalnaNiePowiodlaSieZamknij - 2018.08.31 at 09h 45m 14s.xml">
+      <configuration name="ZmianaNormalnaNiePowiodlaSieZamknij" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1388,61 +1360,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Zmiana.java</url>
-          <line>112</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/regresion test/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/3.9.1/fa70c733c092b2b4f82209b2be2ea86259203e49/selenium-remote-driver-3.9.1.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="307" column="0" lean-forward="false" selection-start-line="307" selection-start-column="0" selection-end-line="307" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regresion test/src/test/resources/testngIncydent.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZgloszeniePrzeksztalcenieWeWniosekoUprawnieniaAnuluj.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="61" column="33" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="61" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/IncydentZamkniecie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1218">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/IncydentAnulowanie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1377">
@@ -1714,17 +1636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Akcja.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3811#3812#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNowa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1733,12 +1644,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNormalnaDodajCzlonkaCAB.java">
+    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Kolekcja.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1774">
+          <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1535456517666" expanded="true" signature="1217:1327" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaAwaryjnaAnuluj1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNormalnaAnuluj.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
-          <caret line="145" column="0" lean-forward="true" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+          <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1785,22 +1715,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Kolekcja.java">
+    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNormalnaKrotkaOdrzuc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1774">
-          <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+        <state relative-caret-position="917">
+          <caret line="46" column="25" lean-forward="true" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1535456517666" expanded="true" signature="1217:1327" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaAwaryjnaAnuluj1.java">
+    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Akcja.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="417">
+          <caret line="100" column="113" lean-forward="false" selection-start-line="100" selection-start-column="113" selection-end-line="100" selection-end-column="113" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3715#3716#0" expanded="true" />
+            <element signature="e#3811#3812#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Zmiana.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="142" column="0" lean-forward="true" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#2863#2864#0" expanded="true" />
+            <element signature="e#2952#2953#0" expanded="true" />
+            <element signature="e#4469#4470#0" expanded="true" />
+            <element signature="e#4551#4552#0" expanded="true" />
+            <element signature="e#4589#4590#0" expanded="true" />
+            <element signature="e#4678#4679#0" expanded="true" />
+            <element signature="e#4715#4716#0" expanded="true" />
+            <element signature="e#4803#4804#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1814,32 +1767,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNormalnaAnuluj.java">
+    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNormalnaKrotkaKoniecznaModyfikacja.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
-          <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+          <caret line="44" column="25" lean-forward="true" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Zmiana.java">
+    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNormalnaDodajCzlonkaCAB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="112" column="47" lean-forward="false" selection-start-line="112" selection-start-column="47" selection-end-line="112" selection-end-column="47" />
+        <state relative-caret-position="373">
+          <caret line="62" column="25" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="62" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNormalnaKrotka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="40" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#2863#2864#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#4469#4470#0" expanded="true" />
-            <element signature="e#4551#4552#0" expanded="true" />
-            <element signature="e#4589#4590#0" expanded="true" />
-            <element signature="e#4678#4679#0" expanded="true" />
-            <element signature="e#4715#4716#0" expanded="true" />
-            <element signature="e#4803#4804#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNormalnaNiePowiodlaSieZamknij.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="60" column="25" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="82" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNormalnaDoWeryfikacjiZamknij.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNormalnaDoWdrozeniaAnuluj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1337">
+          <caret line="86" column="33" lean-forward="false" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

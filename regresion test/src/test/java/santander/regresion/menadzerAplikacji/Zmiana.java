@@ -111,7 +111,9 @@ public class Zmiana {
     }
     public void ZmianaNormalnaAnuluj() {
         driver.findElement(By.id("mainForm-_ChangeClosureCategoryDisplay")).click();
-        driver.findElement(By.xpath("//div[contains(@value, '4d814661-04bf-4adf-a8b4-069b326dffc8')]")).click();
+        //driver.findElement(By.xpath("//div[contains(@value, '4d814661-04bf-4adf-a8b4-069b326dffc8')]")).click();
+        driver.findElement(By.xpath("//span[contains(text(), 'Anulowana: anulowana przez Managera zmian')]")).click();
+
 
         driver.findElement(By.id("mainForm-_Details_editor")).sendKeys("Szczegóły Anulowania zmiany normalnej");
     }
@@ -130,6 +132,16 @@ public class Zmiana {
         driver.findElement(By.id("mainForm-_Tytuledytowalny")).sendKeys("Zmiana normalna tytuł");
 
     }
+    public void ZmianaNormalnaOdrzucUzupelnij() {
+        driver.findElement(By.id("mainForm-Text2")).sendKeys("Zmiana Odrzucona");
+
+    }
+    public void ZmianaNormalnaKoniecznaModyfikacjaUzupelnij() {
+        driver.findElement(By.id("mainForm-FormItemSzczegóły")).sendKeys("Konieczna modyfikacja zmiany");
+
+    }
+
+
 
 }
 
