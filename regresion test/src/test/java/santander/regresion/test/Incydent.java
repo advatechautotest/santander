@@ -126,13 +126,14 @@ public class Incydent extends TestBase {
         app.getIncydent().PoprosoWyjasnieniaWypelnienie();
         app.screenShot();
         app.saveandcloseButton();
-        app.zmianaWDnaSS();
+        String URL = app.zmianaWDnaSS();
+
         app.getKolekcja().PobierzNumerIncydentu();
         app.logOut();
         app.screenShot();
         app.logInEndUser();
         app.screenShot();
-        app.wprowadzPobranyUrl(url);
+        app.wprowadzPobranyUrl(URL);
         app.screenShot();
         app.getAkcja().DodajNotatke();
         app.getIncydent().NotatkaTytul();
