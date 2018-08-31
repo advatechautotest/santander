@@ -3,7 +3,23 @@
 <suite name="Suite1" verbose="1" >
     <test name="Incydent" >
         <classes>
+            <class name="santander.regresion.test.Incydent" />
+            <class name="santander.regresion.test.IncydentAnulowanie" />
+            <class name="santander.regresion.test.IncydentBezpiecenstwaEskalacjaSOCL2" />
+            <class name="santander.regresion.test.IncydentBezpiecenstwaEskalacjaSOCL3" />
+            <class name="santander.regresion.test.IncydentBezpieczenstwaEndUser" />
+            <class name="santander.regresion.test.IncydentBezpieczenstwaKopiowanieSOCL1" />
+            <class name="santander.regresion.test.IncydentBezpieczenstwaKopiowanieSOCL2" />
+            <class name="santander.regresion.test.IncydentBezpieczenstwaKopiowanieSOCL3" />
+            <class name="santander.regresion.test.IncydentBezpieczenstwaRozwProcesSOCL2" />
+            <class name="santander.regresion.test.IncydentBezpieczenstwaRozwProcesSOCL3" />
+            <class name="santander.regresion.test.IncydentBezpieczenstwaWstrzymIprocesSOCL2" />
+            <class name="santander.regresion.test.IncydentBezpieczenstwaWstrzymIprocesSOCL3" />
             <class name="santander.regresion.test.IncydentKopiowanieProcesu" />
+            <class name="santander.regresion.test.IncydentZadanie" />
+            <class name="santander.regresion.test.IncydentZadanieAkceptacyjne" />
+            <class name="santander.regresion.test.IncydentZamkniecie" />
+
 
         </classes>
     </test>
