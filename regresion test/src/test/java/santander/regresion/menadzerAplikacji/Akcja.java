@@ -92,18 +92,18 @@ public class Akcja {
     public void DoPonownejAkceptacji(){ driver.findElement(By.xpath("//li[contains(text(), 'Do ponownej akceptacji')]")).click(); }
     public void ZmianaNiePowiodlaSie(){ driver.findElement(By.xpath("//li[contains(text(), 'Zmiana nie powiodła się')]")).click(); }
     public void ZamknijZmiane(){ driver.findElement(By.xpath("//li[contains(text(), 'Zamknij zmianę')]")).click(); }
-<<<<<<< HEAD
+
     public void OdrzucZadanie(){ driver.findElement(By.xpath("//li[contains(text(), 'Odrzuć zadanie')]")).click(); }
     public void DoRealizacji(){ driver.findElement(By.xpath("//li[contains(text(), 'Do realizacji')]")).click(); }
     public void PrzekazDoManageraZmian(){ driver.findElement(By.xpath("//li[contains(text(), 'Przekaż do Managera zmian')]")).click(); }
     public void WyslijDoCzlonkowCAB(){ driver.findElement(By.xpath("//li[contains(text(), 'Wyślij do członków CAB')]")).click(); }
     public void DoWdrozenia(){ driver.findElement(By.xpath("//li[contains(text(), 'Do wdrożenia')]")).click(); }
-=======
+
     public void ZeStronaTrzecia(){driver.findElement(By.xpath("//li[contains(text(), 'Ze stroną trzecią')]")).click();}
     public void ZpowrotemOdInnejFirmy(){driver.findElement(By.xpath("//li[contains(text(), 'Z powrotem od innej firmy')]")).click();}
     public void ZadeklarujPowaznyIncydent(){driver.findElement(By.xpath("//li[contains(text(), 'Zadeklaruj poważny incydent')]")).click();}
   //  public void ZpowrotemOdInnejFirmy(){driver.findElement(By.xpath("//li[contains(text(), 'Z powrotem od innej firmy')]")).click();}
->>>>>>> f3bca1361857c64ac373043b912fdf2c652b6b50
+
     public void DodajSzczegolZmiany(){ driver.findElement(By.xpath("//li[contains(text(), 'Dodaj szczegół zmiany')]")).click(); }
     public void KoniecznaModyfikacja(){ driver.findElement(By.xpath("//li[contains(text(), 'Konieczna modyfikacja')]")).click(); }
 
