@@ -82,7 +82,7 @@ public class Akcja {
     public void Odrzuc(){ driver.findElement(By.xpath("//li[contains(text(), 'Odrzuć')]")).click(); }
     public void UtworzZmianeZincydentu(){ driver.findElement(By.xpath("//li[contains(text(), 'Utwórz zmianę z incydentu')]")).click(); }
     public void ZmianaPrzygotowana(){ driver.findElement(By.xpath("//li[contains(text(), 'Zmiana przygotowana')]")).click(); }
-
+    public void DodajPrzypisanie(){ driver.findElement(By.xpath("//li[contains(text(), 'Dodaj przypisanie')]")).click(); }
     public void AnulujZmiane(){ driver.findElement(By.xpath("//li[contains(text(), 'Anuluj zmianę')]")).click(); }
     public void DodecyzjiCAB(){ driver.findElement(By.xpath("//li[contains(text(), 'Do decyzji CAB')]")).click(); }
     public void DodajCzlonkaCAB(){ driver.findElement(By.xpath("//li[contains(text(), 'Dodaj członka CAB')]")).click(); }
@@ -92,11 +92,18 @@ public class Akcja {
     public void DoPonownejAkceptacji(){ driver.findElement(By.xpath("//li[contains(text(), 'Do ponownej akceptacji')]")).click(); }
     public void ZmianaNiePowiodlaSie(){ driver.findElement(By.xpath("//li[contains(text(), 'Zmiana nie powiodła się')]")).click(); }
     public void ZamknijZmiane(){ driver.findElement(By.xpath("//li[contains(text(), 'Zamknij zmianę')]")).click(); }
+<<<<<<< HEAD
     public void OdrzucZadanie(){ driver.findElement(By.xpath("//li[contains(text(), 'Odrzuć zadanie')]")).click(); }
     public void DoRealizacji(){ driver.findElement(By.xpath("//li[contains(text(), 'Do realizacji')]")).click(); }
     public void PrzekazDoManageraZmian(){ driver.findElement(By.xpath("//li[contains(text(), 'Przekaż do Managera zmian')]")).click(); }
     public void WyslijDoCzlonkowCAB(){ driver.findElement(By.xpath("//li[contains(text(), 'Wyślij do członków CAB')]")).click(); }
     public void DoWdrozenia(){ driver.findElement(By.xpath("//li[contains(text(), 'Do wdrożenia')]")).click(); }
+=======
+    public void ZeStronaTrzecia(){driver.findElement(By.xpath("//li[contains(text(), 'Ze stroną trzecią')]")).click();}
+    public void ZpowrotemOdInnejFirmy(){driver.findElement(By.xpath("//li[contains(text(), 'Z powrotem od innej firmy')]")).click();}
+    public void ZadeklarujPowaznyIncydent(){driver.findElement(By.xpath("//li[contains(text(), 'Zadeklaruj poważny incydent')]")).click();}
+  //  public void ZpowrotemOdInnejFirmy(){driver.findElement(By.xpath("//li[contains(text(), 'Z powrotem od innej firmy')]")).click();}
+>>>>>>> f3bca1361857c64ac373043b912fdf2c652b6b50
     public void DodajSzczegolZmiany(){ driver.findElement(By.xpath("//li[contains(text(), 'Dodaj szczegół zmiany')]")).click(); }
     public void KoniecznaModyfikacja(){ driver.findElement(By.xpath("//li[contains(text(), 'Konieczna modyfikacja')]")).click(); }
 

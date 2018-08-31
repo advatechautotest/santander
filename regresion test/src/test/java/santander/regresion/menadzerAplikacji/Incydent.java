@@ -16,7 +16,7 @@ public class Incydent {
     }
 
     public void ZalacznikPlik() {
-        File file = new File("regresion test/attach/santander.txt");
+        File file = new File("attach/santander.txt");
         if(!file.exists())throw new RuntimeException("file doesn't exist");
         else { driver.findElement(By.id("mainForm-AttachmentDocument2")).sendKeys(file.getAbsolutePath());}
     }
@@ -65,6 +65,12 @@ public class Incydent {
     }
     public void SkopiujProcesListaProcesowWniosekoUprawnienia() {
         driver.findElement(By.xpath("//div[contains(@value, '91135d83-54e1-4e5b-b02d-529e62a5ce75')]")).click();
+    }
+    public void SkopiujProcesSzablonIncydent() {
+        driver.findElement(By.id("mainForm-_SzablonwnioskuDisplay")).click();
+    }
+    public void SkopiujProcesSzablonIncydentuUzupelnij() {
+        driver.findElement(By.xpath("//div[contains(@value, 'e46acb61-46d9-482f-afd0-f902f6b4aef3')]")).click();
     }
     public void SkopiujProcesPrzyczyna() {
         driver.findElement(By.id("mainForm-_PrzyczynaskopiowaniaDisplay")).click();
@@ -119,6 +125,26 @@ public class Incydent {
         driver.findElement(By.id("mainForm-_SzablonodpowiedziDisplay")).click();
         driver.findElement(By.xpath("//div[contains(text(), 'Błędny formularz w WEB')]")).click();
 
+    }
+    public void IncydentAwaryjnyPrzypisanieSOC_L2(){
+        driver.findElement(By.id("mainForm-Group2Display")).click();
+        driver.findElement(By.id("mainForm-Group2Display")).sendKeys("SOC");
+        driver.findElement(By.xpath("//div[contains(@value, 'd64e24fd-79f9-4dfb-80b4-71055d493214')]")).click();
+    }
+    public void IncydentAwaryjnyPrzypisanieSOC_L3(){
+        driver.findElement(By.id("mainForm-Group2Display")).click();
+        driver.findElement(By.id("mainForm-Group2Display")).sendKeys("SOC");
+        driver.findElement(By.xpath("//div[contains(@value, 'ab88b6e2-ecdb-49d4-9453-27266ae02717')]")).click();
+    }
+    public void ZfirmaTrzeciaZapytanie(){
+        driver.findElement(By.id("mainForm-_Description19_editor")).sendKeys("Opis");
+        driver.findElement(By.id("mainForm-_TypkomunikacjizfirmatrzeciaDisplay")).click();
+        driver.findElement(By.xpath("//div[contains(@value, 'a2bab230-e22d-4818-a5da-384c15eeef78')]")).click();
+    }
+    public void ZfirmaTrzeciaOdpowiedz(){
+        driver.findElement(By.id("mainForm-_Description19_editor")).sendKeys("Opis 123");
+        driver.findElement(By.id("mainForm-_TypkomunikacjizfirmatrzeciaDisplay")).click();
+        driver.findElement(By.xpath("//div[contains(@value, '8148f5b8-ae5c-4448-95bd-e4d5f21529a3')]")).click();
     }
 }
 
