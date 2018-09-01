@@ -138,6 +138,9 @@ public class WniosekoUprawnieniaZrealizowany extends TestBase {
         app.logOut();
         app.screenShot();
         app.logInAdminAplikacji();
+        app.screenShot();
+        app.BiezacaGrupaAdministratorzyAplikacji();
+        app.screenShot();
         app.getSkrot().Wnioski();
         app.screenShot();
         app.getKolekcja().WstawNumerWniosku();
