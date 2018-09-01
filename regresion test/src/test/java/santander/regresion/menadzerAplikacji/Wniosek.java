@@ -20,8 +20,12 @@ public class Wniosek {
         }
     }
 
-    public void ZalacznikTytul() {
+    public void ZalacznikTytulFail() {
         driver.findElement(By.id("mainForm-Title2")).sendKeys("Wniosek Tytuł załącznika");
+    }
+    public void ZalacznikTytul() {
+        //driver.findElement(By.xpath("//span[contains(@id, 'mainForm-Title2')]")).click();
+        driver.findElement(By.xpath("//input[contains(@id, 'mainForm-Title2')]")).sendKeys("Wniosek Tytuł załącznika");
     }
 
     public void NotatkaTytul() {

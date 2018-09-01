@@ -104,9 +104,10 @@ public class Zmiana {
         driver.findElement(By.id("mainForm-_Details2_editor")).sendKeys("Opis szczegółu zmiany");
     }
     public void OpisEdytuj() {
-        driver.findElement(By.id("mainForm-Description_editor")).click();
+        driver.findElement(By.id("mainForm-Description_editor")).sendKeys(Keys.chord(Keys.LEFT_CONTROL, "a"));
         driver.findElement(By.id("mainForm-Description_editor")).sendKeys(Keys.DELETE);
         driver.findElement(By.id("mainForm-Description_editor")).sendKeys("Opis zmiany zedytowany");
+
 
     }
     public void ZmianaNormalnaAnuluj() {

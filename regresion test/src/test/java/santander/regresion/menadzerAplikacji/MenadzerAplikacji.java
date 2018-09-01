@@ -142,9 +142,20 @@ public class MenadzerAplikacji {
 
     }
 
+    public void BiezacaGrupaAdministratorzyAplikacji(){
+        driver.findElement(By.id("currentGroupBox")).click();
+        driver.findElement(By.xpath("//div[contains(@value, 'adminap')]")).click();
+
+    }
+
     public void logOut() {
         driver.findElement(By.xpath("//div[contains(@title, 'Wyloguj')]")).click();
     }
+
+    public void PrzelaczDoWebDeskLubSS() {
+        driver.findElement(By.xpath("//div[contains(@title, 'Przełącz do aplikacji Web Desk')]")).click();
+    }
+
 
 
     public String zmianaSSnaWD() {

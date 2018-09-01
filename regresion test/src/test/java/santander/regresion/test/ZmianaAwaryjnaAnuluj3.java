@@ -10,6 +10,8 @@ public class ZmianaAwaryjnaAnuluj3 extends TestBase{
 
         app.logInAdminAplikacji();
         app.screenShot();
+        app.BiezacaGrupaAdministratorzyAplikacji();
+        app.screenShot();
         app.getGrupa().Nowy();
         app.getSkrot().ZmianaAwaryjna();
         app.screenShot();

@@ -109,9 +109,14 @@ public class WniosekoUprawnieniaZadanie1doWniosku extends TestBase {
         app.getWniosek().NotatkaTytul();
         app.screenShot();
         app.saveandcloseButton();
+        app.screenShot();
         app.getAkcja().DodajZalacznik();
-        app.getWniosek().ZalacznikTytul();
-        app.getWniosek().ZalacznikPlik();
+        app.screenShot();
+       // app.getWniosek().ZalacznikTytul();
+        app.getZadanie().ZalacznikWniosekTytul();
+        app.screenShot();
+        //app.getWniosek().ZalacznikPlik();
+        app.getZadanie().ZalacznikWniosekPlik();
         app.screenShot();
         app.saveandcloseButton();
         app.getAkcja().PrzekazDoRealizacji();

@@ -167,6 +167,8 @@ public class IncydentZadanieAkceptacyjne extends TestBase {
         app.logOut();
         app.logIn1wszaLinia();
         app.screenShot();
+        app.PrzelaczDoWebDeskLubSS();
+        app.screenShot();
         app.getGrupa().Wyszukaj();
         app.getSkrot().Incydent();
         app.screenShot();

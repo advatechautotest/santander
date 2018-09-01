@@ -10,6 +10,8 @@ public class ZmianaAwaryjnaNiePowiodlaSieAnuluj extends TestBase {
 
         app.logInAdminAplikacji();
         app.screenShot();
+        app.BiezacaGrupaAdministratorzyAplikacji();
+        app.screenShot();
         app.getGrupa().Nowy();
         app.getSkrot().ZmianaAwaryjna();
         app.screenShot();
@@ -51,6 +53,8 @@ public class ZmianaAwaryjnaNiePowiodlaSieAnuluj extends TestBase {
         app.screenShot();
         app.getAkcja().ZmianaNiePowiodlaSie();
         app.getZmiana().ZmianaNiePowiodlaSieUzupelnij();
+        app.screenShot();
+        app.saveandcloseButton();
         app.screenShot();
         app.getAkcja().AnulujZmiane();
         app.getZmiana().KategoriaZamknieciaZmiany();

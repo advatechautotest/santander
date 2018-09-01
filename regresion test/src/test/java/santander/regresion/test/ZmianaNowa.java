@@ -114,6 +114,8 @@ public class ZmianaNowa extends TestBase {
         app.screenShot();
         app.logInAdminAplikacji();
         app.screenShot();
+        app.BiezacaGrupaAdministratorzyAplikacji();
+        app.screenShot();
         app.getGrupa().Wyszukaj();
         app.screenShot();
         app.getSkrot().Zmiany();
