@@ -97,10 +97,10 @@ public class Incydent extends TestBase {
         app.saveandcloseButton();
         app.screenShot();
         app.getKolekcja().SkopiowaneIncydenty();
-        app.Czekaj();
+        //app.Czekaj();
         //app.getKolekcja().PierwszyElementKolekcji();
         //app.screenShot();
-        app.Czekaj();
+        //app.Czekaj();
         app.getAkcja().ZglosIncydent();
         app.screenShot();
         app.getAkcja().Przejmij();
@@ -150,7 +150,10 @@ public class Incydent extends TestBase {
         app.logOut();
         app.logIn1wszaLinia();
         app.screenShot();
+        app.PrzelaczDoWebDeskLubSS();
+        app.screenShot();
         app.getGrupa().Wyszukaj();
+        app.screenShot();
         app.getSkrot().Incydent();
         app.screenShot();
         app.getKolekcja().WstawNumerIncydentu();
