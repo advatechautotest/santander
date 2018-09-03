@@ -170,7 +170,7 @@ public class MenadzerAplikacji {
     public void Czekaj() throws InterruptedException {
         Thread.sleep(5000);
     }
-    public void set100(){
+    public void set60(){
     //To set browser to default zoom level 100%
         for(int i=0; i<4; i++) {
             driver.findElement(By.tagName("html")).sendKeys(Keys.chord(Keys.CONTROL, Keys.SUBTRACT));

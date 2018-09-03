@@ -28,8 +28,8 @@ public class Kolekcja {
     }
 
     public void SkopiowaneIncydenty() {
-        //driver.findElement(By.xpath("//div[contains(text(), 'Skopiowane incydenty')]")).click();
-        driver.findElement(By.id("_btn_20")).click();
+        driver.findElement(By.xpath("//div[contains(text(), 'Skopiowane incydenty')]")).click();
+        //driver.findElement(By.id("_btn_20")).click();
         driver.findElement(By.xpath(".//*[@id='mainForm-Zapytanie3Body']/tr/td[1]")).click();
     }
 
