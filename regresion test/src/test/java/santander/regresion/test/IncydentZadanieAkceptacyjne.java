@@ -8,6 +8,7 @@ public class IncydentZadanieAkceptacyjne extends TestBase {
 
     public void testIncydentZadanieAkceptacyjne() throws Exception{
 
+        app.set60();
         app.logInEndUser();
         app.procesNoweZgloszenie();
         app.screenShot();
