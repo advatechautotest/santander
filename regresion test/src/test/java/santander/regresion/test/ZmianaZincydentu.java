@@ -128,7 +128,7 @@ public class ZmianaZincydentu extends TestBase {
         app.screenShot();
         app.saveandcloseButton();
         app.zmianaWDnaSS();
-        //app.getKolekcja().PobierzNumerIncydentu();
+        app.getKolekcja().PobierzNumerIncydentu();
         app.logOut();
         app.screenShot();
         app.logInEndUser();
@@ -167,6 +167,8 @@ public class ZmianaZincydentu extends TestBase {
         app.screenShot();
         app.getAkcja().AnulujZmiane();
         app.getZmiana().KategoriaZamknieciaZmiany();
+        app.screenShot();
+        app.saveandcloseButton();
         app.screenShot();
         app.cancelButton();
         app.screenShot();
