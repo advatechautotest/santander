@@ -3,7 +3,7 @@
 <suite name="Suite1" verbose="1" >
     <test name="Incydent" >
         <classes>
-            <class name="santander.regresion.test.Incydent" />
+            <class name="santander.regresion.test.IncydentZadanie" />
 
         </classes>
     </test>
