@@ -10,7 +10,7 @@ public class ZmianaNowa extends TestBase {
     public void testNowaZmiana() throws Exception{
 
 
-        //app.set100();
+        app.set60();
         app.logIn1wszaLinia();
         app.screenShot();
         app.getGrupa().Nowy();

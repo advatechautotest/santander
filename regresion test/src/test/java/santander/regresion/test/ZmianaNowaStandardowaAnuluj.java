@@ -6,6 +6,8 @@ import santander.regresion.TestBase;
 public class ZmianaNowaStandardowaAnuluj extends TestBase {
     @Test
     public void testZmianaNowaStandardowaAnuluj() throws Exception{
+
+        app.set60();
         app.logIn1wszaLinia();
         app.screenShot();
         app.getGrupa().Nowy();
