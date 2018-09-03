@@ -8,7 +8,7 @@ public class ZmianaZincydentuZadanie extends TestBase {
 
     public void testZmianaZincydentuZadanie() throws Exception{
 
-        app.set60();
+        //app.set60();
         app.logInEndUser();
         app.procesNoweZgloszenie();
         app.screenShot();
@@ -162,10 +162,16 @@ public class ZmianaZincydentuZadanie extends TestBase {
         app.getAkcja().UtworzZmianeZincydentu();
         app.screenShot();
         app.getZmiana().typZmianyStandardowa();
+        app.screenShot();
         app.getZmiana().SzablonZmianyDRS_FIX_PILNY_Z3();
         app.screenShot();
         app.saveButton();
+
+        app.screenShot();
+        //app.getKolekcja().ZmianyIncydentow();
+        //app.screenShot();
         app.getKolekcja().ZmianaSzczegolyZmianyPrzyczynaZmiany();
+        app.screenShot();
         app.getZmiana().SzczegolyZmianyPrzyczynaZmianySzczegolyEdycja();
         app.screenShot();
         app.saveandcloseButton();
