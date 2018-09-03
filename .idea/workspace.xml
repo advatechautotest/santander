@@ -124,7 +124,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testngIncydent.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testngIncydent.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regresion test/src/test/resources/testngIncydent.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
@@ -152,6 +152,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="397">
               <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZmianaZincydentu.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaZincydentu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -871,7 +881,6 @@
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/WniosekoUprawnieniaKopiowanieProcesu.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Grupa.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/NowaZmiana.java" />
-        <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaZincydentu.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaAwaryjnaWsteczFałsz.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNowaStandardowaAnuluj.java" />
@@ -914,6 +923,7 @@
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Incydent.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaZincydentuZadanie.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/resources/testngIncydent.xml" />
+        <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaZincydentu.java" />
       </list>
     </option>
   </component>
@@ -1604,14 +1614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaZincydentu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2647">
-          <caret line="171" column="0" lean-forward="false" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/WniosekoUprawnieniaZrealizowany.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -1755,6 +1757,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaZincydentu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding />
         </state>
       </provider>
