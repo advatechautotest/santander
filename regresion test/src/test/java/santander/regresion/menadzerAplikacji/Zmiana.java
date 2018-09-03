@@ -52,7 +52,11 @@ public class Zmiana {
             driver.findElement(By.xpath("//span[contains(text(), 'Inne')]")).click();
         }
     public void NotatkaZadanieTytul() {
-        driver.findElement(By.id("mainForm-Text_editor")).sendKeys("Testowa notatka do zadania");
+        //driver.findElement(By.id("mainForm-Text_editor")).sendKeys("Testowa notatka do zadania");
+        driver.findElement(By.xpath("//*[@id='mainForm-Text_editor' or @id='mainForm-Text']")).sendKeys("Testowa notatka do zadania");
+        //driver.findElement(By.cssSelector("mainForm-Text_editor, mainForm-Text")).sendKeys("Testowa notatka do zadania");
+        //driver.findElement(By.xpath("//*[@id='mainForm-Text_editor']")).sendKeys("Testowa notatka do zadania");
+
     }
     public void ZalacznikZadanieTytul() {
         driver.findElement(By.id("mainForm-Title2")).sendKeys("Tytuł załącznika");
