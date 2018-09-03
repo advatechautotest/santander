@@ -40,7 +40,7 @@ public class ZmianaAwaryjnaWsteczFalsz extends TestBase {
         app.saveButton();
         app.getAkcja().PrzekazDoRealizacji();
         app.screenShot();
-        app.Czekaj();
+        app.Czekaj50();
         app.getAkcja().Zatwierdz();
         app.screenShot();
         app.getZadanie().PowrotDoZmianyLink();

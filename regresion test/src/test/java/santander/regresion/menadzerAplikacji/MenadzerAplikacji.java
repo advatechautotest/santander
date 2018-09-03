@@ -170,6 +170,11 @@ public class MenadzerAplikacji {
     public void Czekaj() throws InterruptedException {
         Thread.sleep(5000);
     }
+
+    public void Czekaj50() throws InterruptedException {
+        Thread.sleep(50000);
+    }
+
     public void set60(){
     //To set browser to default zoom level 100%
         for(int i=0; i<4; i++) {

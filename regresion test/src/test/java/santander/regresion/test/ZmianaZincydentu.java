@@ -257,6 +257,8 @@ public class ZmianaZincydentu extends TestBase {
         app.logOut();
         app.logInAdminAplikacji();
         app.screenShot();
+        app.BiezacaGrupaAdministratorzyAplikacji();
+        app.screenShot();
         app.getGrupa().Wyszukaj();
         app.getSkrot().Zmiany();
         app.getKolekcja().WstawNumerZmiany();
@@ -286,6 +288,8 @@ public class ZmianaZincydentu extends TestBase {
         app.screenShot();
         app.logOut();
         app.logInAdminAplikacji();
+        app.screenShot();
+        app.BiezacaGrupaAdministratorzyAplikacji();
         app.screenShot();
         app.getGrupa().Wyszukaj();
         app.getSkrot().Zmiany();
