@@ -41,9 +41,9 @@ public class MenadzerAplikacji {
         System.setProperty("webdriver.gecko.driver","drivers/geckodriver.exe");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
-        driver.get("http://10.0.19.23/test18.WebAccess/wd/Logon/Logon.rails");
+        //driver.get("http://10.0.19.23/test18.WebAccess/wd/Logon/Logon.rails");
 
-        //driver.get("http://10.0.19.28/upgrade18.WebAccess/wd/Logon/Logon.rails");
+        driver.get("http://10.0.19.28/upgrade18.WebAccess/wd/Logon/Logon.rails");
         //driver.get("http://10.0.19.41/20180801.WebAccess/wd/Logon/Logon.rails");
         incydent = new Incydent(driver);
         zgloszenie = new Zgloszenie(driver);
@@ -149,6 +149,23 @@ public class MenadzerAplikacji {
         driver.findElement(By.xpath("//div[contains(@value, 'adminap')]")).click();
 
     }
+
+    public void BiezacaGrupaSOC_L3(){
+        driver.findElement(By.id("currentGroupBox")).click();
+        driver.findElement(By.xpath("//div[contains(@value, '0_soc_l3')]")).click();
+
+    }
+    public void BiezacaGrupaSOC_L2(){
+        driver.findElement(By.id("currentGroupBox")).click();
+        driver.findElement(By.xpath("//div[contains(@value, '0_soc_l2')]")).click();
+
+    }
+    public void BiezacaGrupaSOC_L1(){
+        driver.findElement(By.id("currentGroupBox")).click();
+        driver.findElement(By.xpath("//div[contains(@value, '0_soc_l1')]")).click();
+
+    }
+
 
     public void logOut() {
         driver.findElement(By.xpath("//div[contains(@title, 'Wyloguj')]")).click();
