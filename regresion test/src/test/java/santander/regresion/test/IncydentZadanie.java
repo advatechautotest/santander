@@ -8,6 +8,7 @@ public class IncydentZadanie extends TestBase {
 
     public void testIncydentZadanie() throws Exception{
 
+        app.set60();
         app.logInEndUser();
         app.procesNoweZgloszenie();
         app.screenShot();
