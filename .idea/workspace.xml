@@ -144,11 +144,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testngIncydent.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="testngIncydent.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/regresion test/src/test/resources/testngIncydent.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="5" column="86" lean-forward="false" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="86" />
+              <caret line="5" column="82" lean-forward="false" selection-start-line="5" selection-start-column="82" selection-end-line="5" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -164,7 +164,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Incydent.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Incydent.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Incydent.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
@@ -919,8 +919,8 @@
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/MenadzerAplikacji.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaZincydentu.java" />
         <option value="$PROJECT_DIR$/regresion test/build.gradle" />
-        <option value="$PROJECT_DIR$/regresion test/src/test/resources/testngIncydent.xml" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Incydent.java" />
+        <option value="$PROJECT_DIR$/regresion test/src/test/resources/testngIncydent.xml" />
       </list>
     </option>
   </component>
@@ -1734,14 +1734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/regresion test/src/test/resources/testngIncydent.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="86" lean-forward="false" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/WniosekoUprawnieniaZadanie1doWniosku.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -1754,6 +1746,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regresion test/src/test/resources/testngIncydent.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="82" lean-forward="false" selection-start-line="5" selection-start-column="82" selection-end-line="5" selection-end-column="82" />
           <folding />
         </state>
       </provider>
