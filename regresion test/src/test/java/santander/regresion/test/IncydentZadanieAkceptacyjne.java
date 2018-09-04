@@ -40,6 +40,8 @@ public class IncydentZadanieAkceptacyjne extends TestBase {
         app.screenShot();
         app.wprowadzPobranyUrl(url);
         app.screenShot();
+        app.BiezacaGrupa1wszaLinia();
+        app.screenShot();
         app.getAkcja().Przejmij();
         app.screenShot();
         app.getAkcja().Edytuj();
@@ -146,6 +148,8 @@ public class IncydentZadanieAkceptacyjne extends TestBase {
         app.screenShot();
         app.przelaczDoWeb();
         app.screenShot();
+        app.BiezacaGrupa1wszaLinia();
+        app.screenShot();
         app.getGrupa().Wyszukaj();
         app.getSkrot().Incydent();
         app.getKolekcja().WstawNumerIncydentu();
@@ -169,6 +173,8 @@ public class IncydentZadanieAkceptacyjne extends TestBase {
         app.logIn1wszaLinia();
         app.screenShot();
         app.PrzelaczDoWebDeskLubSS();
+        app.screenShot();
+        app.BiezacaGrupa1wszaLinia();
         app.screenShot();
         app.getGrupa().Wyszukaj();
         app.getSkrot().Incydent();

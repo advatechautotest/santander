@@ -10,6 +10,8 @@ public class ZmianaNowaStandardowaAnuluj extends TestBase {
         app.set60();
         app.logIn1wszaLinia();
         app.screenShot();
+        app.BiezacaGrupa1wszaLinia();
+        app.screenShot();
         app.getGrupa().Nowy();
         app.screenShot();
         app.getSkrot().ZmianaStandardowa();

@@ -22,6 +22,8 @@ public class IncydentBezpieczenstwaKopiowanieSOCL3 extends TestBase {
         app.logInSOC_L3();
         app.wprowadzPobranyUrl(url);
         app.screenShot();
+        app.BiezacaGrupaSOC_L3();
+        app.screenShot();
         app.getAkcja().Przejmij();
         app.screenShot();
         app.getAkcja().SkopiujProces();

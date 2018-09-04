@@ -40,6 +40,8 @@ public class ZgloszeniePrzejecie extends TestBase {
         app.screenShot();
         app.wprowadzPobranyUrl(url);
         app.screenShot();
+        app.BiezacaGrupa1wszaLinia();
+        app.screenShot();
         app.getAkcja().Przejmij();
         app.screenShot();
         app.getAkcja().Edytuj();

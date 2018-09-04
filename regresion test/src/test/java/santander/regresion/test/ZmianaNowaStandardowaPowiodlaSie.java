@@ -10,6 +10,8 @@ public class ZmianaNowaStandardowaPowiodlaSie extends TestBase{
 
         app.logIn1wszaLinia();
         app.screenShot();
+        app.BiezacaGrupa1wszaLinia();
+        app.screenShot();
         app.getGrupa().Nowy();
         app.screenShot();
         app.getSkrot().ZmianaStandardowa();

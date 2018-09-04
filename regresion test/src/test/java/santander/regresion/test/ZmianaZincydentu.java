@@ -40,6 +40,8 @@ public class ZmianaZincydentu extends TestBase {
         app.screenShot();
         app.wprowadzPobranyUrl(url);
         app.screenShot();
+        app.BiezacaGrupa1wszaLinia();
+        app.screenShot();
         app.getAkcja().Przejmij();
         app.screenShot();
         app.getAkcja().Edytuj();
@@ -151,6 +153,8 @@ public class ZmianaZincydentu extends TestBase {
         app.logIn1wszaLinia();
         app.screenShot();
         app.przelaczDoWeb();
+        app.BiezacaGrupa1wszaLinia();
+        app.screenShot();
         app.getGrupa().Wyszukaj();
         app.getSkrot().Incydent();
         app.screenShot();
