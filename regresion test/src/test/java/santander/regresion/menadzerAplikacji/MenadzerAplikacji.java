@@ -40,6 +40,7 @@ public class MenadzerAplikacji {
         driver = new FirefoxDriver(new FirefoxOptions().setLegacy(true));
         System.setProperty("webdriver.gecko.driver","drivers/geckodriver.exe");
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         driver.get("http://10.0.19.23/test18.WebAccess/wd/Logon/Logon.rails");
 
