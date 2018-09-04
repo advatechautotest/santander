@@ -3,8 +3,6 @@
 <suite name="Suite1" verbose="1" >
     <test name="Incydent" >
         <classes>
-            <class name="santander.regresion.test.ZmianaNowaStandardowaAutomatycznieOdrzucona" />
-            <class name="santander.regresion.test.ZmianaNowa" />
             <class name="santander.regresion.test.ZmianaZincydentu" />
 
         </classes>
