@@ -1,9 +1,7 @@
 package santander.regresion.menadzerAplikacji;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.io.FileHandler;
@@ -42,6 +40,7 @@ public class MenadzerAplikacji {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
         driver.manage().window().maximize();
+
         driver.get("http://10.0.19.23/test18.WebAccess/wd/Logon/Logon.rails");
 
         //driver.get("http://10.0.19.28/upgrade18.WebAccess/wd/Logon/Logon.rails");
@@ -56,6 +55,8 @@ public class MenadzerAplikacji {
         zadanie = new Zadanie(driver);
         zmiana = new Zmiana(driver);
     }
+
+    
 
     public void saveandcloseButton() {
         driver.findElement(By.id("mainForm-SaveButton")).click();

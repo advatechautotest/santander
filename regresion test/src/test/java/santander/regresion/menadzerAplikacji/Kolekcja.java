@@ -1,6 +1,7 @@
 package santander.regresion.menadzerAplikacji;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -54,8 +55,12 @@ public class Kolekcja {
     }
     public void ZadanieZmiany2() {
         //driver.findElement(By.id("_btn_3")).click();
+
         driver.findElement(By.xpath("//div[contains(text(), 'Zadania')]")).click();
-        driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr[2]")).click();
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        WebElement Element = driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr[2]/td[1]"));
+        js.executeScript("arguments[0].scrollIntoView();", Element);
+        driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr[2]/td[1]")).click();
     }
     public void ZadanieZmiany3() {
         //driver.findElement(By.id("_btn_3")).click();
