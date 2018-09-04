@@ -7,7 +7,7 @@ public class ZmianaNowaStandardowaAutomatycznieOdrzucona extends TestBase {
     @Test
     public void testZmianaNowaStandardowaAutomatycznieOdrzucona() throws Exception{
 
-        app.set60();
+        //app.set60();
         app.logIn1wszaLinia();
         app.screenShot();
         app.BiezacaGrupa1wszaLinia();
