@@ -7,7 +7,7 @@ public class ZmianaNowaStandardowaPowiodlaSie extends TestBase{
     @Test
     public void testZmianaNowaStandardowaPowiodlaSie() throws Exception{
 
-
+        app.set60();
         app.logIn1wszaLinia();
         app.screenShot();
         app.BiezacaGrupa1wszaLinia();

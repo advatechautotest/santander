@@ -8,6 +8,7 @@ public class WniosekoUprawnieniaZadanie1doWniosku extends TestBase {
 
     public void testWniosekoUprawneniaZadanie1doWniosku() throws Exception{
 
+        app.set60();
         app.logInEndUser();
         app.procesNoweZgloszenie();
         app.screenShot();
