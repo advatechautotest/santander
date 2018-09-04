@@ -122,21 +122,21 @@ public class Kolekcja {
     }
 
     public void ZmianaSzczegolyZmianyPrzyczynaZmiany() {
-        driver.findElement(By.xpath(".//*[@class='tabButtonScrollPanel']/div/div[2]")).click();
-
+        //driver.findElement(By.xpath(".//*[@class='tabButtonScrollPanel']/div/div[2]")).click();
+        driver.findElement(By.id("_btn_13")).click();
         //driver.findElement(By.id("_btn_14")).click();
         //driver.findElement(By.xpath("//div[contains(text(), 'Szczegóły zmiany')]")).click();
         driver.findElement(By.xpath(".//*[@id='mainForm-ChangeDetailBody']/tr/td[1]")).click();
     }
     public void ZmianaSzczegolyZmianyWplywZmiany() {
-        driver.findElement(By.xpath(".//*[@class='tabButtonScrollPanel']/div/div[2]")).click();
-        //driver.findElement(By.id("_btn_14")).click();
+        //driver.findElement(By.xpath(".//*[@class='tabButtonScrollPanel']/div/div[2]")).click();
+        driver.findElement(By.id("_btn_13")).click();
         //driver.findElement(By.xpath("//div[contains(text(), 'Szczegóły zmiany')]")).click();
         driver.findElement(By.xpath(".//*[@id='mainForm-ChangeDetailBody']/tr[2]/td[1]")).click();
     }
     public void ZmianaSzczegolyZmianySkutkiBrakuRealizacjiZmiany() {
-        driver.findElement(By.xpath(".//*[@class='tabButtonScrollPanel']/div/div[2]")).click();
-        //driver.findElement(By.id("_btn_14")).click();
+        //driver.findElement(By.xpath(".//*[@class='tabButtonScrollPanel']/div/div[2]")).click();
+        driver.findElement(By.id("_btn_13")).click();
         //driver.findElement(By.xpath("//div[contains(text(), 'Szczegóły zmiany')]")).click();
         driver.findElement(By.xpath(".//*[@id='mainForm-ChangeDetailBody']/tr[4]/td[1]")).click();
     }
