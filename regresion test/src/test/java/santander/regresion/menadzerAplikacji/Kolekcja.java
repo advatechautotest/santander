@@ -55,7 +55,7 @@ public class Kolekcja {
     public void ZadanieZmiany2() {
         //driver.findElement(By.id("_btn_3")).click();
         driver.findElement(By.xpath("//div[contains(text(), 'Zadania')]")).click();
-        driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr[2]/td[2]")).click();
+        driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr[2]")).click();
     }
     public void ZadanieZmiany3() {
         //driver.findElement(By.id("_btn_3")).click();
