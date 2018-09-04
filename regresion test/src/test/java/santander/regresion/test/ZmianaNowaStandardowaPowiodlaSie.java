@@ -144,7 +144,7 @@ public class ZmianaNowaStandardowaPowiodlaSie extends TestBase{
         app.screenShot();
         app.logOut();
         app.screenShot();*/
-
+        app.set60();
         app.logIn1wszaLinia();
         app.screenShot();
         app.getGrupa().Nowy();
