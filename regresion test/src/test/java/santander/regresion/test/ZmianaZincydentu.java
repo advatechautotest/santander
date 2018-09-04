@@ -8,7 +8,7 @@ public class ZmianaZincydentu extends TestBase {
 
     public void testZmianaZincydentu() throws Exception{
 
-        app.set80();
+        app.set60();
         app.logInEndUser();
         app.procesNoweZgloszenie();
         app.screenShot();

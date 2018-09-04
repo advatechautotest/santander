@@ -56,7 +56,7 @@ public class MenadzerAplikacji {
         zmiana = new Zmiana(driver);
     }
 
-    
+
 
     public void saveandcloseButton() {
         driver.findElement(By.id("mainForm-SaveButton")).click();
