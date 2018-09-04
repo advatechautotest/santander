@@ -48,47 +48,58 @@ public class Kolekcja {
         driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr[2]/td[2]")).click();
     }
     public void ZadanieZmiany() {
-        driver.findElement(By.id("_btn_3")).click();
+        //driver.findElement(By.id("_btn_3")).click();
+        driver.findElement(By.xpath("//div[contains(text(), 'Zadania')]")).click();
         driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr[1]/td[1]")).click();
     }
     public void ZadanieZmiany2() {
-        driver.findElement(By.id("_btn_3")).click();
+        //driver.findElement(By.id("_btn_3")).click();
+        driver.findElement(By.xpath("//div[contains(text(), 'Zadania')]")).click();
         driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr[2]/td[1]")).click();
     }
     public void ZadanieZmiany3() {
-        driver.findElement(By.id("_btn_3")).click();
+        //driver.findElement(By.id("_btn_3")).click();
+        driver.findElement(By.xpath("//div[contains(text(), 'Zadania')]")).click();
         driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr[3]/td[1]")).click();
     }
     public void ZadanieZmiany4() {
-        driver.findElement(By.id("_btn_3")).click();
+        //driver.findElement(By.id("_btn_3")).click();
+        driver.findElement(By.xpath("//div[contains(text(), 'Zadania')]")).click();
         driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr[4]/td[1]")).click();
     }
     public void ZadanieZmiany5() {
-        driver.findElement(By.id("_btn_3")).click();
+        //driver.findElement(By.id("_btn_3")).click();
+        driver.findElement(By.xpath("//div[contains(text(), 'Zadania')]")).click();
         driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr[5]/td[1]")).click();
     }
     public void ZadanieZmiany6() {
-        driver.findElement(By.id("_btn_3")).click();
+        //driver.findElement(By.id("_btn_3")).click();
+        driver.findElement(By.xpath("//div[contains(text(), 'Zadania')]")).click();
         driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr[6]/td[1]")).click();
     }
     public void ZadanieZmiany7() {
-        driver.findElement(By.id("_btn_3")).click();
+        //driver.findElement(By.id("_btn_3")).click();
+        driver.findElement(By.xpath("//div[contains(text(), 'Zadania')]")).click();
         driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr[7]/td[1]")).click();
     }
     public void ZadanieZmiany8() {
-        driver.findElement(By.id("_btn_3")).click();
+        //driver.findElement(By.id("_btn_3")).click();
+        driver.findElement(By.xpath("//div[contains(text(), 'Zadania')]")).click();
         driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr[8]/td[1]")).click();
     }
     public void ZadanieZmiany9() {
-        driver.findElement(By.id("_btn_3")).click();
+        //driver.findElement(By.id("_btn_3")).click();
+        driver.findElement(By.xpath("//div[contains(text(), 'Zadania')]")).click();
         driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr[9]/td[1]")).click();
     }
     public void ZadanieZmiany10() {
-        driver.findElement(By.id("_btn_3")).click();
+        //driver.findElement(By.id("_btn_3")).click();
+        driver.findElement(By.xpath("//div[contains(text(), 'Zadania')]")).click();
         driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr[10]/td[1]")).click();
     }
     public void ZadanieZmiany11() {
-        driver.findElement(By.id("_btn_3")).click();
+        //driver.findElement(By.id("_btn_3")).click();
+        driver.findElement(By.xpath("//div[contains(text(), 'Zadania')]")).click();
         driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr[11]/td[1]")).click();
     }
 

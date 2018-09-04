@@ -134,11 +134,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MenadzerAplikacji.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MenadzerAplikacji.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/MenadzerAplikacji.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="56" column="36" lean-forward="true" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
+            <state relative-caret-position="1218">
+              <caret line="90" column="60" lean-forward="true" selection-start-line="90" selection-start-column="60" selection-end-line="90" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -157,28 +157,28 @@
       <file leaf-file-name="Kolekcja.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Kolekcja.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2026">
-              <caret line="131" column="64" lean-forward="false" selection-start-line="131" selection-start-column="64" selection-end-line="131" selection-end-column="64" />
+            <state relative-caret-position="451">
+              <caret line="101" column="83" lean-forward="false" selection-start-line="101" selection-start-column="83" selection-end-line="101" selection-end-column="83" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/regresion test/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZmianaZincydentu.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ZmianaZincydentu.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaZincydentu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5187">
-              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            <state relative-caret-position="137">
+              <caret line="191" column="33" lean-forward="true" selection-start-line="191" selection-start-column="33" selection-end-line="191" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Zmiana.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Zmiana.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -194,11 +194,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Zmiana.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Zmiana.java">
+      <file leaf-file-name="Incydent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Incydent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="72" column="29" lean-forward="false" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
+            <state relative-caret-position="260">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -216,8 +216,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>CA</find>
-      <find>Incy</find>
       <find>99</find>
       <find>Incyde</find>
       <find>ZmianaSzcz</find>
@@ -244,8 +242,10 @@
       <find>or</find>
       <find>Not</find>
       <find>Zatw</find>
-      <find>&quot;attach/santander.txt&quot;</find>
       <find>&quot;regresion test/attach/santander.txt&quot;</find>
+      <find>&quot;attach/santander.txt&quot;</find>
+      <find>plugi</find>
+      <find>regresion tes</find>
     </findStrings>
     <replaceStrings>
       <replace>ZglosIncydent</replace>
@@ -276,8 +276,8 @@
       <replace>attach/santander.txt</replace>
       <replace>regresion test/attach/santander.txt</replace>
       <replace />
-      <replace>&quot;regresion test/attach/santander.txt&quot;</replace>
       <replace>&quot;attach/santander.txt&quot;</replace>
+      <replace>&quot;regresion test/attach/santander.txt&quot;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\ArturWójtowicz\Documents\GitHub\santander\regresion test\src\test\java\santander\regresion</dir>
@@ -879,7 +879,6 @@
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaAwaryjnaNiePowiodlaSieAnuluj.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaAwaryjnaPowiodlaSie.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaAwaryjnaWsteczFalsz.java" />
-        <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Kolekcja.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZgloszeniePrzeksztalceniewIncydentPierwszy.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/WniosekoUprawnieniaProsbaoWyjasnieniaBezZalacznika.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/Incydent.java" />
@@ -915,20 +914,21 @@
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Zgloszenie.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Zmiana.java" />
         <option value="$PROJECT_DIR$/regresion test/build.gradle" />
-        <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Incydent.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNowaStandardowaAutomatycznieOdrzucona.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNowa.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/resources/testngIncydent.xml" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaZincydentu.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/MenadzerAplikacji.java" />
+        <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Incydent.java" />
+        <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Kolekcja.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2757" />
-    <option name="y" value="-10" />
-    <option name="width" value="281" />
-    <option name="height" value="174" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -1278,14 +1278,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WniosekoUprawnieniaZrealizowany - 2018.09.04 at 12h 02m 47s.xml">
-      <configuration name="WniosekoUprawnieniaZrealizowany" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ZmianaNowa - 2018.09.04 at 12h 19m 40s.xml">
       <configuration name="ZmianaNowa" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ZmianaNowaStandardowaAutomatycznieOdrzucona - 2018.09.04 at 12h 07m 16s.xml">
-      <configuration name="ZmianaNowaStandardowaAutomatycznieOdrzucona" configurationId="TestNG" />
     </history-entry>
     <history-entry file="ZmianaNowaStandardowaAutomatycznieOdrzucona - 2018.09.04 at 12h 09m 36s.xml">
       <configuration name="ZmianaNowaStandardowaAutomatycznieOdrzucona" configurationId="TestNG" />
@@ -1308,9 +1302,15 @@
     <history-entry file="ZmianaZincydentu - 2018.09.04 at 14h 51m 37s.xml">
       <configuration name="ZmianaZincydentu" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ZmianaZincydentu - 2018.09.04 at 15h 43m 00s.xml">
+      <configuration name="ZmianaZincydentu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ZmianaZincydentu - 2018.09.04 at 20h 02m 27s.xml">
+      <configuration name="ZmianaZincydentu" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1319,7 +1319,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.335141" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3410596" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1662,14 +1662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Zmiana.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="72" column="29" lean-forward="false" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNowaStandardowaPowiodlaSie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -1682,14 +1674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Incydent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1726,22 +1710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Kolekcja.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2026">
-          <caret line="131" column="64" lean-forward="false" selection-start-line="131" selection-start-column="64" selection-end-line="131" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaZincydentu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5187">
-          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -1750,10 +1718,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Incydent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Kolekcja.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="101" column="83" lean-forward="false" selection-start-line="101" selection-start-column="83" selection-end-line="101" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/MenadzerAplikacji.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="56" column="36" lean-forward="true" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
+        <state relative-caret-position="1218">
+          <caret line="90" column="60" lean-forward="true" selection-start-line="90" selection-start-column="60" selection-end-line="90" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Zmiana.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaZincydentu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="191" column="33" lean-forward="true" selection-start-line="191" selection-start-column="33" selection-end-line="191" selection-end-column="33" />
           <folding />
         </state>
       </provider>
