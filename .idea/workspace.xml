@@ -177,8 +177,8 @@
       <file leaf-file-name="WniosekoUprawnieniaZadanie1doWniosku.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/WniosekoUprawnieniaZadanie1doWniosku.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-525">
-              <caret line="42" column="25" lean-forward="false" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+            <state relative-caret-position="252">
+              <caret line="67" column="25" lean-forward="true" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -242,10 +242,10 @@
       <find>Zatw</find>
       <find>plugi</find>
       <find>regresion tes</find>
-      <find>&quot;regresion test/attach/santander.txt&quot;</find>
       <find>plugin</find>
       <find>regresion test</find>
       <find>&quot;attach/santander.txt&quot;</find>
+      <find>&quot;regresion test/attach/santander.txt&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace>ZglosIncydent</replace>
@@ -276,8 +276,8 @@
       <replace>attach/santander.txt</replace>
       <replace>regresion test/attach/santander.txt</replace>
       <replace />
-      <replace>&quot;attach/santander.txt&quot;</replace>
       <replace>&quot;regresion test/attach/santander.txt&quot;</replace>
+      <replace>&quot;attach/santander.txt&quot;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\ArturWójtowicz\Documents\GitHub\santander\regresion test\src\test\java\santander\regresion</dir>
@@ -1050,8 +1050,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ZmianaZincydentu">
-    <configuration name="IncydentZadanieAkceptacyjne" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.WniosekoUprawnieniaZadanie1doWniosku">
+    <configuration name="WniosekoUprawnieniaZadanie1doWniosku" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="santander.regresion.test.*" />
@@ -1063,7 +1063,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="santander.regresion.test" />
-      <option name="MAIN_CLASS_NAME" value="santander.regresion.test.IncydentZadanieAkceptacyjne" />
+      <option name="MAIN_CLASS_NAME" value="santander.regresion.test.WniosekoUprawnieniaZadanie1doWniosku" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -1245,19 +1245,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="TestNG.Zgloszenie" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.IncydentZadanieAkceptacyjne" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.WniosekoUprawnieniaZrealizowany" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.ZmianaNowaStandardowaAutomatycznieOdrzucona" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.ZmianaNowa" />
-      <item index="5" class="java.lang.String" itemvalue="TestNG.ZmianaZincydentu" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.WniosekoUprawnieniaZrealizowany" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.ZmianaNowaStandardowaAutomatycznieOdrzucona" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.ZmianaNowa" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.ZmianaZincydentu" />
+      <item index="5" class="java.lang.String" itemvalue="TestNG.WniosekoUprawnieniaZadanie1doWniosku" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.ZmianaZincydentu" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.ZmianaNowaStandardowaAutomatycznieOdrzucona" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.ZmianaNowa" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.WniosekoUprawnieniaZrealizowany" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.IncydentZadanieAkceptacyjne" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.WniosekoUprawnieniaZadanie1doWniosku" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.ZmianaZincydentu" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.ZmianaNowaStandardowaAutomatycznieOdrzucona" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.ZmianaNowa" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.WniosekoUprawnieniaZrealizowany" />
       </list>
     </recent_temporary>
   </component>
@@ -1278,11 +1278,11 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="WniosekoUprawnieniaZadanie1doWniosku - 2018.09.04 at 23h 06m 04s.xml">
+      <configuration name="WniosekoUprawnieniaZadanie1doWniosku" configurationId="TestNG" />
+    </history-entry>
     <history-entry file="ZmianaNowa - 2018.09.04 at 12h 19m 40s.xml">
       <configuration name="ZmianaNowa" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ZmianaNowaStandardowaAutomatycznieOdrzucona - 2018.09.04 at 12h 09m 36s.xml">
-      <configuration name="ZmianaNowaStandardowaAutomatycznieOdrzucona" configurationId="TestNG" />
     </history-entry>
     <history-entry file="ZmianaNowaStandardowaAutomatycznieOdrzucona - 2018.09.04 at 12h 13m 47s.xml">
       <configuration name="ZmianaNowaStandardowaAutomatycznieOdrzucona" configurationId="TestNG" />
@@ -1718,14 +1718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/WniosekoUprawnieniaZadanie1doWniosku.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-525">
-          <caret line="42" column="25" lean-forward="false" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Zadanie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2850">
@@ -1746,6 +1738,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="86" lean-forward="false" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/WniosekoUprawnieniaZadanie1doWniosku.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="67" column="25" lean-forward="true" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
           <folding />
         </state>
       </provider>
