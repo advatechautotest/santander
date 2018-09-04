@@ -202,11 +202,21 @@ public class MenadzerAplikacji {
     }
 
     public void set60(){
-    //To set browser to default zoom level 100%
+        //To set browser to default zoom level 100%
         for(int i=0; i<4; i++) {
             driver.findElement(By.tagName("html")).sendKeys(Keys.chord(Keys.CONTROL, Keys.SUBTRACT));
         }
+
     }
+
+    public void set40(){
+        //To set browser to default zoom level 100%
+        for(int i=0; i<6; i++) {
+            driver.findElement(By.tagName("html")).sendKeys(Keys.chord(Keys.CONTROL, Keys.SUBTRACT));
+        }
+
+    }
+
 
 
     public Zgloszenie getZgloszenie() {
