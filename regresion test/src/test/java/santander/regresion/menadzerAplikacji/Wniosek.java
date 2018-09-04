@@ -50,9 +50,9 @@ public class Wniosek {
     }
 
     public void ZamkniecieWniosku() {
-        driver.findElement(By.id("mainForm-Category2Display")).click();
+        driver.findElement(By.xpath("//*[@id='mainForm-Category2Display' or @id='mainForm-_ClosureCategory2Display']")).click();
         driver.findElement(By.xpath("//span[contains(text(), 'Inny')]")).click();
-        driver.findElement(By.id("mainForm-Title2")).sendKeys("Wniosek Tytuł zamknięcia");
+        driver.findElement(By.xpath("//*[@id='mainForm-Title2' or @id='mainForm-_Details2_editor']")).sendKeys("Wniosek Tytuł zamknięcia");
     }
 
     public void PoprosoWyjasnieniaWypelnienie() {
