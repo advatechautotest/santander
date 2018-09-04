@@ -137,8 +137,8 @@
       <file leaf-file-name="MenadzerAplikacji.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/MenadzerAplikacji.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="216" column="0" lean-forward="true" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
+            <state relative-caret-position="423">
+              <caret line="219" column="0" lean-forward="true" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -167,8 +167,8 @@
       <file leaf-file-name="ZmianaZincydentu.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaZincydentu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+            <state relative-caret-position="378">
+              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -1040,7 +1040,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ZmianaNowaStandardowaAutomatycznieOdrzucona">
+  <component name="RunManager" selected="TestNG.ZmianaZincydentu">
     <configuration name="IncydentZadanieAkceptacyjne" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1243,8 +1243,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.ZmianaNowaStandardowaAutomatycznieOdrzucona" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.ZmianaZincydentu" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.ZmianaZincydentu" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.ZmianaNowaStandardowaAutomatycznieOdrzucona" />
         <item index="2" class="java.lang.String" itemvalue="TestNG.ZmianaNowa" />
         <item index="3" class="java.lang.String" itemvalue="TestNG.WniosekoUprawnieniaZrealizowany" />
         <item index="4" class="java.lang.String" itemvalue="TestNG.IncydentZadanieAkceptacyjne" />
@@ -1268,12 +1268,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WniosekoUprawnieniaZrealizowany - 2018.09.04 at 11h 49m 43s.xml">
-      <configuration name="WniosekoUprawnieniaZrealizowany" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="WniosekoUprawnieniaZrealizowany - 2018.09.04 at 11h 53m 04s.xml">
-      <configuration name="WniosekoUprawnieniaZrealizowany" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="WniosekoUprawnieniaZrealizowany - 2018.09.04 at 12h 02m 47s.xml">
       <configuration name="WniosekoUprawnieniaZrealizowany" configurationId="TestNG" />
     </history-entry>
@@ -1298,6 +1292,12 @@
     <history-entry file="ZmianaZincydentu - 2018.09.04 at 12h 27m 45s.xml">
       <configuration name="ZmianaZincydentu" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ZmianaZincydentu - 2018.09.04 at 14h 51m 22s.xml">
+      <configuration name="ZmianaZincydentu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ZmianaZincydentu - 2018.09.04 at 14h 51m 37s.xml">
+      <configuration name="ZmianaZincydentu" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1309,7 +1309,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.335141" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.335141" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1734,16 +1734,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/MenadzerAplikacji.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="216" column="0" lean-forward="true" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
+        <state relative-caret-position="423">
+          <caret line="219" column="0" lean-forward="true" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaZincydentu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        <state relative-caret-position="378">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding />
         </state>
       </provider>
