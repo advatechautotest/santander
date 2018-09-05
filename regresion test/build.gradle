@@ -20,7 +20,7 @@ dependencies {
 
 	
 }
-
+//asdasd
 tasks.withType(JavaCompile) {
     options.encoding = "utf-8" // adapt as necessary
 }
