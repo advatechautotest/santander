@@ -40,10 +40,14 @@ public class Kolekcja {
     }
 
     public void Zadania() {
-        driver.findElement(By.xpath("//div[contains(text(), 'Zadania')]")).click();
         JavascriptExecutor js = (JavascriptExecutor) driver;
-        WebElement Zadania = driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr/td[1]"));
-        js.executeScript("arguments[0].scrollIntoView();", Zadania);
+        WebElement ZadaniaKolekcja = driver.findElement(By.xpath("//div[contains(text(), 'Zadania')]"))
+        js.executeScript("arguments[0].scrollIntoView();", ZadaniaKolekcja);
+        driver.findElement(By.xpath("//div[contains(text(), 'Zadania')]")).click();
+        //driver.findElement(By.id("_btn_13")).click();
+        //JavascriptExecutor js = (JavascriptExecutor) driver;
+        WebElement z1 = driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr/td[1]"));
+        js.executeScript("arguments[0].scrollIntoView();", z1);
         driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr/td[1]")).click();
     }
 
