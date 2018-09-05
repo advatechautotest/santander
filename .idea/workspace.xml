@@ -107,8 +107,8 @@
       <file leaf-file-name="MenadzerAplikacji.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/MenadzerAplikacji.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="60" column="11" lean-forward="true" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
+            <state relative-caret-position="483">
+              <caret line="53" column="56" lean-forward="true" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -1760,8 +1760,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/MenadzerAplikacji.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="60" column="11" lean-forward="true" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
+        <state relative-caret-position="483">
+          <caret line="53" column="56" lean-forward="true" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
           <folding />
         </state>
       </provider>
