@@ -5,12 +5,17 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.io.FileHandler;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Wait;
 
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
+import java.util.function.Function;
+
+import static java.util.concurrent.TimeUnit.SECONDS;
 
 public class MenadzerAplikacji {
     private FirefoxDriver driver;
@@ -37,11 +42,23 @@ public class MenadzerAplikacji {
 
         driver = new FirefoxDriver(new FirefoxOptions().setLegacy(true));
         System.setProperty("webdriver.gecko.driver","drivers/geckodriver.exe");
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(30, SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(30, SECONDS);
         driver.manage().window().maximize();
 
         driver.get("http://10.0.19.23/test18.WebAccess/wd/Logon/Logon.rails");
+
+        Wait<WebDriver> wait = new FluentWait<WebDriver>(driver)
+                .withTimeout(60, SECONDS)
+                .pollingEvery(2, SECONDS)
+                .ignoring(NoSuchElementException.class);
+
+        WebElement foo = wait.until(new Function<WebDriver, WebElement>() {
+            public WebElement apply(WebDriver driver) {
+                return driver.findElement(By.id("foo"));
+
+            }
+        });
 
         //driver.get("http://10.0.19.28/upgrade18.WebAccess/wd/Logon/Logon.rails");
         //driver.get("http://10.0.19.41/20180801.WebAccess/wd/Logon/Logon.rails");
