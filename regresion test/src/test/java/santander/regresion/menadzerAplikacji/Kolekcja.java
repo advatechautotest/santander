@@ -41,7 +41,7 @@ public class Kolekcja {
 
     public void Zadania() {
         JavascriptExecutor js = (JavascriptExecutor) driver;
-        WebElement ZadaniaKolekcja = driver.findElement(By.xpath("//div[contains(text(), 'Zadania')]"))
+        WebElement ZadaniaKolekcja = driver.findElement(By.xpath("//div[contains(text(), 'Zadania')]"));
         js.executeScript("arguments[0].scrollIntoView();", ZadaniaKolekcja);
         driver.findElement(By.xpath("//div[contains(text(), 'Zadania')]")).click();
         //driver.findElement(By.id("_btn_13")).click();
