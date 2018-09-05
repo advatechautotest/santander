@@ -24,8 +24,8 @@ public class Zadanie {
         driver.findElement(By.id("mainForm-_SupportGroupDisplay")).click();
         driver.findElement(By.id("mainForm-_SupportGroupDisplay")).sendKeys("Upraw");
 
-        //driver.findElement(By.xpath("//div[contains(@value, '14d87729-b040-4d61-9061-74ed93cd9c85')]")).click();
-        driver.findElement(By.xpath("//div[contains(text(), 'Uprawnienia')]")).click();
+        driver.findElement(By.xpath("//div[contains(@value, '14d87729-b040-4d61-9061-74ed93cd9c85')]")).click();
+        //driver.findElement(By.xpath("//div[contains(text(), 'Uprawnienia')]")).click();
 
         driver.findElement(By.xpath("//*[@id='mainForm-_Tytuledytowalny2' or @id = '@id='mainForm-Description2_editor']")).sendKeys("Test");
     }
