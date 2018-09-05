@@ -161,6 +161,9 @@ public class Kolekcja {
         //driver.findElement(By.xpath(".//*[@class='tabButtonScrollPanel']/div/div[2]")).click();
         driver.findElement(By.id("_btn_13")).click();
         //driver.findElement(By.xpath("//div[contains(text(), 'Szczegóły zmiany')]")).click();
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        WebElement SBRZ = driver.findElement(By.xpath(".//*[@id='mainForm-ChangeDetailBody']/tr[4]/td[1]"));
+        js.executeScript("arguments[0].scrollIntoView();", SBRZ);
         driver.findElement(By.xpath(".//*[@id='mainForm-ChangeDetailBody']/tr[4]/td[1]")).click();
     }
 }
