@@ -42,23 +42,13 @@ public class MenadzerAplikacji {
 
         driver = new FirefoxDriver(new FirefoxOptions().setLegacy(true));
         System.setProperty("webdriver.gecko.driver","drivers/geckodriver.exe");
-        //driver.manage().timeouts().implicitlyWait(30, SECONDS);
-        //driver.manage().timeouts().pageLoadTimeout(30, SECONDS);
+        driver.manage().timeouts().implicitlyWait(30, SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(30, SECONDS);
         driver.manage().window().maximize();
 
         driver.get("http://10.0.19.23/test18.WebAccess/wd/Logon/Logon.rails");
 
-        Wait<WebDriver> wait = new FluentWait<WebDriver>(driver)
-                .withTimeout(60, SECONDS)
-                .pollingEvery(2, SECONDS)
-                .ignoring(NoSuchElementException.class);
 
-        WebElement foo = wait.until(new Function<WebDriver, WebElement>() {
-            public WebElement apply(WebDriver driver) {
-                return driver.findElement(By.id("foo"));
-
-            }
-        });
 
         //driver.get("http://10.0.19.28/upgrade18.WebAccess/wd/Logon/Logon.rails");
         //driver.get("http://10.0.19.41/20180801.WebAccess/wd/Logon/Logon.rails");
