@@ -140,7 +140,7 @@
         <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/WniosekoUprawnieniaZadanie1doWniosku.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="651">
-              <caret line="107" column="25" lean-forward="true" selection-start-line="107" selection-start-column="25" selection-end-line="107" selection-end-column="25" />
+              <caret line="107" column="25" lean-forward="false" selection-start-line="107" selection-start-column="25" selection-end-line="107" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -158,11 +158,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Kolekcja.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Kolekcja.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Kolekcja.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
-              <caret line="49" column="8" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+              <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/regresion test/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="609">
+              <caret line="29" column="7" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -628,9 +638,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/regresion test" value="1536134012779" />
+        <entry key="$PROJECT_DIR$/regresion test" value="1536138654664" />
         <entry key="$PROJECT_DIR$/regresion test/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/regresion test/build.gradle" value="3097377907" />
+        <entry key="$PROJECT_DIR$/regresion test/build.gradle" value="854425433" />
         <entry key="$PROJECT_DIR$/regresion test/gradle/wrapper/gradle-wrapper.properties" value="4171081951" />
         <entry key="$PROJECT_DIR$/sandbox" value="3066420478834" />
         <entry key="$PROJECT_DIR$/sandbox/.gradle" value="0" />
@@ -891,10 +901,10 @@
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Incydent.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNowaStandardowaPowiodlaSie.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/resources/testngIncydent.xml" />
-        <option value="$PROJECT_DIR$/regresion test/build.gradle" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Zadanie.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/WniosekoUprawnieniaZadanie1doWniosku.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Kolekcja.java" />
+        <option value="$PROJECT_DIR$/regresion test/build.gradle" />
       </list>
     </option>
   </component>
@@ -1652,14 +1662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/regresion test/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/regresion test/src/test/resources/testngIncydent.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1705,7 +1707,7 @@
     <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/WniosekoUprawnieniaZadanie1doWniosku.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="651">
-          <caret line="107" column="25" lean-forward="true" selection-start-line="107" selection-start-column="25" selection-end-line="107" selection-end-column="25" />
+          <caret line="107" column="25" lean-forward="false" selection-start-line="107" selection-start-column="25" selection-end-line="107" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1731,7 +1733,15 @@
     <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Kolekcja.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
-          <caret line="49" column="8" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+          <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regresion test/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="29" column="7" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
           <folding />
         </state>
       </provider>
