@@ -1,11 +1,17 @@
 package santander.regresion.menadzerAplikacji;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.support.ui.Select;
 
 import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 
@@ -15,20 +21,27 @@ public class Zadanie {
         this.driver = driver;
     }
 
+    public void ss()throws IOException, InterruptedException{
+        File scr=((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        File dest= new File("C:/advatech/screenshot_"+timestamp()+".png");
+        FileHandler.copy(scr, dest); }
 
-    public void UzupelnienieZadWniosekoUprawnieniaAKceptacyjne() {
+    private String timestamp() {
+        return new SimpleDateFormat("yyyy-MM-dd HH-mm-ss").format(new Date());}
+
+    public void UzupelnienieZadWniosekoUprawnieniaAKceptacyjne() throws IOException, InterruptedException {
 
         driver.findElement(By.id("mainForm-Category2Display")).click();
         driver.findElement(By.xpath("//span[contains(text(), 'Zadanie akceptacyjne')]")).click();
-
+        ss();
         driver.findElement(By.id("mainForm-_SupportGroupDisplay")).click();
         driver.findElement(By.id("mainForm-_SupportGroupDisplay")).sendKeys("Upraw");
-
+        ss();
         //driver.findElement(By.xpath("//div[contains(@value, '14d87729-b040-4d61-9061-74ed93cd9c85')]")).click();
         driver.findElement(By.xpath("//div[contains(text(), 'Uprawnienia')]")).click();
-
+        ss();
         driver.findElement(By.xpath("//*[@id='mainForm-_Tytuledytowalny2' or @id='mainForm-Description2_editor']")).sendKeys("Test");
-
+        ss();
     }
 
     public void UzupelnienieZadWniosekoUprawnieniaRealizacyjne() {
