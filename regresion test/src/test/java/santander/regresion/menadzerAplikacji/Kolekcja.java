@@ -42,8 +42,8 @@ public class Kolekcja {
     public void Zadania() {
         driver.findElement(By.xpath("//div[contains(text(), 'Zadania')]")).click();
         JavascriptExecutor js = (JavascriptExecutor) driver;
-        WebElement Element = driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr/td[1]"));
-        js.executeScript("arguments[0].scrollIntoView();", Element);
+        WebElement Zadania = driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr/td[1]"));
+        js.executeScript("arguments[0].scrollIntoView();", Zadania);
         driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr/td[1]")).click();
     }
 
@@ -61,8 +61,8 @@ public class Kolekcja {
 
         driver.findElement(By.xpath("//div[contains(text(), 'Zadania')]")).click();
         JavascriptExecutor js = (JavascriptExecutor) driver;
-        WebElement Element = driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr[2]/td[1]"));
-        js.executeScript("arguments[0].scrollIntoView();", Element);
+        WebElement ZadaniaZmiany2 = driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr[2]/td[1]"));
+        js.executeScript("arguments[0].scrollIntoView();", ZadaniaZmiany2);
         driver.findElement(By.xpath(".//*[@id='mainForm-TasksBody']/tr[2]/td[1]")).click();
     }
     public void ZadanieZmiany3() {
