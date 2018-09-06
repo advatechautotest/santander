@@ -89,12 +89,13 @@ public class MenadzerAplikacji {
     }
 
     public void logInEndUser() {
-        if(driver.findElements(By.id("Ecom_User_ID")).isEmpty()){
-            driver.findElement(By.xpath("//div[contains(@title, 'Wyloguj')]")).click();
+        if(!driver.findElements(By.id("Ecom_User_ID")).isEmpty()){
+            driver.findElement(By.id("Ecom_User_ID")).click();
 
         }
         else{
-            driver.findElement(By.id("Ecom_User_ID")).click();
+            driver.findElement(By.xpath("//div[contains(@title, 'Wyloguj')]")).click();
+
         }
         //driver.findElement(By.id("Ecom_User_ID")).click();
         driver.findElement(By.id("Ecom_User_ID")).sendKeys("masmiertka@pl.aigcfg.net");
