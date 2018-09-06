@@ -2,5 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="git@gitlab.a2t.local:santander_test/santander_autotest.git" vcs="svn" />
   </component>
 </project>

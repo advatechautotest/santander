@@ -7,7 +7,7 @@ public class IncydentBezpieczenstwaWstrzymIprocesSOCL3 extends TestBase {
     @Test
 
     public void testIncydentBezpieczenstwaWstrzymIprocesSOCL3() throws Exception{
-
+//commit1
         app.logInEndUser();
         app.screenShot();
         app.procesNowyIncydentBezpieczenstwa();

@@ -7,6 +7,8 @@ public class Incydent extends TestBase {
     @Test
 
     public void testIncydent() throws Exception{
+        app.screenShot();
+        app.screenShot();
         app.set60();
         app.logInEndUser();
         app.procesNoweZgloszenie();
