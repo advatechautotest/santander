@@ -104,16 +104,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ZmianaNormalnaKrotkaOdrzuc.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNormalnaKrotkaOdrzuc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="717">
-              <caret line="48" column="25" lean-forward="false" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ZmianaNormalnaNiePowiodlaSieZamknij.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaNormalnaNiePowiodlaSieZamknij.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -144,11 +134,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regresion test/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="651">
               <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -870,7 +870,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/IncydentAnulowanie.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/IncydentBezpiecenstwaEskalacjaSOCL2.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/IncydentBezpiecenstwaEskalacjaSOCL3.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/IncydentBezpieczenstwaKopiowanieSOCL1.java" />
@@ -921,6 +920,7 @@
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaZincydentu.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/ZmianaZincydentuZadanie.java" />
         <option value="$PROJECT_DIR$/regresion test/build.gradle" />
+        <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/TestBase.java" />
       </list>
     </option>
   </component>
@@ -1348,14 +1348,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/IncydentBezpiecenstwaEskalacjaSOCL3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/IncydentBezpieczenstwaEndUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -1752,6 +1744,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="651">
           <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
