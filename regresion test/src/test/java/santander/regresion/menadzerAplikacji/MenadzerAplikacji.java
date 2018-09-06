@@ -89,7 +89,7 @@ public class MenadzerAplikacji {
     }
 
     public void logInEndUser() {
-        if(!driver.findElements(By.id("Ecom_User_ID")).isEmpty()){
+        if(driver.findElements(By.id("Ecom_User_ID")).isEmpty()){
             driver.findElement(By.xpath("//div[contains(@title, 'Wyloguj')]")).click();
 
         }
