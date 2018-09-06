@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa1ec11b-3116-436b-ba23-bdbf7b41ad76" name="Default Changelist" comment="test git lab">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regresion test/out/test/classes/santander/regresion/menadzerAplikacji/Incydent.class" afterPath="$PROJECT_DIR$/regresion test/out/test/classes/santander/regresion/menadzerAplikacji/Incydent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regresion test/out/test/classes/santander/regresion/menadzerAplikacji/Wniosek.class" afterPath="$PROJECT_DIR$/regresion test/out/test/classes/santander/regresion/menadzerAplikacji/Wniosek.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regresion test/out/test/classes/santander/regresion/menadzerAplikacji/Zadanie.class" afterPath="$PROJECT_DIR$/regresion test/out/test/classes/santander/regresion/menadzerAplikacji/Zadanie.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regresion test/out/test/classes/santander/regresion/menadzerAplikacji/Zgloszenie.class" afterPath="$PROJECT_DIR$/regresion test/out/test/classes/santander/regresion/menadzerAplikacji/Zgloszenie.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regresion test/out/test/classes/santander/regresion/menadzerAplikacji/Zmiana.class" afterPath="$PROJECT_DIR$/regresion test/out/test/classes/santander/regresion/menadzerAplikacji/Zmiana.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regresion test/out/test/classes/santander/regresion/test/Incydent.class" afterPath="$PROJECT_DIR$/regresion test/out/test/classes/santander/regresion/test/Incydent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regresion test/build.gradle" afterPath="$PROJECT_DIR$/regresion test/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Incydent.java" afterPath="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Incydent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/MenadzerAplikacji.java" afterPath="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/MenadzerAplikacji.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Wniosek.java" afterPath="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Wniosek.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Zadanie.java" afterPath="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Zadanie.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Zgloszenie.java" afterPath="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Zgloszenie.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Zmiana.java" afterPath="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Zmiana.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regresion test/src/test/resources/testngIncydent.xml" afterPath="$PROJECT_DIR$/regresion test/src/test/resources/testngIncydent.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/sandbox/.gradle/" />
     <ignored path="$PROJECT_DIR$/sandbox/build/" />
@@ -132,7 +122,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regresion test/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="651">
@@ -212,7 +202,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Incydent.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Incydent.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Incydent.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
@@ -261,9 +251,9 @@
       <find>Wro</find>
       <find>Czeka</find>
       <find>firefox</find>
-      <find>&quot;regresion test/attach/santander.txt&quot;</find>
       <find>&quot;attach/santander.txt&quot;</find>
       <find>logOu</find>
+      <find>&quot;regresion test/attach/santander.txt&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace>ZglosIncydent</replace>
@@ -294,8 +284,8 @@
       <replace>attach/santander.txt</replace>
       <replace>regresion test/attach/santander.txt</replace>
       <replace />
-      <replace>&quot;attach/santander.txt&quot;</replace>
       <replace>&quot;regresion test/attach/santander.txt&quot;</replace>
+      <replace>&quot;attach/santander.txt&quot;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\ArturWójtowicz\Documents\GitHub\santander\regresion test\src\test\java\santander\regresion</dir>
@@ -935,10 +925,10 @@
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/TestBase.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/IncydentBezpieczenstwaWstrzymIprocesSOCL3.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/test/Incydent.java" />
-        <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Incydent.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/MenadzerAplikacji.java" />
         <option value="$PROJECT_DIR$/regresion test/src/test/resources/testngIncydent.xml" />
         <option value="$PROJECT_DIR$/regresion test/build.gradle" />
+        <option value="$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Incydent.java" />
       </list>
     </option>
   </component>
@@ -1748,14 +1738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Incydent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/MenadzerAplikacji.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2054">
@@ -1786,6 +1768,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="651">
           <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regresion test/src/test/java/santander/regresion/menadzerAplikacji/Incydent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
           <folding />
         </state>
       </provider>
