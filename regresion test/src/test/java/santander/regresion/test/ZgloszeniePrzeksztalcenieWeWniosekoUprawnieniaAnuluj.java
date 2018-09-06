@@ -62,5 +62,8 @@ public class ZgloszeniePrzeksztalcenieWeWniosekoUprawnieniaAnuluj extends TestBa
         app.getWniosek().AnulujTytul();
         app.screenShot();
         app.saveandcloseButton();
+        app.screenShot();
+        app.logOut();
+        app.screenShot();
     }
 }

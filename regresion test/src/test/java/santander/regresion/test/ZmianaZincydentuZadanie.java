@@ -240,5 +240,7 @@ public class ZmianaZincydentuZadanie extends TestBase {
         app.screenShot();
         app.getAkcja().Zamknij();
         app.screenShot();
+        app.logOut();
+        app.screenShot();
     }
 }

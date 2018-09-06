@@ -120,5 +120,7 @@ public class ZmianaNowaStandardowaAnuluj extends TestBase {
         app.getKolekcja().PierwszyElementKolekcji();
         app.getAkcja().AnulujZmiane();
         app.screenShot();
+        app.logOut();
+        app.screenShot();
     }
 }

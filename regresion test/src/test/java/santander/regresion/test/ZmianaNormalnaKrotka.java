@@ -39,6 +39,8 @@ public class ZmianaNormalnaKrotka extends TestBase{
         app.screenShot();
         app.getAkcja().Przejmij();
         app.screenShot();
+        app.logOut();
+        app.screenShot();
 
 
 

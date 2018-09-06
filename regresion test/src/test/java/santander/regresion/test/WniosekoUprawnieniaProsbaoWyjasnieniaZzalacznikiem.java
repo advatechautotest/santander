@@ -119,6 +119,8 @@ public class WniosekoUprawnieniaProsbaoWyjasnieniaZzalacznikiem extends TestBase
         app.screenShot();
         app.getAkcja().WrocDoRealizacji();
         app.screenShot();
+        app.logOut();
+        app.screenShot();
 
     }
 }

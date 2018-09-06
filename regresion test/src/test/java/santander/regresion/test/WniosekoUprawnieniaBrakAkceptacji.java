@@ -103,5 +103,7 @@ public class WniosekoUprawnieniaBrakAkceptacji extends TestBase {
         app.getWniosek().Odrzuc();
         app.screenShot();
         app.saveandcloseButton();
+        app.logOut();
+        app.screenShot();
     }
 }

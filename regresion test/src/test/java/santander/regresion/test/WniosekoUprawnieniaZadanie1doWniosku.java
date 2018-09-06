@@ -129,5 +129,7 @@ public class WniosekoUprawnieniaZadanie1doWniosku extends TestBase {
         app.screenShot();
         app.getAkcja().Zatwierdz();
         app.screenShot();
+        app.logOut();
+        app.screenShot();
     }
 }

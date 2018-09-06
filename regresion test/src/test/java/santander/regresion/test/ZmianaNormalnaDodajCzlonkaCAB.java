@@ -143,6 +143,8 @@ public class ZmianaNormalnaDodajCzlonkaCAB extends TestBase {
         app.screenShot();
         app.getZadanie().PowrotDoZmianyLink();
         app.screenShot();
+        app.logOut();
+        app.screenShot();
 
 
     }

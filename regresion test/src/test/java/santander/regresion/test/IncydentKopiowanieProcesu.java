@@ -157,8 +157,8 @@ public class IncydentKopiowanieProcesu extends TestBase {
         app.screenShot();
         app.saveandcloseButton();
         app.screenShot();
-
-        Thread.sleep(10000);
+        app.logOut();
+        app.screenShot();
 
 
     }

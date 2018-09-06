@@ -47,5 +47,7 @@ public class IncydentBezpieczenstwaRozwProcesSOCL2 extends TestBase {
         app.screenShot();
         app.saveandcloseButton();
         app.screenShot();
+        app.logOut();
+        app.screenShot();
     }
 }

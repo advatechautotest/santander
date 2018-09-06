@@ -169,6 +169,8 @@ public class WniosekoUprawnieniaZrealizowany extends TestBase {
         app.screenShot();
         app.saveandcloseButton();
         app.screenShot();
+        app.logOut();
+        app.screenShot();
 
     }
 }

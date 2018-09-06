@@ -211,6 +211,10 @@ public class IncydentZadanie extends TestBase {
         app.getAkcja().PrzekazDoRealizacji();
         app.screenShot();
         app.getAkcja().Przejmij();
+        app.screenShot();
         app.getAkcja().Zatwierdz();
+        app.screenShot();
+        app.logOut();
+        app.screenShot();
     }
 }

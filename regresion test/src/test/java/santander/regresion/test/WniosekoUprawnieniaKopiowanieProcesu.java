@@ -192,6 +192,8 @@ public class WniosekoUprawnieniaKopiowanieProcesu extends TestBase {
         app.screenShot();
         app.saveandcloseButton();
         app.screenShot();
+        app.logOut();
+        app.screenShot();
 
 
     }

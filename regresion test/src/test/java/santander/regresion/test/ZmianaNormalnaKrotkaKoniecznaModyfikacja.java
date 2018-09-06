@@ -45,6 +45,8 @@ public class ZmianaNormalnaKrotkaKoniecznaModyfikacja extends TestBase {
         app.screenShot();
         app.saveandcloseButton();
         app.screenShot();
+        app.logOut();
+        app.screenShot();
 
     }
 }

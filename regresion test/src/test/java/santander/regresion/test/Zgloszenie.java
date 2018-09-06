@@ -33,6 +33,8 @@ public class Zgloszenie extends TestBase {
         app.screenShot();
         app.getAkcja().ZalozZgloszenie();
         app.screenShot();
+        app.logOut();
+        app.screenShot();
 
 
 

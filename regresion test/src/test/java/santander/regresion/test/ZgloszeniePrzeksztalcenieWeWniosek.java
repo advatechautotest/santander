@@ -50,6 +50,9 @@ public class ZgloszeniePrzeksztalcenieWeWniosek extends TestBase {
         app.saveandcloseButton();
         app.screenShot();
         app.getAkcja().PrzeksztalcWeWniosek();
+        app.screenShot();
+        app.logOut();
+        app.screenShot();
     }
 
 }

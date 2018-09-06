@@ -213,6 +213,8 @@ public class ZmianaNormalna extends TestBase {
         app.screenShot();
         app.getZmiana().ZamknijZmianeUzupelnij();
         app.screenShot();
+        app.logOut();
+        app.screenShot();
 
 
 

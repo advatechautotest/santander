@@ -293,7 +293,5 @@ public class ZmianaNowa extends TestBase {
         app.logOut();
         app.screenShot();
 
-
-        app.Czekaj();
     }
 }

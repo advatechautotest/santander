@@ -51,6 +51,8 @@ public class ZgloszeniePrzeksztalceniewIncydentBezpieczenstwa extends TestBase {
         app.screenShot();
         app.getAkcja().PrzeksztalcwIncydentBezpieczenstwa();
         app.screenShot();
+        app.logOut();
+        app.screenShot();
     }
 
 }

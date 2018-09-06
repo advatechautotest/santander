@@ -50,6 +50,8 @@ public class ZgloszeniePrzeksztalceniewIncydentPierwszy extends TestBase {
         app.screenShot();
         app.getAkcja().PrzeksztalcwIncydent();
         app.screenShot();
+        app.logOut();
+        app.screenShot();
 
     }
 

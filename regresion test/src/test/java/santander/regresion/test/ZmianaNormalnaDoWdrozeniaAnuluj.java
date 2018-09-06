@@ -85,5 +85,7 @@ public class ZmianaNormalnaDoWdrozeniaAnuluj extends TestBase {
         app.getZmiana().ZmianaNormalnaAnuluj();
         app.screenShot();
         app.saveandcloseButton();
+        app.logOut();
+        app.screenShot();
     }
 }

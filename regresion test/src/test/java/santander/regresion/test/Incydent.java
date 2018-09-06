@@ -162,6 +162,8 @@ public class Incydent extends TestBase {
         app.screenShot();
         app.getKolekcja().PierwszyElementKolekcji();
         app.screenShot();
+        app.logOut();
+        app.screenShot();
 
 
     }
