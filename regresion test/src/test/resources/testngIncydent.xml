@@ -3,7 +3,13 @@
 <suite name="Suite1" verbose="1" >
     <test name="Incydent" >
         <classes>
+            <class name="santander.regresion.test.IncydentZadanie" />
             <class name="santander.regresion.test.IncydentZadanieAkceptacyjne" />
+            <class name="santander.regresion.test.IncydentZamkniecie" />
+            <class name="santander.regresion.test.WniosekoUprawnieniaBrakAkceptacji" />
+            <class name="santander.regresion.test.WniosekoUprawnieniaKopiowanieProcesu" />
+            <class name="santander.regresion.test.WniosekoUprawnieniaProsbaoWyjasnieniaBezZalacznika" />
+
 
         </classes>
     </test>

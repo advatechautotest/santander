@@ -89,12 +89,24 @@ public class MenadzerAplikacji {
     }
 
     public void logInEndUser() {
+        if(!driver.findElements(By.id("Ecom_User_ID")).isEmpty()){
+            driver.findElement(By.id("Ecom_User_ID")).click();
+        }
+        else{
+            driver.findElement(By.xpath("//div[contains(@title, 'Wyloguj')]")).click();
+        }
         driver.findElement(By.id("Ecom_User_ID")).click();
         driver.findElement(By.id("Ecom_User_ID")).sendKeys("masmiertka@pl.aigcfg.net");
         driver.findElement(By.id("logonButton")).click();
     }
 
     public void logIn1wszaLinia() throws InterruptedException {
+        if(!driver.findElements(By.id("Ecom_User_ID")).isEmpty()){
+            driver.findElement(By.id("Ecom_User_ID")).click();
+        }
+        else {
+            driver.findElement(By.xpath("//div[contains(@title, 'Wyloguj')]")).click();
+        }
         driver.findElement(By.id("Ecom_User_ID")).click();
         driver.findElement(By.id("Ecom_User_ID")).sendKeys("kbednarz@pl.aigcfg.net");
         driver.findElement(By.id("logonButton")).click();
@@ -102,47 +114,101 @@ public class MenadzerAplikacji {
     }
 
     public void logInUprawnienia() {
+        if(!driver.findElements(By.id("Ecom_User_ID")).isEmpty()){
+            driver.findElement(By.id("Ecom_User_ID")).click();
+        }
+        else{
+            driver.findElement(By.xpath("//div[contains(@title, 'Wyloguj')]")).click();
+    }
         driver.findElement(By.id("Ecom_User_ID")).click();
         driver.findElement(By.id("Ecom_User_ID")).sendKeys("mdopierala@pl.aigcfg.net");
         driver.findElement(By.id("logonButton")).click();
     }
     public void logInAdminAplikacji(){
+        if(!driver.findElements(By.id("Ecom_User_ID")).isEmpty()){
+            driver.findElement(By.id("Ecom_User_ID")).click();
+        }
+        else{
+            driver.findElement(By.xpath("//div[contains(@title, 'Wyloguj')]")).click();
+    }
         driver.findElement(By.id("Ecom_User_ID")).click();
         driver.findElement(By.id("Ecom_User_ID")).sendKeys("pmazurek@pl.aigcfg.net");
         driver.findElement(By.id("logonButton")).click();
     }
     public void logInDRSZZIP(){
+        if(!driver.findElements(By.id("Ecom_User_ID")).isEmpty()){
+            driver.findElement(By.id("Ecom_User_ID")).click();
+        }
+        else{
+            driver.findElement(By.xpath("//div[contains(@title, 'Wyloguj')]")).click();
+    }
         driver.findElement(By.id("Ecom_User_ID")).click();
         driver.findElement(By.id("Ecom_User_ID")).sendKeys("jcalka@pl.aigcfg.net");
         driver.findElement(By.id("logonButton")).click();
     }
 
     public void logInDRSAdmin(){
+        if(!driver.findElements(By.id("Ecom_User_ID")).isEmpty()){
+            driver.findElement(By.id("Ecom_User_ID")).click();
+        }
+        else{
+            driver.findElement(By.xpath("//div[contains(@title, 'Wyloguj')]")).click();
+    }
         driver.findElement(By.id("Ecom_User_ID")).click();
         driver.findElement(By.id("Ecom_User_ID")).sendKeys("rabednarski@pl.aigcfg.net");
         driver.findElement(By.id("logonButton")).click();
     }
     public void logInDRSw3(){
+        if(!driver.findElements(By.id("Ecom_User_ID")).isEmpty()){
+            driver.findElement(By.id("Ecom_User_ID")).click();
+        }
+        else{
+            driver.findElement(By.xpath("//div[contains(@title, 'Wyloguj')]")).click();
+    }
         driver.findElement(By.id("Ecom_User_ID")).click();
         driver.findElement(By.id("Ecom_User_ID")).sendKeys("rkrawiec@pl.aigcfg.net");
         driver.findElement(By.id("logonButton")).click();
     }
     public void logInMenadzerZmian(){
+        if(!driver.findElements(By.id("Ecom_User_ID")).isEmpty()){
+            driver.findElement(By.id("Ecom_User_ID")).click();
+        }
+        else{
+            driver.findElement(By.xpath("//div[contains(@title, 'Wyloguj')]")).click();
+    }
         driver.findElement(By.id("Ecom_User_ID")).click();
         driver.findElement(By.id("Ecom_User_ID")).sendKeys("pmazurek@pl.aigcfg.net");
         driver.findElement(By.id("logonButton")).click();
     }
     public void logInSOC_L1(){
+        if(!driver.findElements(By.id("Ecom_User_ID")).isEmpty()){
+            driver.findElement(By.id("Ecom_User_ID")).click();
+        }
+        else{
+            driver.findElement(By.xpath("//div[contains(@title, 'Wyloguj')]")).click();
+    }
         driver.findElement(By.id("Ecom_User_ID")).click();
         driver.findElement(By.id("Ecom_User_ID")).sendKeys("mciszek@pl.aigcfg.net");
         driver.findElement(By.id("logonButton")).click();
     }
     public void logInSOC_L2(){
+        if(!driver.findElements(By.id("Ecom_User_ID")).isEmpty()){
+            driver.findElement(By.id("Ecom_User_ID")).click();
+        }
+        else{
+            driver.findElement(By.xpath("//div[contains(@title, 'Wyloguj')]")).click();
+    }
         driver.findElement(By.id("Ecom_User_ID")).click();
         driver.findElement(By.id("Ecom_User_ID")).sendKeys("akurczewski@pl.aigcfg.net");
         driver.findElement(By.id("logonButton")).click();
     }
     public void logInSOC_L3(){
+        if(!driver.findElements(By.id("Ecom_User_ID")).isEmpty()){
+            driver.findElement(By.id("Ecom_User_ID")).click();
+        }
+        else{
+            driver.findElement(By.xpath("//div[contains(@title, 'Wyloguj')]")).click();
+    }
         driver.findElement(By.id("Ecom_User_ID")).click();
         driver.findElement(By.id("Ecom_User_ID")).sendKeys("rpiechal@pl.aigcfg.net");
         driver.findElement(By.id("logonButton")).click();
